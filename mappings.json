@@ -688,6 +688,252 @@
         "changed_files": 4
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4800": {
+      "pr_number": 4800,
+      "pr_title": "fix(agent): typescript build warnings",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4800",
+      "merged_at": "2025-03-03T08:46:42Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:22:13Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 161,
+        "deletions": 7,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4798": {
+      "pr_number": 4798,
+      "pr_title": "feat(desktop): stablize updater ux and window state",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4798",
+      "merged_at": "2025-03-03T09:30:04Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:22:27Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 461,
+        "deletions": 211,
+        "changed_files": 12
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4801": {
+      "pr_number": 4801,
+      "pr_title": "fix: version bump regression for sh-desktop and agent",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4801",
+      "merged_at": "2025-03-03T10:29:28Z",
+      "components": [
+        "desktop-tauri-shell",
+        "agent-controller",
+        "agent-relay-engine",
+        "agent-state"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:22:36Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "agent-controller",
+        "agent-relay-engine",
+        "agent-state"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 17,
+        "deletions": 13,
+        "changed_files": 9
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4805": {
+      "pr_number": 4805,
+      "pr_title": "fix: update embed redirect URL",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4805",
+      "merged_at": "2025-03-04T10:50:42Z",
+      "components": [
+        "web-pwa-shell"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:22:44Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "web-pwa-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4806": {
+      "pr_number": 4806,
+      "pr_title": "fix(common): extension port to relay regression",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4806",
+      "merged_at": "2025-03-04T11:28:33Z",
+      "components": [
+        "web-extension-interceptor",
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:22:54Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "web-extension-interceptor",
+        "interceptors"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 130,
+        "deletions": 8,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4814": {
+      "pr_number": 4814,
+      "pr_title": "fix: order request while fetching from db",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4814",
+      "merged_at": "2025-03-04T15:21:55Z",
+      "components": [
+        "prisma-data-access"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:23:02Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "prisma-data-access"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 7,
+        "deletions": 6,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4807": {
+      "pr_number": 4807,
+      "pr_title": "fix: kernel-io calls via `openExternalLink`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4807",
+      "merged_at": "2025-03-05T07:33:55Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:23:15Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 52,
+        "deletions": 18,
+        "changed_files": 9
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4822": {
+      "pr_number": 4822,
+      "pr_title": "fix(agent): mention name in updater dialog",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4822",
+      "merged_at": "2025-03-05T08:15:40Z",
+      "components": [
+        "agent-ui"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:23:23Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "agent-ui"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4821": {
+      "pr_number": 4821,
+      "pr_title": "fix: support for `apikey` auth for native interceptors",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4821",
+      "merged_at": "2025-03-05T08:45:37Z",
+      "components": [
+        "desktop-native-interceptor",
+        "desktop-tauri-shell",
+        "agent-relay-engine",
+        "agent-controller"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:23:33Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-native-interceptor",
+        "desktop-tauri-shell",
+        "agent-relay-engine",
+        "agent-controller"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 404,
+        "deletions": 11,
+        "changed_files": 12
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4825": {
+      "pr_number": 4825,
+      "pr_title": "fix: enable `aws` auth passthrough",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4825",
+      "merged_at": "2025-03-05T13:01:59Z",
+      "components": [
+        "desktop-native-interceptor",
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:23:45Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-native-interceptor",
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 71,
+        "deletions": 9,
+        "changed_files": 8
+      },
+      "auto_approved": true
     }
   }
 }
