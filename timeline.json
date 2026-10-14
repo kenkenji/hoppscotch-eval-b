@@ -2,6 +2,265 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#5479-20261014T074218Z",
+      "timestamp": "2026-10-14T07:42:18Z",
+      "pr_number": 5479,
+      "pr_title": "feat: add `$randomCompanyName` predefined variable",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5479",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "EmanFateen",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-27T15:29:39Z",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "diff_stats": {
+        "additions": 32,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "labels": [
+        "hacktoberfest-accepted"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5436-20261014T074209Z",
+      "timestamp": "2026-10-14T07:42:09Z",
+      "pr_number": 5436,
+      "pr_title": "fix: add missing token checks to request save workflow",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5436",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "pmondal-int",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-27T14:13:35Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 9,
+        "deletions": 1,
+        "changed_files": 2
+      },
+      "labels": [
+        "hacktoberfest-accepted"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5514-20261014T074201Z",
+      "timestamp": "2026-10-14T07:42:01Z",
+      "pr_number": 5514,
+      "pr_title": "feat(ci): agent workflow with platform jobs",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5514",
+      "components": [],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-27T13:05:21Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 649,
+        "deletions": 228,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5417-20261014T074152Z",
+      "timestamp": "2026-10-14T07:41:52Z",
+      "pr_number": 5417,
+      "pr_title": "feat(scripting-revamp): chai powered assertions and postman compatibility layer",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5417",
+      "components": [
+        "scripting-integration",
+        "collection-runner",
+        "cli-script-sandbox"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-27T12:19:58Z",
+      "ai_components": [
+        "scripting-integration",
+        "collection-runner",
+        "cli-script-sandbox"
+      ],
+      "diff_stats": {
+        "additions": 30774,
+        "deletions": 1397,
+        "changed_files": 90
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5508-20261014T074129Z",
+      "timestamp": "2026-10-14T07:41:29Z",
+      "pr_number": 5508,
+      "pr_title": "feat(relay): control redirect follow",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5508",
+      "components": [
+        "desktop-native-interceptor",
+        "desktop-tauri-shell",
+        "agent-relay-engine",
+        "agent-controller",
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-27T12:11:58Z",
+      "ai_components": [
+        "desktop-native-interceptor",
+        "desktop-tauri-shell",
+        "agent-relay-engine",
+        "agent-controller",
+        "interceptors"
+      ],
+      "diff_stats": {
+        "additions": 254,
+        "deletions": 18,
+        "changed_files": 18
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5512-20261014T074120Z",
+      "timestamp": "2026-10-14T07:41:20Z",
+      "pr_number": 5512,
+      "pr_title": "fix(common): preserve file uploads in experimental scripting sandbox",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5512",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-26T18:04:43Z",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "diff_stats": {
+        "additions": 1242,
+        "deletions": 8,
+        "changed_files": 3
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5490-20261014T074109Z",
+      "timestamp": "2026-10-14T07:41:09Z",
+      "pr_number": 5490,
+      "pr_title": "feat: add auth refresh token flow if token expires",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5490",
+      "components": [
+        "platform-abstraction",
+        "graphql-client"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-26T16:54:59Z",
+      "ai_components": [
+        "platform-abstraction",
+        "graphql-client"
+      ],
+      "diff_stats": {
+        "additions": 69,
+        "deletions": 17,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5480-20261014T074100Z",
+      "timestamp": "2026-10-14T07:41:00Z",
+      "pr_number": 5480,
+      "pr_title": "fix(common): preserve PKCE and client secret in postman collection imports",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5480",
+      "components": [
+        "collections-environments",
+        "auth-module"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-22T14:15:40Z",
+      "ai_components": [
+        "collections-environments",
+        "auth-module"
+      ],
+      "diff_stats": {
+        "additions": 54,
+        "deletions": 6,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5485-20261014T074050Z",
+      "timestamp": "2026-10-14T07:40:50Z",
+      "pr_number": 5485,
+      "pr_title": "fix: avoid rapid polling while fetching teams in selector",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5485",
+      "components": [
+        "platform-abstraction",
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-22T13:36:29Z",
+      "ai_components": [
+        "platform-abstraction",
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 55,
+        "deletions": 24,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5487-20261014T074040Z",
+      "timestamp": "2026-10-14T07:40:40Z",
+      "pr_number": 5487,
+      "pr_title": "chore: security patch for the dependency chain v2025.10.0",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5487",
+      "components": [
+        "web-pwa-shell",
+        "mailer-service",
+        "prisma-data-access",
+        "analytics-service"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-22T13:18:20Z",
+      "ai_components": [
+        "web-pwa-shell",
+        "mailer-service",
+        "prisma-data-access",
+        "analytics-service"
+      ],
+      "diff_stats": {
+        "additions": 2750,
+        "deletions": 2464,
+        "changed_files": 17
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#5494-20261014T074029Z",
       "timestamp": "2026-10-14T07:40:29Z",
       "pr_number": 5494,
