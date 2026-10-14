@@ -8256,6 +8256,253 @@
         "bug fix"
       ],
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5703": {
+      "pr_number": 5703,
+      "pr_title": "feat(common): use jq for JSON response filtering",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5703",
+      "merged_at": "2026-01-15T09:32:56Z",
+      "components": [
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "gerardbalaoro",
+      "timestamp": "2026-10-14T11:36:13Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "inspection-services"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 94,
+        "deletions": 104,
+        "changed_files": 34
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5740": {
+      "pr_number": 5740,
+      "pr_title": "feat(common): add `armenian` translation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5740",
+      "merged_at": "2026-01-16T14:05:28Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "NarekCodes",
+      "timestamp": "2026-10-14T11:36:21Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 2305,
+        "deletions": 0,
+        "changed_files": 2
+      },
+      "labels": [
+        "i18n"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5733": {
+      "pr_number": 5733,
+      "pr_title": "fix(common): correct typo in repo `French` locale",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5733",
+      "merged_at": "2026-01-16T14:07:46Z",
+      "components": [],
+      "source": "ai",
+      "author": "NoobFullStack",
+      "timestamp": "2026-10-14T11:36:30Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "labels": [
+        "i18n"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5734": {
+      "pr_number": 5734,
+      "pr_title": "feat(common): update and complete Dutch translations for Hoppscotch UI",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5734",
+      "merged_at": "2026-01-16T16:42:49Z",
+      "components": [
+        "hoppscotch-common"
+      ],
+      "source": "ai",
+      "author": "NoobFullStack",
+      "timestamp": "2026-10-14T11:36:39Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "hoppscotch-common"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 497,
+        "deletions": 497,
+        "changed_files": 1
+      },
+      "labels": [
+        "i18n"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5781": {
+      "pr_number": 5781,
+      "pr_title": "fix(common): prevent duplication of request ID when duplicating requests",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5781",
+      "merged_at": "2026-01-19T08:57:58Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T11:36:47Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 2,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5762": {
+      "pr_number": 5762,
+      "pr_title": "fix: improve endpoint parsing in parseExample method",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5762",
+      "merged_at": "2026-01-20T06:46:13Z",
+      "components": [
+        "mock-server-module"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T11:36:55Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "mock-server-module"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 465,
+        "deletions": 17,
+        "changed_files": 3
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5773": {
+      "pr_number": 5773,
+      "pr_title": "feat: migrate ESLint to `v9` across packages",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5773",
+      "merged_at": "2026-01-20T09:18:55Z",
+      "components": [],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T11:37:05Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 3194,
+        "deletions": 3234,
+        "changed_files": 88
+      },
+      "labels": [
+        "maintenance"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5783": {
+      "pr_number": 5783,
+      "pr_title": "fix(common): restore scrolling on response panel",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5783",
+      "merged_at": "2026-01-20T13:56:01Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T11:37:13Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 3,
+        "deletions": 3,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5786": {
+      "pr_number": 5786,
+      "pr_title": "chore: security patch for the dependency chain v2026.1.0",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5786",
+      "merged_at": "2026-01-21T17:55:40Z",
+      "components": [
+        "hoppscotch-backend",
+        "webapp-server"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T11:37:38Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "hoppscotch-backend",
+        "webapp-server"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 2756,
+        "deletions": 1874,
+        "changed_files": 18
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5761": {
+      "pr_number": 5761,
+      "pr_title": "chore(common): complete missing Spanish translations",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5761",
+      "merged_at": "2026-01-22T11:37:13Z",
+      "components": [],
+      "source": "ai",
+      "author": "taberoajorge",
+      "timestamp": "2026-10-14T11:37:47Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 12,
+        "deletions": 12,
+        "changed_files": 1
+      },
+      "labels": [
+        "i18n"
+      ],
+      "auto_approved": true
     }
   }
 }
