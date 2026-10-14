@@ -2,6 +2,262 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#5714-20261014T113600Z",
+      "timestamp": "2026-10-14T11:36:00Z",
+      "pr_number": 5714,
+      "pr_title": "fix(common): prevent hang when highlighting large responses",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5714",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "chhaviG22",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-01-15T08:22:17Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 31,
+        "deletions": 8,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5771-20261014T113552Z",
+      "timestamp": "2026-10-14T11:35:52Z",
+      "pr_number": 5771,
+      "pr_title": "fix(cli): inherit collection variables in folders without own variables",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5771",
+      "components": [
+        "collection-runner"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-01-14T14:24:37Z",
+      "ai_components": [
+        "collection-runner"
+      ],
+      "diff_stats": {
+        "additions": 242,
+        "deletions": 7,
+        "changed_files": 3
+      },
+      "labels": [
+        "bug fix",
+        "cli"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5769-20261014T113543Z",
+      "timestamp": "2026-10-14T11:35:43Z",
+      "pr_number": 5769,
+      "pr_title": "fix: strip comments from JSON request bodies in CLI",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5769",
+      "components": [
+        "cli-script-sandbox",
+        "collection-runner",
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-01-14T11:36:31Z",
+      "ai_components": [
+        "cli-script-sandbox",
+        "collection-runner",
+        "scripting-integration"
+      ],
+      "diff_stats": {
+        "additions": 415,
+        "deletions": 30,
+        "changed_files": 9
+      },
+      "labels": [
+        "bug fix",
+        "cli"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5704-20261014T113534Z",
+      "timestamp": "2026-10-14T11:35:34Z",
+      "pr_number": 5704,
+      "pr_title": "fix(common): environment variable mapping when referencing other variables",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5704",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "AaronFortG",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-01-14T07:42:16Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 3,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5743-20261014T113524Z",
+      "timestamp": "2026-10-14T11:35:24Z",
+      "pr_number": 5743,
+      "pr_title": "feat(common): add copy functionality to console output entries",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5743",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "aparna-bhatt",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-01-12T07:54:52Z",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "diff_stats": {
+        "additions": 100,
+        "deletions": 11,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5747-20261014T113515Z",
+      "timestamp": "2026-10-14T11:35:15Z",
+      "pr_number": 5747,
+      "pr_title": "perf(desktop): cache store path resolution",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5747",
+      "components": [
+        "platform-abstraction",
+        "web-platform-adapters",
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-01-06T08:38:30Z",
+      "ai_components": [
+        "platform-abstraction",
+        "web-platform-adapters",
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 2181,
+        "deletions": 1866,
+        "changed_files": 8
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5746-20261014T113504Z",
+      "timestamp": "2026-10-14T11:35:04Z",
+      "pr_number": 5746,
+      "pr_title": "chore: apply ThrottlerBehindProxyGuard across controllers",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5746",
+      "components": [
+        "rest-api",
+        "published-docs-module"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-01-05T08:02:56Z",
+      "ai_components": [
+        "rest-api",
+        "published-docs-module"
+      ],
+      "diff_stats": {
+        "additions": 20,
+        "deletions": 3,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5672-20261014T113455Z",
+      "timestamp": "2026-10-14T11:34:55Z",
+      "pr_number": 5672,
+      "pr_title": "chore(common): `Czech` translation updates",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5672",
+      "components": [],
+      "source": "ai",
+      "author": "strepon",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-21T14:36:14Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 28,
+        "deletions": 28,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5699-20261014T113446Z",
+      "timestamp": "2026-10-14T11:34:46Z",
+      "pr_number": 5699,
+      "pr_title": "chore(common): `Chinese` translation improvements",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5699",
+      "components": [
+        "agent-ui",
+        "interceptors",
+        "mock-server-ui",
+        "documentation-ui",
+        "graphql-client",
+        "admin-dashboard-ui"
+      ],
+      "source": "ai",
+      "author": "jiangzm",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-21T14:34:49Z",
+      "ai_components": [
+        "agent-ui",
+        "interceptors",
+        "mock-server-ui",
+        "documentation-ui",
+        "graphql-client",
+        "admin-dashboard-ui"
+      ],
+      "diff_stats": {
+        "additions": 1229,
+        "deletions": 79,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5660-20261014T113428Z",
+      "timestamp": "2026-10-14T11:34:28Z",
+      "pr_number": 5660,
+      "pr_title": "chore(common): update product name in Korean translation for consistency",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5660",
+      "components": [],
+      "source": "ai",
+      "author": "g-yunjh",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-21T14:23:17Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 10,
+        "deletions": 10,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#5652-20261014T075426Z",
       "timestamp": "2026-10-14T07:54:26Z",
       "pr_number": 5652,
