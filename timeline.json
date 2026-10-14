@@ -1,1 +1,219 @@
-{"version":"1.0","entries":[]}
+{
+  "version": "1.0",
+  "entries": [
+    {
+      "id": "pr-hoppscotch/hoppscotch#4725-20261014T051757Z",
+      "timestamp": "2026-10-14T05:17:57Z",
+      "pr_number": 4725,
+      "pr_title": "fix: properties not inherited while importing from postman",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4725",
+      "components": [
+        "web-platform-adapters",
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-07T09:15:51Z",
+      "ai_components": [
+        "web-platform-adapters",
+        "desktop-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 17,
+        "deletions": 17,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4666-20261014T051748Z",
+      "timestamp": "2026-10-14T05:17:48Z",
+      "pr_number": 4666,
+      "pr_title": "docs: use GitHub markdown alert formatting for note",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4666",
+      "components": [],
+      "source": "ai",
+      "author": "kutt",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-06T14:58:15Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4658-20261014T051743Z",
+      "timestamp": "2026-10-14T05:17:43Z",
+      "pr_number": 4658,
+      "pr_title": "fix(selfhost-desktop): add alias for querystring",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4658",
+      "components": [],
+      "source": "ai",
+      "author": "shipko",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-06T11:43:04Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4645-20261014T051734Z",
+      "timestamp": "2026-10-14T05:17:34Z",
+      "pr_number": 4645,
+      "pr_title": "fix(import/postman): handle non-string form values",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4645",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "med8bra",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-06T11:37:27Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 2,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4596-20261014T051726Z",
+      "timestamp": "2026-10-14T05:17:26Z",
+      "pr_number": 4596,
+      "pr_title": "chore: improve health check script",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4596",
+      "components": [],
+      "source": "ai",
+      "author": "progprnv",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-06T11:01:42Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 6,
+        "deletions": 7,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4687-20261014T051710Z",
+      "timestamp": "2026-10-14T05:17:10Z",
+      "pr_number": 4687,
+      "pr_title": "chore: format collection contents prior to export",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4687",
+      "components": [
+        "collection-runner"
+      ],
+      "source": "ai",
+      "author": "shipko",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-06T10:49:59Z",
+      "ai_components": [
+        "collection-runner"
+      ],
+      "diff_stats": {
+        "additions": 3,
+        "deletions": 3,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4656-20261014T051653Z",
+      "timestamp": "2026-10-14T05:16:53Z",
+      "pr_number": 4656,
+      "pr_title": "Correct the english response body lost rerun msg",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4656",
+      "components": [],
+      "source": "ai",
+      "author": "shmup",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-06T09:47:32Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4697-20261014T051644Z",
+      "timestamp": "2026-10-14T05:16:44Z",
+      "pr_number": 4697,
+      "pr_title": "feat: support rust reqwest code generation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4697",
+      "components": [
+        "scripting-integration",
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "KShivendu",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-06T09:21:10Z",
+      "ai_components": [
+        "scripting-integration",
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 16,
+        "deletions": 11,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4712-20261014T051635Z",
+      "timestamp": "2026-10-14T05:16:35Z",
+      "pr_number": 4712,
+      "pr_title": "fix: ensure correct body for application/x-www-form-urlencoded in all code exports",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4712",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "shuaixr",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-06T09:12:30Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4728-20261014T051625Z",
+      "timestamp": "2026-10-14T05:16:25Z",
+      "pr_number": 4728,
+      "pr_title": "chore: pin pnpm v9 as the package manager",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4728",
+      "components": [],
+      "source": "ai",
+      "author": "AndrewBastin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-06T07:36:08Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 3,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    }
+  ]
+}

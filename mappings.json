@@ -1,1 +1,219 @@
-{"version":"1.0","mappings":{}}
+{
+  "version": "1.0",
+  "mappings": {
+    "hoppscotch/hoppscotch#4728": {
+      "pr_number": 4728,
+      "pr_title": "chore: pin pnpm v9 as the package manager",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4728",
+      "merged_at": "2025-02-06T07:36:08Z",
+      "components": [],
+      "source": "ai",
+      "author": "AndrewBastin",
+      "timestamp": "2026-10-14T05:16:25Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 3,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4712": {
+      "pr_number": 4712,
+      "pr_title": "fix: ensure correct body for application/x-www-form-urlencoded in all code exports",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4712",
+      "merged_at": "2025-02-06T09:12:30Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "shuaixr",
+      "timestamp": "2026-10-14T05:16:35Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4697": {
+      "pr_number": 4697,
+      "pr_title": "feat: support rust reqwest code generation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4697",
+      "merged_at": "2025-02-06T09:21:10Z",
+      "components": [
+        "scripting-integration",
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "KShivendu",
+      "timestamp": "2026-10-14T05:16:44Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration",
+        "rest-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 16,
+        "deletions": 11,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4656": {
+      "pr_number": 4656,
+      "pr_title": "Correct the english response body lost rerun msg",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4656",
+      "merged_at": "2025-02-06T09:47:32Z",
+      "components": [],
+      "source": "ai",
+      "author": "shmup",
+      "timestamp": "2026-10-14T05:16:53Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4687": {
+      "pr_number": 4687,
+      "pr_title": "chore: format collection contents prior to export",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4687",
+      "merged_at": "2025-02-06T10:49:59Z",
+      "components": [
+        "collection-runner"
+      ],
+      "source": "ai",
+      "author": "shipko",
+      "timestamp": "2026-10-14T05:17:10Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collection-runner"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 3,
+        "deletions": 3,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4596": {
+      "pr_number": 4596,
+      "pr_title": "chore: improve health check script",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4596",
+      "merged_at": "2025-02-06T11:01:42Z",
+      "components": [],
+      "source": "ai",
+      "author": "progprnv",
+      "timestamp": "2026-10-14T05:17:26Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 6,
+        "deletions": 7,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4645": {
+      "pr_number": 4645,
+      "pr_title": "fix(import/postman): handle non-string form values",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4645",
+      "merged_at": "2025-02-06T11:37:27Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "med8bra",
+      "timestamp": "2026-10-14T05:17:34Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 2,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4658": {
+      "pr_number": 4658,
+      "pr_title": "fix(selfhost-desktop): add alias for querystring",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4658",
+      "merged_at": "2025-02-06T11:43:04Z",
+      "components": [],
+      "source": "ai",
+      "author": "shipko",
+      "timestamp": "2026-10-14T05:17:43Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4666": {
+      "pr_number": 4666,
+      "pr_title": "docs: use GitHub markdown alert formatting for note",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4666",
+      "merged_at": "2025-02-06T14:58:15Z",
+      "components": [],
+      "source": "ai",
+      "author": "kutt",
+      "timestamp": "2026-10-14T05:17:48Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4725": {
+      "pr_number": 4725,
+      "pr_title": "fix: properties not inherited while importing from postman",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4725",
+      "merged_at": "2025-02-07T09:15:51Z",
+      "components": [
+        "web-platform-adapters",
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:17:57Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "web-platform-adapters",
+        "desktop-platform-adapters"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 17,
+        "deletions": 17,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    }
+  }
+}
