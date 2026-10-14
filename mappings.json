@@ -10290,6 +10290,255 @@
         "changed_files": 1
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6109": {
+      "pr_number": 6109,
+      "pr_title": "chore(common): complete missing Spanish translations",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6109",
+      "merged_at": "2026-04-17T14:02:02Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "Pakvothe",
+      "timestamp": "2026-10-14T11:51:42Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 1271,
+        "deletions": 53,
+        "changed_files": 1
+      },
+      "labels": [
+        "i18n"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6071": {
+      "pr_number": 6071,
+      "pr_title": "chore(common): complete missing Turkish translations",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6071",
+      "merged_at": "2026-04-17T14:15:04Z",
+      "components": [
+        "hoppscotch-common"
+      ],
+      "source": "ai",
+      "author": "onwp",
+      "timestamp": "2026-10-14T11:51:51Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "hoppscotch-common"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 1278,
+        "deletions": 46,
+        "changed_files": 1
+      },
+      "labels": [
+        "i18n"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5996": {
+      "pr_number": 5996,
+      "pr_title": "chore(common): modify Chinese translation of words",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5996",
+      "merged_at": "2026-04-17T15:30:12Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "jiangzm",
+      "timestamp": "2026-10-14T11:52:00Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 21,
+        "deletions": 20,
+        "changed_files": 2
+      },
+      "labels": [
+        "i18n"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6160": {
+      "pr_number": 6160,
+      "pr_title": "fix(common): add missing aria-labels to icon-only sidenav links",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6160",
+      "merged_at": "2026-04-20T13:00:55Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "rayrishu19-wq",
+      "timestamp": "2026-10-14T11:52:10Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "labels": [
+        "a11y"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6155": {
+      "pr_number": 6155,
+      "pr_title": "fix(common): variable hover tooltip was not clickable (disappeared)",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6155",
+      "merged_at": "2026-04-21T13:45:18Z",
+      "components": [
+        "scripting-integration",
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "AaronFortG",
+      "timestamp": "2026-10-14T11:52:20Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration",
+        "inspection-services"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 54,
+        "deletions": 0,
+        "changed_files": 5
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6141": {
+      "pr_number": 6141,
+      "pr_title": "feat: add SMTP OAuth2 authentication support",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6141",
+      "merged_at": "2026-04-22T11:41:03Z",
+      "components": [
+        "mailer-service",
+        "admin-dashboard-ui",
+        "admin-gql-client",
+        "graphql-api"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T11:52:34Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "mailer-service",
+        "admin-dashboard-ui",
+        "admin-gql-client",
+        "graphql-api"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 856,
+        "deletions": 188,
+        "changed_files": 17
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5962": {
+      "pr_number": 5962,
+      "pr_title": "fix: resolve invalid environment validation when publishing docs in personal workspace",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5962",
+      "merged_at": "2026-04-22T15:55:11Z",
+      "components": [
+        "published-docs-module"
+      ],
+      "source": "ai",
+      "author": "sahilkhan09k",
+      "timestamp": "2026-10-14T11:52:42Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "published-docs-module"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 68,
+        "deletions": 41,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6116": {
+      "pr_number": 6116,
+      "pr_title": "feat(common): improve API documentation publishing UX",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6116",
+      "merged_at": "2026-04-22T17:35:40Z",
+      "components": [
+        "documentation-ui"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T11:52:51Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "documentation-ui"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 307,
+        "deletions": 220,
+        "changed_files": 8
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6174": {
+      "pr_number": 6174,
+      "pr_title": "fix: remediate `quinn-proto` vulnerability across native packages",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6174",
+      "merged_at": "2026-04-22T18:25:28Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T11:53:01Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 139,
+        "deletions": 125,
+        "changed_files": 9
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6158": {
+      "pr_number": 6158,
+      "pr_title": "docs: security threat model and policy update",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6158",
+      "merged_at": "2026-04-23T12:05:03Z",
+      "components": [],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T11:53:06Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 119,
+        "deletions": 29,
+        "changed_files": 1
+      },
+      "auto_approved": true
     }
   }
 }
