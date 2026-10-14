@@ -2,6 +2,239 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#5288-20261014T072752Z",
+      "timestamp": "2026-10-14T07:27:52Z",
+      "pr_number": 5288,
+      "pr_title": "chore: security patches for the dependency chain (second iteration)",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5288",
+      "components": [],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-29T06:38:57Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 39,
+        "deletions": 74,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5253-20261014T072744Z",
+      "timestamp": "2026-10-14T07:27:44Z",
+      "pr_number": 5253,
+      "pr_title": "feat(common): add advanced configuration for auth and token request parameters",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5253",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-28T18:13:08Z",
+      "ai_components": [
+        "interceptors"
+      ],
+      "diff_stats": {
+        "additions": 1426,
+        "deletions": 113,
+        "changed_files": 24
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5283-20261014T072735Z",
+      "timestamp": "2026-10-14T07:27:35Z",
+      "pr_number": 5283,
+      "pr_title": "chore: migrate to `@db.Timestamptz(3)` and remove `luxon` dependency",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5283",
+      "components": [
+        "prisma-data-access",
+        "auth-module",
+        "user-team-management",
+        "mailer-service"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-28T15:32:14Z",
+      "ai_components": [
+        "prisma-data-access",
+        "auth-module",
+        "user-team-management",
+        "mailer-service"
+      ],
+      "diff_stats": {
+        "additions": 128,
+        "deletions": 89,
+        "changed_files": 13
+      },
+      "labels": [
+        "do not merge"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5286-20261014T072726Z",
+      "timestamp": "2026-10-14T07:27:26Z",
+      "pr_number": 5286,
+      "pr_title": "docs(agent): add README",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5286",
+      "components": [],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-28T15:23:53Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 274,
+        "deletions": 9,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5285-20261014T072716Z",
+      "timestamp": "2026-10-14T07:27:16Z",
+      "pr_number": 5285,
+      "pr_title": "chore: add i18n for onboarding flow and cleanup",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5285",
+      "components": [
+        "admin-dashboard-ui"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-28T14:58:35Z",
+      "ai_components": [
+        "admin-dashboard-ui"
+      ],
+      "diff_stats": {
+        "additions": 179,
+        "deletions": 68,
+        "changed_files": 8
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5194-20261014T072708Z",
+      "timestamp": "2026-10-14T07:27:08Z",
+      "pr_number": 5194,
+      "pr_title": "feature: reduce `.env` usage and move configurations to admin dashboard",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5194",
+      "components": [
+        "user-team-management",
+        "prisma-data-access",
+        "graphql-api",
+        "admin-dashboard-ui",
+        "admin-gql-client",
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-28T11:16:30Z",
+      "ai_components": [
+        "user-team-management",
+        "prisma-data-access",
+        "graphql-api",
+        "admin-dashboard-ui",
+        "admin-gql-client",
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 3324,
+        "deletions": 893,
+        "changed_files": 49
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5274-20261014T072655Z",
+      "timestamp": "2026-10-14T07:26:55Z",
+      "pr_number": 5274,
+      "pr_title": "chore(backend): prevent clear text transmission of sensitive cookie",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5274",
+      "components": [
+        "auth-module"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-28T10:48:38Z",
+      "ai_components": [
+        "auth-module"
+      ],
+      "diff_stats": {
+        "additions": 11,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5278-20261014T072646Z",
+      "timestamp": "2026-10-14T07:26:46Z",
+      "pr_number": 5278,
+      "pr_title": "chore: security patches for the dependency chain",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5278",
+      "components": [],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-28T10:23:25Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 2569,
+        "deletions": 1988,
+        "changed_files": 8
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5193-20261014T072624Z",
+      "timestamp": "2026-10-14T07:26:24Z",
+      "pr_number": 5193,
+      "pr_title": "feat: preserve response viewer scroll position per tab",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5193",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "jarvis2754",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-28T09:28:04Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 381,
+        "deletions": 11,
+        "changed_files": 11
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5277-20261014T072612Z",
+      "timestamp": "2026-10-14T07:26:12Z",
+      "pr_number": 5277,
+      "pr_title": "docs: removed repeated  bold formatting from headers",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5277",
+      "components": [],
+      "source": "ai",
+      "author": "meeraiswar",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-27T14:23:27Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 7,
+        "deletions": 7,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#5231-20261014T072605Z",
       "timestamp": "2026-10-14T07:26:05Z",
       "pr_number": 5231,
