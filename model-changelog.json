@@ -2,6 +2,48 @@
   "version": "1.0",
   "entries": [
     {
+      "model_version": "6",
+      "timestamp": "2026-10-14T07:43:12Z",
+      "changes": [
+        {
+          "type": "add",
+          "target": "component",
+          "id": "mock-server-module",
+          "summary": "Mock Server Module コンポーネントを追加"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "mock-server-ui",
+          "summary": "Mock Server UI コンポーネントを追加"
+        },
+        {
+          "type": "add_relation",
+          "target": "relation",
+          "id": "mock-server-module -> prisma-data-access",
+          "summary": "add_relation: mock-server-module -> prisma-data-access"
+        },
+        {
+          "type": "add_relation",
+          "target": "relation",
+          "id": "mock-server-ui -> hoppscotch-backend",
+          "summary": "add_relation: mock-server-ui -> hoppscotch-backend"
+        },
+        {
+          "type": "add_relation",
+          "target": "relation",
+          "id": "mock-server-ui -> collections-environments",
+          "summary": "add_relation: mock-server-ui -> collections-environments"
+        }
+      ],
+      "trigger": {
+        "type": "pr",
+        "pr_number": 5482,
+        "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5482"
+      },
+      "author": "catch-up"
+    },
+    {
       "model_version": "5",
       "timestamp": "2026-10-14T07:35:50Z",
       "changes": [

@@ -1,5 +1,5 @@
 schema_version: '1'
-version: '5'
+version: '6'
 model:
   type: c4
 components:
@@ -54,6 +54,12 @@ components:
   tags:
   - frontend
   - library
+- id: mock-server-ui
+  name: Mock Server UI
+  level: component
+  description: コレクションに基づきモックサーバーを作成・編集・管理し、リクエストログを表示するUIコンポーネント・ストア・composable群
+  parent: hoppscotch-common
+  technology: Vue 3, TypeScript, urql
 - id: hoppscotch-selfhost-web
   name: Hoppscotch Web App
   level: container
@@ -101,6 +107,12 @@ components:
   description: ユーザー・チームのコレクションおよびリクエストの並び替え（タイトル昇順/降順）を行い、ソートイベントをPub/Sub経由で通知するモジュール
   parent: hoppscotch-backend
   technology: NestJS, GraphQL
+- id: mock-server-module
+  name: Mock Server Module
+  level: component
+  description: コレクションの例データを基にモックサーバーを作成・更新・削除し、リクエストのハンドリング・ログ記録・利用状況分析を行うモジュール（Personal/Teamワークスペース対応、公開/PAT認証の非公開サーバーをサポート）
+  parent: hoppscotch-backend
+  technology: NestJS, GraphQL, REST
 - id: hoppscotch-cli
   name: Hoppscotch CLI
   level: container
@@ -498,3 +510,15 @@ relations:
   to: subscriptions-pubsub
   description: コレクション/リクエストのソートイベントをRedis経由でPublish
   technology: graphql-redis-subscriptions
+- from: mock-server-module
+  to: prisma-data-access
+  description: モックサーバー・リクエストログ・アクティビティイベントの読み書き
+  technology: Prisma Client
+- from: mock-server-ui
+  to: hoppscotch-backend
+  description: モックサーバー管理・ログ取得のためのGraphQL通信
+  technology: GraphQL/HTTPS
+- from: mock-server-ui
+  to: collections-environments
+  description: コレクションの例データ(example response)を参照してモックサーバーを構成
+  technology: TypeScript関数呼び出し

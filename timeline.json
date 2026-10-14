@@ -2,6 +2,268 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#5536-20261014T074431Z",
+      "timestamp": "2026-10-14T07:44:31Z",
+      "pr_number": 5536,
+      "pr_title": "fix(common): use fallback ref ID for mock server creation with legacy collections",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5536",
+      "components": [
+        "mock-server-module"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-30T17:28:14Z",
+      "ai_components": [
+        "mock-server-module"
+      ],
+      "diff_stats": {
+        "additions": 14,
+        "deletions": 38,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5532-20261014T074421Z",
+      "timestamp": "2026-10-14T07:44:21Z",
+      "pr_number": 5532,
+      "pr_title": "feat(common): mock server ui improvements",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5532",
+      "components": [
+        "mock-server-ui",
+        "mock-server-module",
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-30T09:47:16Z",
+      "ai_components": [
+        "mock-server-ui",
+        "mock-server-module",
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 92,
+        "deletions": 35,
+        "changed_files": 9
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5531-20261014T074410Z",
+      "timestamp": "2026-10-14T07:44:10Z",
+      "pr_number": 5531,
+      "pr_title": "chore(agent): bump version to `v0.1.15`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5531",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-30T06:12:09Z",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 1214,
+        "deletions": 1022,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5527-20261014T074400Z",
+      "timestamp": "2026-10-14T07:44:00Z",
+      "pr_number": 5527,
+      "pr_title": "feat(common): handle null collection and add private access hint for mock servers",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5527",
+      "components": [
+        "mock-server-ui"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-29T17:21:05Z",
+      "ai_components": [
+        "mock-server-ui"
+      ],
+      "diff_stats": {
+        "additions": 15,
+        "deletions": 6,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5517-20261014T074352Z",
+      "timestamp": "2026-10-14T07:43:52Z",
+      "pr_number": 5517,
+      "pr_title": "fix (common): address mock server issues and improve the UI",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5517",
+      "components": [
+        "mock-server-ui",
+        "mock-server-module",
+        "admin-dashboard-ui"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-29T10:55:02Z",
+      "ai_components": [
+        "mock-server-ui",
+        "mock-server-module",
+        "admin-dashboard-ui"
+      ],
+      "diff_stats": {
+        "additions": 1133,
+        "deletions": 318,
+        "changed_files": 35
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5524-20261014T074339Z",
+      "timestamp": "2026-10-14T07:43:39Z",
+      "pr_number": 5524,
+      "pr_title": "chore: mock server name validation and prevent duplicates",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5524",
+      "components": [
+        "mock-server-module"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-29T08:41:52Z",
+      "ai_components": [
+        "mock-server-module"
+      ],
+      "diff_stats": {
+        "additions": 16,
+        "deletions": 3,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5439-20261014T074330Z",
+      "timestamp": "2026-10-14T07:43:30Z",
+      "pr_number": 5439,
+      "pr_title": "fix(js-sandbox): resolve environment variable fallback behavior",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5439",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "chhaviG22",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-28T17:38:55Z",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "diff_stats": {
+        "additions": 1005,
+        "deletions": 34,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5425-20261014T074322Z",
+      "timestamp": "2026-10-14T07:43:22Z",
+      "pr_number": 5425,
+      "pr_title": "feat: add configurable session cookie name",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5425",
+      "components": [
+        "auth-module",
+        "admin-dashboard-ui",
+        "admin-gql-client"
+      ],
+      "source": "ai",
+      "author": "CHANDRAHARSHIT",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-28T08:15:08Z",
+      "ai_components": [
+        "auth-module",
+        "admin-dashboard-ui",
+        "admin-gql-client"
+      ],
+      "diff_stats": {
+        "additions": 68,
+        "deletions": 3,
+        "changed_files": 8
+      },
+      "labels": [
+        "hacktoberfest-accepted"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5482-20261014T074312Z",
+      "timestamp": "2026-10-14T07:43:12Z",
+      "pr_number": 5482,
+      "pr_title": "feature: mock server",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5482",
+      "components": [
+        "graphql-api",
+        "user-team-management",
+        "analytics-service",
+        "prisma-data-access",
+        "subscriptions-pubsub",
+        "rest-client",
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-27T17:33:22Z",
+      "ai_components": [
+        "graphql-api",
+        "user-team-management",
+        "analytics-service",
+        "prisma-data-access",
+        "subscriptions-pubsub",
+        "rest-client",
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 6249,
+        "deletions": 69,
+        "changed_files": 59
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5466-20261014T074228Z",
+      "timestamp": "2026-10-14T07:42:28Z",
+      "pr_number": 5466,
+      "pr_title": "chore(backend): cleanup code quality issues",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5466",
+      "components": [
+        "auth-module",
+        "rest-api"
+      ],
+      "source": "ai",
+      "author": "abhishekmaniy",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-10-27T15:42:32Z",
+      "ai_components": [
+        "auth-module",
+        "rest-api"
+      ],
+      "diff_stats": {
+        "additions": 6,
+        "deletions": 12,
+        "changed_files": 4
+      },
+      "labels": [
+        "hacktoberfest-accepted"
+      ],
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#5479-20261014T074218Z",
       "timestamp": "2026-10-14T07:42:18Z",
       "pr_number": 5479,
