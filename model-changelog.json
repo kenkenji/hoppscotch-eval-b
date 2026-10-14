@@ -1,1 +1,525 @@
-{"version":"1.0","entries":[]}
+{
+  "version": "1.0",
+  "entries": [
+    {
+      "model_version": "2",
+      "timestamp": "2026-10-14T04:39:04Z",
+      "changes": [
+        {
+          "type": "add",
+          "target": "component",
+          "id": "hoppscotch",
+          "summary": "Hoppscotch を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "github-oauth",
+          "summary": "GitHub OAuth を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "google-oauth",
+          "summary": "Google OAuth を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "microsoft-oauth",
+          "summary": "Microsoft OAuth を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "smtp-server",
+          "summary": "SMTP Mail Server を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "posthog",
+          "summary": "PostHog Analytics を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "hoppscotch-proxy",
+          "summary": "Hoppscotch Proxy Server を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "hoppscotch-common",
+          "summary": "Hoppscotch Common Core を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "hoppscotch-selfhost-web",
+          "summary": "Hoppscotch Web App を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "hoppscotch-selfhost-desktop",
+          "summary": "Hoppscotch Desktop App を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "hoppscotch-agent",
+          "summary": "Hoppscotch Agent を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "hoppscotch-sh-admin",
+          "summary": "Hoppscotch SH Admin Dashboard を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "hoppscotch-backend",
+          "summary": "Hoppscotch Backend API を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "hoppscotch-cli",
+          "summary": "Hoppscotch CLI を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "hoppscotch-db",
+          "summary": "Hoppscotch Database を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "hoppscotch-redis",
+          "summary": "Hoppscotch Redis を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "rest-client",
+          "summary": "REST Client を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "graphql-client",
+          "summary": "GraphQL Client を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "realtime-protocols",
+          "summary": "Realtime Protocol Clients を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "collections-environments",
+          "summary": "Collections & Environments を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "interceptors",
+          "summary": "Request Interceptors を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "inspection-services",
+          "summary": "Inspection Services を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "scripting-integration",
+          "summary": "Scripting Integration を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "platform-abstraction",
+          "summary": "Platform Abstraction Layer を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "web-platform-adapters",
+          "summary": "Web Platform Adapters を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "web-backend-gql-client",
+          "summary": "Web Backend GraphQL Client を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "web-extension-interceptor",
+          "summary": "Extension Interceptor Integration を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "web-pwa-shell",
+          "summary": "PWA Shell を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "desktop-platform-adapters",
+          "summary": "Desktop Platform Adapters を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "desktop-native-interceptor",
+          "summary": "Native Interceptor を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "desktop-tauri-shell",
+          "summary": "Desktop Tauri Shell を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "desktop-backend-gql-client",
+          "summary": "Desktop Backend GraphQL Client を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "agent-ui",
+          "summary": "Agent UI を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "agent-controller",
+          "summary": "Agent HTTP Controller を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "agent-relay-engine",
+          "summary": "Agent Relay Engine を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "agent-state",
+          "summary": "Agent Registration State を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "admin-dashboard-ui",
+          "summary": "Admin Dashboard UI を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "admin-gql-client",
+          "summary": "Admin GraphQL Client を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "admin-auth",
+          "summary": "Admin Auth Helper を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "graphql-api",
+          "summary": "GraphQL API Layer を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "rest-api",
+          "summary": "REST API Controllers を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "auth-module",
+          "summary": "Auth Module を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "user-team-management",
+          "summary": "User & Team Management を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "mailer-service",
+          "summary": "Mailer Service を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "prisma-data-access",
+          "summary": "Prisma Data Access を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "analytics-service",
+          "summary": "Analytics Service を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "subscriptions-pubsub",
+          "summary": "Subscriptions Pub/Sub を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "cli-commands",
+          "summary": "CLI Command Parser を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "collection-runner",
+          "summary": "Collection Runner を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "cli-script-sandbox",
+          "summary": "CLI Script Sandbox を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "report-generator",
+          "summary": "Report Generator を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "hoppscotch-selfhost-web->hoppscotch-common",
+          "summary": "hoppscotch-selfhost-web → hoppscotch-common の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "hoppscotch-selfhost-desktop->hoppscotch-common",
+          "summary": "hoppscotch-selfhost-desktop → hoppscotch-common の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "hoppscotch-common->hoppscotch-backend",
+          "summary": "hoppscotch-common → hoppscotch-backend の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "hoppscotch-sh-admin->hoppscotch-backend",
+          "summary": "hoppscotch-sh-admin → hoppscotch-backend の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "hoppscotch-backend->hoppscotch-db",
+          "summary": "hoppscotch-backend → hoppscotch-db の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "hoppscotch-backend->hoppscotch-redis",
+          "summary": "hoppscotch-backend → hoppscotch-redis の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "hoppscotch-backend->github-oauth",
+          "summary": "hoppscotch-backend → github-oauth の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "hoppscotch-backend->google-oauth",
+          "summary": "hoppscotch-backend → google-oauth の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "hoppscotch-backend->microsoft-oauth",
+          "summary": "hoppscotch-backend → microsoft-oauth の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "hoppscotch-backend->smtp-server",
+          "summary": "hoppscotch-backend → smtp-server の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "hoppscotch-backend->posthog",
+          "summary": "hoppscotch-backend → posthog の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "hoppscotch-common->hoppscotch-proxy",
+          "summary": "hoppscotch-common → hoppscotch-proxy の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "hoppscotch-common->hoppscotch-agent",
+          "summary": "hoppscotch-common → hoppscotch-agent の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "rest-client->interceptors",
+          "summary": "rest-client → interceptors の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "scripting-integration->rest-client",
+          "summary": "scripting-integration → rest-client の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "auth-module->github-oauth",
+          "summary": "auth-module → github-oauth の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "auth-module->google-oauth",
+          "summary": "auth-module → google-oauth の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "auth-module->microsoft-oauth",
+          "summary": "auth-module → microsoft-oauth の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "mailer-service->smtp-server",
+          "summary": "mailer-service → smtp-server の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "analytics-service->posthog",
+          "summary": "analytics-service → posthog の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "subscriptions-pubsub->hoppscotch-redis",
+          "summary": "subscriptions-pubsub → hoppscotch-redis の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "graphql-api->prisma-data-access",
+          "summary": "graphql-api → prisma-data-access の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "rest-api->prisma-data-access",
+          "summary": "rest-api → prisma-data-access の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "auth-module->prisma-data-access",
+          "summary": "auth-module → prisma-data-access の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "user-team-management->prisma-data-access",
+          "summary": "user-team-management → prisma-data-access の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "web-backend-gql-client->hoppscotch-backend",
+          "summary": "web-backend-gql-client → hoppscotch-backend の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "desktop-backend-gql-client->hoppscotch-backend",
+          "summary": "desktop-backend-gql-client → hoppscotch-backend の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "admin-gql-client->hoppscotch-backend",
+          "summary": "admin-gql-client → hoppscotch-backend の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "desktop-native-interceptor->desktop-tauri-shell",
+          "summary": "desktop-native-interceptor → desktop-tauri-shell の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "agent-controller->agent-relay-engine",
+          "summary": "agent-controller → agent-relay-engine の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "agent-controller->agent-state",
+          "summary": "agent-controller → agent-state の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "cli-commands->collection-runner",
+          "summary": "cli-commands → collection-runner の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "collection-runner->cli-script-sandbox",
+          "summary": "collection-runner → cli-script-sandbox の関係を追加（コードベースから自動生成）"
+        },
+        {
+          "type": "add",
+          "target": "relation",
+          "id": "collection-runner->report-generator",
+          "summary": "collection-runner → report-generator の関係を追加（コードベースから自動生成）"
+        }
+      ],
+      "trigger": {
+        "type": "manual"
+      },
+      "author": "kenkenji"
+    }
+  ]
+}

@@ -722,5 +722,10 @@
     "packages/hoppscotch-agent/src-tauri/src/controller.rs"
   ],
   "apply_blocked": null,
-  "applied": null
+  "applied": {
+    "model_version": "2",
+    "applied_at": "2026-10-14T04:39:04Z",
+    "applied_by": "kenkenji",
+    "recorded_prs": []
+  }
 }
