@@ -1,0 +1,70 @@
+name: Impact Analysis
+
+on:
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
+
+# ワークフロー単位の concurrency はジョブの if より前に適用され、待機中の run は新しい run に置き換えられる。
+# analyze を実行しないイベント（ボット自身の分析結果コメントや無関係なコメント）が、待機中の
+# @architecture-tracker 依頼をキャンセルしないよう、run ごとに一意の group に入れる（#379）。
+# 条件は analyze ジョブの if と同じ。if を変更したら、ここも合わせて変更すること
+# （tests/test_workflow_concurrency.py で整合性を検証している）
+concurrency:
+  group: >-
+    ${{
+    ((github.event_name == 'issues'
+    && contains(github.event.issue.body, '@architecture-tracker'))
+    || (github.event_name == 'issue_comment'
+    && !github.event.issue.pull_request
+    && github.event.comment.user.type != 'Bot'
+    && github.actor != 'github-actions[bot]'
+    && contains(github.event.comment.body, '@architecture-tracker')))
+    && format('impact-analysis-{0}', github.event.issue.number)
+    || format('impact-analysis-noop-{0}', github.run_id)
+    }}
+  cancel-in-progress: false
+
+jobs:
+  analyze:
+    if: >-
+      (
+        github.event_name == 'issues'
+        && contains(github.event.issue.body, '@architecture-tracker')
+      )
+      || (
+        github.event_name == 'issue_comment'
+        && !github.event.issue.pull_request
+        && github.event.comment.user.type != 'Bot'
+        && github.actor != 'github-actions[bot]'
+        && contains(github.event.comment.body, '@architecture-tracker')
+      )
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate Installation Token
+        id: app-token
+        if: ${{ vars.APP_ID != '' }}
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Analyze impact
+        uses: ./.github/actions/analyze-impact
+        with:
+          github-token: ${{ steps.app-token.outputs.token || secrets.GITHUB_TOKEN }}
+          data-branch: _architecture-tracker
+          anthropic-api-key: ${{ secrets.ANTHROPIC_API_KEY }}
+          openai-api-key: ${{ secrets.OPENAI_API_KEY }}
+          claude-code-oauth-token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          issue-number: ${{ github.event.issue.number }}
+          issue-title: ${{ github.event.issue.title }}
+          issue-body: ${{ github.event.issue.body }}
+          issue-comment-body: ${{ github.event.comment.body || '' }}
