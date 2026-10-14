@@ -2,6 +2,241 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#3535-20261014T053444Z",
+      "timestamp": "2026-10-14T05:34:44Z",
+      "pr_number": 3535,
+      "pr_title": "feat(backend): add `getTracker` method for IP extraction",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/3535",
+      "components": [
+        "auth-module"
+      ],
+      "source": "ai",
+      "author": "RaHehl",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-04-29T08:59:01Z",
+      "ai_components": [
+        "auth-module"
+      ],
+      "diff_stats": {
+        "additions": 3,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "labels": [
+        "self-host"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4367-20261014T053435Z",
+      "timestamp": "2026-10-14T05:34:35Z",
+      "pr_number": 4367,
+      "pr_title": "feat: add file extensions to response exports",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4367",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "shipko",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-04-29T08:21:34Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 15,
+        "deletions": 9,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5025-20261014T053427Z",
+      "timestamp": "2026-10-14T05:34:27Z",
+      "pr_number": 5025,
+      "pr_title": "fix(relay): better matching for `content-type` detection",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5025",
+      "components": [
+        "agent-relay-engine",
+        "agent-controller"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-04-29T07:40:09Z",
+      "ai_components": [
+        "agent-relay-engine",
+        "agent-controller"
+      ],
+      "diff_stats": {
+        "additions": 72,
+        "deletions": 68,
+        "changed_files": 10
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5022-20261014T053411Z",
+      "timestamp": "2026-10-14T05:34:11Z",
+      "pr_number": 5022,
+      "pr_title": "fix: stale lockfile on rebase",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5022",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-04-25T13:04:42Z",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 4,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5015-20261014T053402Z",
+      "timestamp": "2026-10-14T05:34:02Z",
+      "pr_number": 5015,
+      "pr_title": "chore: add VITE_PROXYSCOTCH_ACCESS_TOKEN to .env.example",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5015",
+      "components": [
+        "web-pwa-shell"
+      ],
+      "source": "ai",
+      "author": "Leon-Luu",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-04-25T12:31:17Z",
+      "ai_components": [
+        "web-pwa-shell"
+      ],
+      "diff_stats": {
+        "additions": 3,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5009-20261014T053352Z",
+      "timestamp": "2026-10-14T05:33:52Z",
+      "pr_number": 5009,
+      "pr_title": "feat(desktop): file-based logs with rotation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5009",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-04-25T11:39:51Z",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 111,
+        "deletions": 105,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5019-20261014T053341Z",
+      "timestamp": "2026-10-14T05:33:41Z",
+      "pr_number": 5019,
+      "pr_title": "fix(desktop): disk space detection",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5019",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-04-25T11:27:38Z",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 287,
+        "deletions": 120,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5010-20261014T053332Z",
+      "timestamp": "2026-10-14T05:33:32Z",
+      "pr_number": 5010,
+      "pr_title": "fix(desktop): add win version checks for DWM attr api",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5010",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-04-25T11:18:43Z",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 34,
+        "deletions": 19,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5005-20261014T053324Z",
+      "timestamp": "2026-10-14T05:33:24Z",
+      "pr_number": 5005,
+      "pr_title": "feat(infra): desktop aio build workflow pipeline",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5005",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-04-25T11:01:10Z",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 477,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5014-20261014T053315Z",
+      "timestamp": "2026-10-14T05:33:15Z",
+      "pr_number": 5014,
+      "pr_title": "refactor(sh-admin): dashboard settings page redesign",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5014",
+      "components": [
+        "admin-dashboard-ui"
+      ],
+      "source": "ai",
+      "author": "joeljstephen",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-04-24T14:54:32Z",
+      "ai_components": [
+        "admin-dashboard-ui"
+      ],
+      "diff_stats": {
+        "additions": 160,
+        "deletions": 43,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#4999-20261014T053304Z",
       "timestamp": "2026-10-14T05:33:04Z",
       "pr_number": 4999,
