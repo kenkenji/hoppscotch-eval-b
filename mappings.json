@@ -6039,6 +6039,254 @@
         "changed_files": 2
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5412": {
+      "pr_number": 5412,
+      "pr_title": "chore: accept single character length name and trim white spaces",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5412",
+      "merged_at": "2025-09-29T07:55:40Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:38:58Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 32,
+        "deletions": 29,
+        "changed_files": 12
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5409": {
+      "pr_number": 5409,
+      "pr_title": "fix: highlight environment on string containing dot",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5409",
+      "merged_at": "2025-09-29T07:59:58Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "souravagrawal29",
+      "timestamp": "2026-10-14T07:39:08Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 16,
+        "deletions": 11,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5418": {
+      "pr_number": 5418,
+      "pr_title": "fix: correctly resolve inherited properties before request runs",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5418",
+      "merged_at": "2025-09-30T12:13:13Z",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:39:17Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 24,
+        "deletions": 53,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5433": {
+      "pr_number": 5433,
+      "pr_title": "fix(js-sandbox): resolve errors with `pw.env` namespace in legacy sandbox",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5433",
+      "merged_at": "2025-10-06T11:15:35Z",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T07:39:28Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 22,
+        "deletions": 15,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5455": {
+      "pr_number": 5455,
+      "pr_title": "chore: replace all instances of `twitter.com` with `x.com`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5455",
+      "merged_at": "2025-10-07T06:11:08Z",
+      "components": [],
+      "source": "ai",
+      "author": "cseas",
+      "timestamp": "2026-10-14T07:39:39Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 4,
+        "changed_files": 4
+      },
+      "labels": [
+        "hacktoberfest-accepted"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5434": {
+      "pr_number": 5434,
+      "pr_title": "fix: prevent syncing secret variable initial values",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5434",
+      "merged_at": "2025-10-07T11:45:06Z",
+      "components": [
+        "collections-environments",
+        "platform-abstraction",
+        "scripting-integration",
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:39:51Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments",
+        "platform-abstraction",
+        "scripting-integration",
+        "inspection-services"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 187,
+        "deletions": 54,
+        "changed_files": 9
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5452": {
+      "pr_number": 5452,
+      "pr_title": "fix: focus existing request tab instead of duplicating",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5452",
+      "merged_at": "2025-10-07T11:51:00Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:39:59Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5428": {
+      "pr_number": 5428,
+      "pr_title": "refactor: cleanup sync logic and imports",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5428",
+      "merged_at": "2025-10-08T08:01:29Z",
+      "components": [
+        "collections-environments",
+        "desktop-platform-adapters",
+        "web-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "Prit1912",
+      "timestamp": "2026-10-14T07:40:09Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments",
+        "desktop-platform-adapters",
+        "web-platform-adapters"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 71,
+        "deletions": 110,
+        "changed_files": 33
+      },
+      "labels": [
+        "hacktoberfest-accepted"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5496": {
+      "pr_number": 5496,
+      "pr_title": "fix: reset `ONBOARDING_COMPLETED` to `false` during infra config reset",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5496",
+      "merged_at": "2025-10-20T13:57:59Z",
+      "components": [
+        "prisma-data-access"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T07:40:18Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "prisma-data-access"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 13,
+        "deletions": 8,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5494": {
+      "pr_number": 5494,
+      "pr_title": "fix: ensure graceful shutdown and container stop when stopApp is called",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5494",
+      "merged_at": "2025-10-21T13:39:40Z",
+      "components": [
+        "graphql-api"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T07:40:29Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "graphql-api"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 17,
+        "deletions": 5,
+        "changed_files": 4
+      },
+      "auto_approved": true
     }
   }
 }
