@@ -8503,6 +8503,260 @@
         "i18n"
       ],
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5791": {
+      "pr_number": 5791,
+      "pr_title": "feat(js-sandbox): add extensive Web Crypto API support",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5791",
+      "merged_at": "2026-01-22T12:00:06Z",
+      "components": [
+        "scripting-integration",
+        "cli-script-sandbox"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T11:38:01Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration",
+        "cli-script-sandbox"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 3223,
+        "deletions": 199,
+        "changed_files": 13
+      },
+      "labels": [
+        "feature",
+        "sandbox"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5647": {
+      "pr_number": 5647,
+      "pr_title": "fix(backend): prevent cross-user `orderIndex` corruption and collection deadlocks",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5647",
+      "merged_at": "2026-01-22T18:32:49Z",
+      "components": [
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "shaezard",
+      "timestamp": "2026-10-14T11:38:09Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "user-team-management"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 1822,
+        "deletions": 719,
+        "changed_files": 11
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5790": {
+      "pr_number": 5790,
+      "pr_title": "docs(desktop): add installation instruction using `Homebrew`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5790",
+      "merged_at": "2026-01-23T06:15:58Z",
+      "components": [],
+      "source": "ai",
+      "author": "swanandvk",
+      "timestamp": "2026-10-14T11:38:14Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 8,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "labels": [
+        "documentation"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5794": {
+      "pr_number": 5794,
+      "pr_title": "fix(common): ignore shift keybindings in CodeMirror editors",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5794",
+      "merged_at": "2026-01-23T09:05:02Z",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "Leon-Luu",
+      "timestamp": "2026-10-14T11:38:23Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 2,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5795": {
+      "pr_number": 5795,
+      "pr_title": "feat(desktop): host mapping infra for cloud orgs",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5795",
+      "merged_at": "2026-01-23T09:37:44Z",
+      "components": [
+        "desktop-tauri-shell",
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T11:38:41Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "desktop-platform-adapters"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 1156,
+        "deletions": 488,
+        "changed_files": 29
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5799": {
+      "pr_number": 5799,
+      "pr_title": "fix(desktop): use store dir for unified store path",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5799",
+      "merged_at": "2026-01-23T12:50:00Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T11:38:50Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 3,
+        "deletions": 3,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5750": {
+      "pr_number": 5750,
+      "pr_title": "feat(common): show full request path in tab tooltip",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5750",
+      "merged_at": "2026-01-23T15:00:35Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "abhibarkade",
+      "timestamp": "2026-10-14T11:38:58Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 67,
+        "deletions": 2,
+        "changed_files": 1
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5793": {
+      "pr_number": 5793,
+      "pr_title": "feat(common): display user roles in member stack tooltips",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5793",
+      "merged_at": "2026-01-23T15:14:10Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "Leon-Luu",
+      "timestamp": "2026-10-14T11:39:07Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 8,
+        "deletions": 2,
+        "changed_files": 1
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5800": {
+      "pr_number": 5800,
+      "pr_title": "fix: prevent memory leaks in experimental scripting sandbox",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5800",
+      "merged_at": "2026-01-27T04:43:40Z",
+      "components": [
+        "scripting-integration",
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T11:39:16Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration",
+        "inspection-services"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 110,
+        "deletions": 57,
+        "changed_files": 8
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5814": {
+      "pr_number": 5814,
+      "pr_title": "fix(common): handle null request `ref` in `InspectionService` for test-runner tabs",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5814",
+      "merged_at": "2026-01-29T17:39:35Z",
+      "components": [
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "Leon-Luu",
+      "timestamp": "2026-10-14T11:39:24Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "inspection-services"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 11,
+        "deletions": 4,
+        "changed_files": 1
+      },
+      "auto_approved": true
     }
   }
 }
