@@ -2,6 +2,244 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#6587-20261014T120533Z",
+      "timestamp": "2026-10-14T12:05:33Z",
+      "pr_number": 6587,
+      "pr_title": "fix(desktop): probe auth before instance resume",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6587",
+      "components": [
+        "desktop-tauri-shell",
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-08-24T15:41:52Z",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "desktop-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 318,
+        "deletions": 31,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6584-20261014T120524Z",
+      "timestamp": "2026-10-14T12:05:24Z",
+      "pr_number": 6584,
+      "pr_title": "fix(common): cap connection timeout dropdown width",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6584",
+      "components": [
+        "desktop-settings-ui"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-08-20T02:12:05Z",
+      "ai_components": [
+        "desktop-settings-ui"
+      ],
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6552-20261014T120515Z",
+      "timestamp": "2026-10-14T12:05:15Z",
+      "pr_number": 6552,
+      "pr_title": "fix(backend): bump deprecated backend Dockerfile to `node:22`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6552",
+      "components": [],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-07-30T11:57:30Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6072-20261014T120505Z",
+      "timestamp": "2026-10-14T12:05:05Z",
+      "pr_number": 6072,
+      "pr_title": "fix(backend): prevent request loss in large team collections",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6072",
+      "components": [
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "Jurager",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-07-29T16:43:48Z",
+      "ai_components": [
+        "user-team-management"
+      ],
+      "diff_stats": {
+        "additions": 88,
+        "deletions": 11,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6510-20261014T120456Z",
+      "timestamp": "2026-10-14T12:04:56Z",
+      "pr_number": 6510,
+      "pr_title": "fix(common): personal workspace possible data loss issue",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6510",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-07-29T13:30:28Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 558,
+        "deletions": 96,
+        "changed_files": 11
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6456-20261014T120448Z",
+      "timestamp": "2026-10-14T12:04:48Z",
+      "pr_number": 6456,
+      "pr_title": "fix(desktop): hide native Edit menu bar on Linux",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6456",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "Souheyl7Gouadria",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-07-28T16:15:45Z",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 17,
+        "deletions": 3,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6542-20261014T120437Z",
+      "timestamp": "2026-10-14T12:04:37Z",
+      "pr_number": 6542,
+      "pr_title": "chore(native): pin plugin git deps by rev",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6542",
+      "components": [
+        "desktop-tauri-shell",
+        "agent-relay-engine"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-07-28T16:12:30Z",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "agent-relay-engine"
+      ],
+      "diff_stats": {
+        "additions": 14,
+        "deletions": 14,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6524-20261014T120421Z",
+      "timestamp": "2026-10-14T12:04:21Z",
+      "pr_number": 6524,
+      "pr_title": "feat(desktop): connection timeout bounds",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6524",
+      "components": [
+        "desktop-settings-ui",
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-07-28T14:16:01Z",
+      "ai_components": [
+        "desktop-settings-ui",
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 507,
+        "deletions": 199,
+        "changed_files": 13
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6541-20261014T120408Z",
+      "timestamp": "2026-10-14T12:04:08Z",
+      "pr_number": 6541,
+      "pr_title": "fix(common): drop ctrl+backspace, ctrl+delete",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6541",
+      "components": [
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-07-28T10:36:42Z",
+      "ai_components": [
+        "inspection-services"
+      ],
+      "diff_stats": {
+        "additions": 24,
+        "deletions": 3,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6533-20261014T120358Z",
+      "timestamp": "2026-10-14T12:03:58Z",
+      "pr_number": 6533,
+      "pr_title": "chore: security patch for the dependency chain `v2026.7.0`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6533",
+      "components": [
+        "auth-module",
+        "mailer-service",
+        "analytics-service",
+        "prisma-data-access"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-07-28T09:31:58Z",
+      "ai_components": [
+        "auth-module",
+        "mailer-service",
+        "analytics-service",
+        "prisma-data-access"
+      ],
+      "diff_stats": {
+        "additions": 2310,
+        "deletions": 1633,
+        "changed_files": 11
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#6503-20261014T120345Z",
       "timestamp": "2026-10-14T12:03:45Z",
       "pr_number": 6503,
