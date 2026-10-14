@@ -8757,6 +8757,264 @@
         "changed_files": 1
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5816": {
+      "pr_number": 5816,
+      "pr_title": "fix: broken scroll on latest chrome versions",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5816",
+      "merged_at": "2026-02-03T06:37:54Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "mayank-jain-1010",
+      "timestamp": "2026-10-14T11:39:34Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 6,
+        "deletions": 6,
+        "changed_files": 3
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5811": {
+      "pr_number": 5811,
+      "pr_title": "fix(common): prevent support menu from triggering in editors",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5811",
+      "merged_at": "2026-02-03T18:16:09Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "Leon-Luu",
+      "timestamp": "2026-10-14T11:39:44Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 16,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5821": {
+      "pr_number": 5821,
+      "pr_title": "fix(backend): use duration instead of timestamp for auth cookie maxAge",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5821",
+      "merged_at": "2026-02-04T05:38:08Z",
+      "components": [
+        "auth-module"
+      ],
+      "source": "ai",
+      "author": "njg7194",
+      "timestamp": "2026-10-14T11:39:53Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "auth-module"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 2,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5825": {
+      "pr_number": 5825,
+      "pr_title": "fix(backend): resolve database connection leak in infra-config operations",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5825",
+      "merged_at": "2026-02-04T11:55:00Z",
+      "components": [
+        "prisma-data-access"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T11:40:01Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "prisma-data-access"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 35,
+        "deletions": 8,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5833": {
+      "pr_number": 5833,
+      "pr_title": "chore(backend): upgrade nodemailer dependency to `v8`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5833",
+      "merged_at": "2026-02-04T13:10:13Z",
+      "components": [
+        "mailer-service"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T11:40:10Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "mailer-service"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 14,
+        "deletions": 14,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5831": {
+      "pr_number": 5831,
+      "pr_title": "fix(common): correctly populate OpenAPI response examples",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5831",
+      "merged_at": "2026-02-04T17:23:18Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T11:40:18Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 149,
+        "deletions": 36,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5835": {
+      "pr_number": 5835,
+      "pr_title": "fix(cli): strip module prefix before script execution",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5835",
+      "merged_at": "2026-02-05T05:09:04Z",
+      "components": [
+        "cli-script-sandbox"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T11:40:26Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "cli-script-sandbox"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 72,
+        "deletions": 49,
+        "changed_files": 4
+      },
+      "labels": [
+        "bug fix",
+        "cli"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5832": {
+      "pr_number": 5832,
+      "pr_title": "fix(common): correctly load mock servers on initialization and workspace change",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5832",
+      "merged_at": "2026-02-05T10:09:47Z",
+      "components": [
+        "mock-server-ui"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T11:40:35Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "mock-server-ui"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 42,
+        "deletions": 17,
+        "changed_files": 3
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5782": {
+      "pr_number": 5782,
+      "pr_title": "feat(common): URL encode/decode context menu actions",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5782",
+      "merged_at": "2026-02-16T11:25:48Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "KanhaiyaPandey",
+      "timestamp": "2026-10-14T11:40:43Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 91,
+        "deletions": 10,
+        "changed_files": 2
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5879": {
+      "pr_number": 5879,
+      "pr_title": "fix(common): correctly resolve secret environment variables in basic auth header",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5879",
+      "merged_at": "2026-02-16T12:51:11Z",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "aviu16",
+      "timestamp": "2026-10-14T11:40:51Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 45,
+        "deletions": 16,
+        "changed_files": 3
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
     }
   }
 }
