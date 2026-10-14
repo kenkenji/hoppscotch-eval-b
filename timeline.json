@@ -2,6 +2,267 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#6413-20261014T115948Z",
+      "timestamp": "2026-10-14T11:59:48Z",
+      "pr_number": 6413,
+      "pr_title": "fix(backend): reject path/query/fragment in SMTP URL validation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6413",
+      "components": [
+        "auth-module"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-06-11T10:08:37Z",
+      "ai_components": [
+        "auth-module"
+      ],
+      "diff_stats": {
+        "additions": 21,
+        "deletions": 4,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6409-20261014T115940Z",
+      "timestamp": "2026-10-14T11:59:40Z",
+      "pr_number": 6409,
+      "pr_title": "fix(backend): enforce ownership on user history and private User fields",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6409",
+      "components": [
+        "user-team-management",
+        "graphql-api",
+        "mock-server-module",
+        "published-docs-module",
+        "auth-module"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-06-10T12:45:11Z",
+      "ai_components": [
+        "user-team-management",
+        "graphql-api",
+        "mock-server-module",
+        "published-docs-module",
+        "auth-module"
+      ],
+      "diff_stats": {
+        "additions": 128,
+        "deletions": 16,
+        "changed_files": 10
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6410-20261014T115930Z",
+      "timestamp": "2026-10-14T11:59:30Z",
+      "pr_number": 6410,
+      "pr_title": "fix(mock-server): persist `isPublic` on creation, default to private",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6410",
+      "components": [
+        "mock-server-module"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-06-10T05:04:18Z",
+      "ai_components": [
+        "mock-server-module"
+      ],
+      "diff_stats": {
+        "additions": 70,
+        "deletions": 2,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6376-20261014T115921Z",
+      "timestamp": "2026-10-14T11:59:21Z",
+      "pr_number": 6376,
+      "pr_title": "fix(common): preserve collection tree on OpenAPI re-import",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6376",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-28T10:53:13Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 1455,
+        "deletions": 9,
+        "changed_files": 3
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6344-20261014T115912Z",
+      "timestamp": "2026-10-14T11:59:12Z",
+      "pr_number": 6344,
+      "pr_title": "feat: add Mongolian translation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6344",
+      "components": [],
+      "source": "ai",
+      "author": "cf3901646",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-28T10:50:17Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 2879,
+        "deletions": 0,
+        "changed_files": 4
+      },
+      "labels": [
+        "i18n"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6373-20261014T115900Z",
+      "timestamp": "2026-10-14T11:59:00Z",
+      "pr_number": 6373,
+      "pr_title": "fix: class validation issue for updateRESTUserRequest",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6373",
+      "components": [
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-27T07:33:47Z",
+      "ai_components": [
+        "user-team-management"
+      ],
+      "diff_stats": {
+        "additions": 15,
+        "deletions": 15,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6369-20261014T115851Z",
+      "timestamp": "2026-10-14T11:58:51Z",
+      "pr_number": 6369,
+      "pr_title": "fix(desktop): align appload types and resolve shell import alias",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6369",
+      "components": [
+        "desktop-settings-ui",
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-26T06:44:39Z",
+      "ai_components": [
+        "desktop-settings-ui",
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 45,
+        "deletions": 27,
+        "changed_files": 12
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5880-20261014T115842Z",
+      "timestamp": "2026-10-14T11:58:42Z",
+      "pr_number": 5880,
+      "pr_title": "feat(common): add OpenAPI 3.1 collection export",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5880",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "mcdgavin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-25T19:17:45Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 5510,
+        "deletions": 232,
+        "changed_files": 12
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6358-20261014T115829Z",
+      "timestamp": "2026-10-14T11:58:29Z",
+      "pr_number": 6358,
+      "pr_title": "feat(desktop): zoom level control in settings",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6358",
+      "components": [
+        "desktop-settings-ui",
+        "platform-abstraction",
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-25T19:07:50Z",
+      "ai_components": [
+        "desktop-settings-ui",
+        "platform-abstraction",
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 336,
+        "deletions": 68,
+        "changed_files": 20
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6336-20261014T115815Z",
+      "timestamp": "2026-10-14T11:58:15Z",
+      "pr_number": 6336,
+      "pr_title": "feat: make proxy URL configurable from env and admin dashboard",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6336",
+      "components": [
+        "admin-dashboard-ui",
+        "graphql-api",
+        "platform-abstraction",
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-25T18:47:53Z",
+      "ai_components": [
+        "admin-dashboard-ui",
+        "graphql-api",
+        "platform-abstraction",
+        "interceptors"
+      ],
+      "diff_stats": {
+        "additions": 378,
+        "deletions": 19,
+        "changed_files": 18
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#6333-20261014T115759Z",
       "timestamp": "2026-10-14T11:57:59Z",
       "pr_number": 6333,
