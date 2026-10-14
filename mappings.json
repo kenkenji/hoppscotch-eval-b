@@ -1381,6 +1381,240 @@
         "changed_files": 4
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4887": {
+      "pr_number": 4887,
+      "pr_title": "chore: replace old interceptor component with new one",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4887",
+      "merged_at": "2025-03-14T15:20:05Z",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:26:55Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 7,
+        "deletions": 63,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4883": {
+      "pr_number": 4883,
+      "pr_title": "fix(kernel): pre-req transformers for backcompat",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4883",
+      "merged_at": "2025-03-17T08:58:49Z",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:27:03Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 40,
+        "deletions": 9,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4890": {
+      "pr_number": 4890,
+      "pr_title": "fix: resolve issues around rendering HTML response previews",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4890",
+      "merged_at": "2025-03-18T08:02:08Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:27:13Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 35,
+        "deletions": 14,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4910": {
+      "pr_number": 4910,
+      "pr_title": "fix(common): pre-process proxy response to base type",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4910",
+      "merged_at": "2025-03-19T07:42:32Z",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:27:23Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 4,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4908": {
+      "pr_number": 4908,
+      "pr_title": "fix(common): handle missing host and basePath in OpenAPI URL parsing",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4908",
+      "merged_at": "2025-03-19T08:20:03Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:27:32Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 3,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4892": {
+      "pr_number": 4892,
+      "pr_title": "fix(desktop): preserve formdata ordering",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4892",
+      "merged_at": "2025-03-19T08:34:14Z",
+      "components": [
+        "desktop-tauri-shell",
+        "agent-relay-engine"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:27:45Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "agent-relay-engine"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 1978,
+        "deletions": 1541,
+        "changed_files": 8
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4888": {
+      "pr_number": 4888,
+      "pr_title": "fix(desktop): fix missing ca certs when client certs are not present",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4888",
+      "merged_at": "2025-03-19T09:07:55Z",
+      "components": [
+        "desktop-native-interceptor"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:27:54Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-native-interceptor"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 22,
+        "deletions": 24,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4906": {
+      "pr_number": 4906,
+      "pr_title": "fix: resolve issues around import via URL",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4906",
+      "merged_at": "2025-03-19T09:40:20Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:28:02Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 7,
+        "deletions": 4,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4911": {
+      "pr_number": 4911,
+      "pr_title": "fix(common): normalize headers before final relay",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4911",
+      "merged_at": "2025-03-19T10:17:42Z",
+      "components": [
+        "desktop-native-interceptor",
+        "agent-relay-engine"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:28:10Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-native-interceptor",
+        "agent-relay-engine"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 113,
+        "deletions": 79,
+        "changed_files": 10
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4893": {
+      "pr_number": 4893,
+      "pr_title": "fix(infra): deterministic env var ordering",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4893",
+      "merged_at": "2025-03-19T10:38:47Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:28:18Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 3,
+        "deletions": 0,
+        "changed_files": 3
+      },
+      "auto_approved": true
     }
   }
 }
