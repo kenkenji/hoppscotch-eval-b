@@ -1,0 +1,8 @@
+# Architecture Tracker — コンポーネント定義
+# SPA上のエディタで編集できます
+schema_version: "1"
+version: "1"
+model:
+  type: "c4"
+components: []
+relations: []
