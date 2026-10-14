@@ -2,6 +2,249 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#5231-20261014T072605Z",
+      "timestamp": "2026-10-14T07:26:05Z",
+      "pr_number": 5231,
+      "pr_title": "fix: allow aws signature to work with query params",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5231",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "rafalaidlaw",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-27T14:23:15Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 529,
+        "deletions": 41,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5242-20261014T072557Z",
+      "timestamp": "2026-10-14T07:25:57Z",
+      "pr_number": 5242,
+      "pr_title": "fix(common): added theme support for tooltips",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5242",
+      "components": [
+        "platform-abstraction",
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-25T08:06:09Z",
+      "ai_components": [
+        "platform-abstraction",
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 245,
+        "deletions": 104,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5191-20261014T072547Z",
+      "timestamp": "2026-10-14T07:25:47Z",
+      "pr_number": 5191,
+      "pr_title": "feat: move scripting code editors to use Monaco",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5191",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-25T08:05:37Z",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "diff_stats": {
+        "additions": 411,
+        "deletions": 53,
+        "changed_files": 11
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5247-20261014T072520Z",
+      "timestamp": "2026-10-14T07:25:20Z",
+      "pr_number": 5247,
+      "pr_title": "chore: add proper error msg and disable email updation in SH",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5247",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-25T07:12:51Z",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 151,
+        "deletions": 79,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5258-20261014T072511Z",
+      "timestamp": "2026-10-14T07:25:11Z",
+      "pr_number": 5258,
+      "pr_title": "feat(common): authorization ui panel revamp",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5258",
+      "components": [
+        "rest-client",
+        "graphql-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-24T16:56:54Z",
+      "ai_components": [
+        "rest-client",
+        "graphql-client"
+      ],
+      "diff_stats": {
+        "additions": 279,
+        "deletions": 72,
+        "changed_files": 12
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4435-20261014T072501Z",
+      "timestamp": "2026-10-14T07:25:01Z",
+      "pr_number": 4435,
+      "pr_title": "feat(common): add status code and additional metadata to GraphQL responses",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4435",
+      "components": [
+        "graphql-client"
+      ],
+      "source": "ai",
+      "author": "barrettluke",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-24T11:22:33Z",
+      "ai_components": [
+        "graphql-client"
+      ],
+      "diff_stats": {
+        "additions": 189,
+        "deletions": 2,
+        "changed_files": 4
+      },
+      "labels": [
+        "future"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5244-20261014T072451Z",
+      "timestamp": "2026-10-14T07:24:51Z",
+      "pr_number": 5244,
+      "pr_title": "feat(kernel): extensible content media types",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5244",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-24T10:59:50Z",
+      "ai_components": [
+        "interceptors"
+      ],
+      "diff_stats": {
+        "additions": 174,
+        "deletions": 25,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5259-20261014T072442Z",
+      "timestamp": "2026-10-14T07:24:42Z",
+      "pr_number": 5259,
+      "pr_title": "feat(desktop): portable phase-1 foundational: infra & build",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5259",
+      "components": [
+        "desktop-platform-adapters",
+        "desktop-native-interceptor",
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-24T10:15:49Z",
+      "ai_components": [
+        "desktop-platform-adapters",
+        "desktop-native-interceptor",
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 1078,
+        "deletions": 125,
+        "changed_files": 19
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4792-20261014T072427Z",
+      "timestamp": "2026-10-14T07:24:27Z",
+      "pr_number": 4792,
+      "pr_title": "fix: preserve encoded characters in cURL URLs",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4792",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "xTudoS",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-24T07:44:36Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 23,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5266-20261014T072416Z",
+      "timestamp": "2026-10-14T07:24:16Z",
+      "pr_number": 5266,
+      "pr_title": "feat(desktop): cross-platform `quit` action",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5266",
+      "components": [
+        "platform-abstraction",
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-23T13:56:34Z",
+      "ai_components": [
+        "platform-abstraction",
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 75,
+        "deletions": 6,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#5232-20261014T072401Z",
       "timestamp": "2026-10-14T07:24:01Z",
       "pr_number": 5232,

@@ -1,7 +1,5 @@
-# Architecture Tracker — コンポーネント定義
-# gh architecture-tracker generate-model でコードベースから生成した初期案です。SPA のエディタで調整してください
 schema_version: '1'
-version: '2'
+version: '3'
 model:
   type: c4
 components:
@@ -331,6 +329,11 @@ components:
   parent: hoppscotch-cli
   technology: chalk
   description: テスト結果を集計しCLI出力・終了コードを生成するレポーター
+- id: esm-sh-cdn
+  name: esm.sh CDN
+  level: system
+  description: ES moduleのTypeScript型定義(.d.ts)を提供する外部CDN。Monacoエディタのスクリプト編集時のIntelliSense/型取得に利用される
+  technology: CDN (HTTPS)
 relations:
 - from: hoppscotch-selfhost-web
   to: hoppscotch-common
@@ -468,3 +471,7 @@ relations:
   to: report-generator
   description: 実行結果のレポート生成依頼
   technology: TypeScript関数呼び出し
+- from: scripting-integration
+  to: esm-sh-cdn
+  description: Monacoエディタ用にESモジュールインポートのTypeScript型定義(.d.ts)を取得
+  technology: HTTPS (fetch)
