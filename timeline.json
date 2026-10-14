@@ -2,6 +2,196 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#5652-20261014T075426Z",
+      "timestamp": "2026-10-14T07:54:26Z",
+      "pr_number": 5652,
+      "pr_title": "feat(common): create and manage example responses in collections",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5652",
+      "components": [
+        "collections-environments",
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-19T17:44:21Z",
+      "ai_components": [
+        "collections-environments",
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 328,
+        "deletions": 4,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5710-20261014T075414Z",
+      "timestamp": "2026-10-14T07:54:14Z",
+      "pr_number": 5710,
+      "pr_title": "chore: security patch for the quic-go vulnerability",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5710",
+      "components": [
+        "webapp-server",
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-19T15:30:22Z",
+      "ai_components": [
+        "webapp-server",
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 1631,
+        "deletions": 1558,
+        "changed_files": 19
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5701-20261014T075357Z",
+      "timestamp": "2026-10-14T07:53:57Z",
+      "pr_number": 5701,
+      "pr_title": "fix(common): resolve Postman API key authorization header import mapping",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5701",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "AaronFortG",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-19T11:41:22Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5708-20261014T075348Z",
+      "timestamp": "2026-10-14T07:53:48Z",
+      "pr_number": 5708,
+      "pr_title": "feat(common): add platform support for organization switcher",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5708",
+      "components": [
+        "platform-abstraction",
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-19T07:09:50Z",
+      "ai_components": [
+        "platform-abstraction",
+        "inspection-services"
+      ],
+      "diff_stats": {
+        "additions": 479,
+        "deletions": 8,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5683-20261014T075329Z",
+      "timestamp": "2026-10-14T07:53:29Z",
+      "pr_number": 5683,
+      "pr_title": "feat(desktop): url focus and mru tab shortcuts",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5683",
+      "components": [
+        "desktop-tauri-shell",
+        "collections-environments",
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-16T11:55:56Z",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "collections-environments",
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 508,
+        "deletions": 6,
+        "changed_files": 14
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5695-20261014T075318Z",
+      "timestamp": "2026-10-14T07:53:18Z",
+      "pr_number": 5695,
+      "pr_title": "fix(common): restore scrolling on settings and profile pages",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5695",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-15T07:53:42Z",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5644-20261014T075307Z",
+      "timestamp": "2026-10-14T07:53:07Z",
+      "pr_number": 5644,
+      "pr_title": "perf(webapp-server): opt for build over run time",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5644",
+      "components": [
+        "web-pwa-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-15T06:24:37Z",
+      "ai_components": [
+        "web-pwa-shell"
+      ],
+      "diff_stats": {
+        "additions": 977,
+        "deletions": 2932,
+        "changed_files": 33
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5678-20261014T075231Z",
+      "timestamp": "2026-10-14T07:52:31Z",
+      "pr_number": 5678,
+      "pr_title": "chore: security patch for the dependency chain v2025.12.0",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5678",
+      "components": [],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-12T11:28:35Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 2017,
+        "deletions": 1578,
+        "changed_files": 21
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#5601-20261014T075212Z",
       "timestamp": "2026-10-14T07:52:12Z",
       "pr_number": 5601,

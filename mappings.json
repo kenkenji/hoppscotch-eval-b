@@ -7810,6 +7810,196 @@
         "changed_files": 8
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5678": {
+      "pr_number": 5678,
+      "pr_title": "chore: security patch for the dependency chain v2025.12.0",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5678",
+      "merged_at": "2025-12-12T11:28:35Z",
+      "components": [],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T07:52:31Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "8",
+      "diff_stats": {
+        "additions": 2017,
+        "deletions": 1578,
+        "changed_files": 21
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5644": {
+      "pr_number": 5644,
+      "pr_title": "perf(webapp-server): opt for build over run time",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5644",
+      "merged_at": "2025-12-15T06:24:37Z",
+      "components": [
+        "web-pwa-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:53:07Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "web-pwa-shell"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 977,
+        "deletions": 2932,
+        "changed_files": 33
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5695": {
+      "pr_number": 5695,
+      "pr_title": "fix(common): restore scrolling on settings and profile pages",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5695",
+      "merged_at": "2025-12-15T07:53:42Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T07:53:18Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5683": {
+      "pr_number": 5683,
+      "pr_title": "feat(desktop): url focus and mru tab shortcuts",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5683",
+      "merged_at": "2025-12-16T11:55:56Z",
+      "components": [
+        "desktop-tauri-shell",
+        "collections-environments",
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:53:29Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "collections-environments",
+        "rest-client"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 508,
+        "deletions": 6,
+        "changed_files": 14
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5708": {
+      "pr_number": 5708,
+      "pr_title": "feat(common): add platform support for organization switcher",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5708",
+      "merged_at": "2025-12-19T07:09:50Z",
+      "components": [
+        "platform-abstraction",
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T07:53:48Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction",
+        "inspection-services"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 479,
+        "deletions": 8,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5701": {
+      "pr_number": 5701,
+      "pr_title": "fix(common): resolve Postman API key authorization header import mapping",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5701",
+      "merged_at": "2025-12-19T11:41:22Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "AaronFortG",
+      "timestamp": "2026-10-14T07:53:57Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5710": {
+      "pr_number": 5710,
+      "pr_title": "chore: security patch for the quic-go vulnerability",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5710",
+      "merged_at": "2025-12-19T15:30:22Z",
+      "components": [
+        "webapp-server",
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T07:54:14Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "webapp-server",
+        "rest-client"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 1631,
+        "deletions": 1558,
+        "changed_files": 19
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5652": {
+      "pr_number": 5652,
+      "pr_title": "feat(common): create and manage example responses in collections",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5652",
+      "merged_at": "2025-12-19T17:44:21Z",
+      "components": [
+        "collections-environments",
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T07:54:26Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments",
+        "rest-client"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 328,
+        "deletions": 4,
+        "changed_files": 6
+      },
+      "auto_approved": true
     }
   }
 }

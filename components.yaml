@@ -1,5 +1,5 @@
 schema_version: '1'
-version: '8'
+version: '9'
 model:
   type: c4
 components:
@@ -9,6 +9,13 @@ components:
   description: REST/GraphQL/WebSocket等のAPI開発・テストを行うクライアントとそれを支えるバックエンド・管理機能からなるオープンソースAPI開発エコシステム
   tags:
   - internal
+- id: webapp-server
+  name: Webapp Update Server
+  level: container
+  description: デスクトップアプリ向けの署名付きWebappバンドル（ZIP+zstd, BLAKE3ハッシュ, ED25519署名）をビルド・配信する自己更新用サーバー。マニフェスト/バンドルダウンロード/公開鍵エンドポイントを提供
+    (旧Rust実装からGoへ移行)
+  parent: hoppscotch
+  technology: Go
 - id: github-oauth
   name: GitHub OAuth
   level: system
@@ -550,3 +557,7 @@ relations:
   to: interceptors
   description: pre/postスクリプト内の hopp.fetch()・グローバル fetch()・pm.sendRequest() から、選択中のインターセプター（Agent/Extension/Browser）経由で任意のHTTPリクエストを送出
   technology: TypeScript関数呼び出し / KernelInterceptorService
+- from: hoppscotch-selfhost-desktop
+  to: webapp-server
+  description: 署名付きWebappバンドルのマニフェスト取得・ダウンロード・検証用公開鍵取得による自己更新
+  technology: HTTPS (REST)
