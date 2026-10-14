@@ -1841,6 +1841,248 @@
         "changed_files": 4
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4942": {
+      "pr_number": 4942,
+      "pr_title": "feat: Agent registration UX flow updates",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4942",
+      "merged_at": "2025-03-27T15:39:25Z",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:30:00Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 163,
+        "deletions": 100,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4943": {
+      "pr_number": 4943,
+      "pr_title": "chore: bump vulnerable dependencies",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4943",
+      "merged_at": "2025-03-27T17:15:29Z",
+      "components": [
+        "collection-runner",
+        "hoppscotch-selfhost-web"
+      ],
+      "source": "ai",
+      "author": "AndrewBastin",
+      "timestamp": "2026-10-14T05:30:24Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collection-runner",
+        "hoppscotch-selfhost-web"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 70,
+        "deletions": 87,
+        "changed_files": 10
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4916": {
+      "pr_number": 4916,
+      "pr_title": "feat: format JSON responses having `text/plain` content type",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4916",
+      "merged_at": "2025-03-28T08:08:33Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:30:33Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 37,
+        "deletions": 2,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4927": {
+      "pr_number": 4927,
+      "pr_title": "fix(common): oauth2 basic header encoding",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4927",
+      "merged_at": "2025-03-28T08:16:22Z",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "qhris",
+      "timestamp": "2026-10-14T05:30:41Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 10,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4932": {
+      "pr_number": 4932,
+      "pr_title": "fix: import bug with extension and agent interceptors",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4932",
+      "merged_at": "2025-03-28T12:22:45Z",
+      "components": [
+        "interceptors",
+        "web-extension-interceptor",
+        "agent-relay-engine",
+        "agent-controller",
+        "desktop-native-interceptor"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:30:50Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors",
+        "web-extension-interceptor",
+        "agent-relay-engine",
+        "agent-controller",
+        "desktop-native-interceptor"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 35,
+        "deletions": 5,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4951": {
+      "pr_number": 4951,
+      "pr_title": "fix(web): add explicit headers following prior normalization",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4951",
+      "merged_at": "2025-04-04T09:15:06Z",
+      "components": [
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:31:01Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-platform-adapters"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 10,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4952": {
+      "pr_number": 4952,
+      "pr_title": "chore: add organization dashboard link to profile dropdown",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4952",
+      "merged_at": "2025-04-07T14:26:29Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:31:10Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 32,
+        "deletions": 1,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4966": {
+      "pr_number": 4966,
+      "pr_title": "fix(common): OpenAPI response example status code bug",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4966",
+      "merged_at": "2025-04-08T09:16:29Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:31:19Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 18,
+        "deletions": 3,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4945": {
+      "pr_number": 4945,
+      "pr_title": "fix(kernel): deterministic form data processing",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4945",
+      "merged_at": "2025-04-08T09:20:04Z",
+      "components": [
+        "interceptors",
+        "desktop-native-interceptor",
+        "desktop-tauri-shell",
+        "agent-relay-engine"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:31:29Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors",
+        "desktop-native-interceptor",
+        "desktop-tauri-shell",
+        "agent-relay-engine"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 219,
+        "deletions": 189,
+        "changed_files": 19
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4969": {
+      "pr_number": 4969,
+      "pr_title": "test(backend): account for race conditions in `verifyMagicLinkTokens` test suite",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4969",
+      "merged_at": "2025-04-08T15:02:01Z",
+      "components": [],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T05:31:33Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 3,
+        "changed_files": 1
+      },
+      "auto_approved": true
     }
   }
 }
