@@ -934,6 +934,233 @@
         "changed_files": 8
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4832": {
+      "pr_number": 4832,
+      "pr_title": "fix(common): exception while clicking request history entries",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4832",
+      "merged_at": "2025-03-05T13:44:55Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:23:55Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4829": {
+      "pr_number": 4829,
+      "pr_title": "fix: environment variable not working on auth",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4829",
+      "merged_at": "2025-03-05T14:20:16Z",
+      "components": [
+        "interceptors",
+        "agent-relay-engine"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:24:04Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors",
+        "agent-relay-engine"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 184,
+        "deletions": 165,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4834": {
+      "pr_number": 4834,
+      "pr_title": "fix(common): make `cursorPosition` field optional in `HoppGQLDocument` type",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4834",
+      "merged_at": "2025-03-05T14:25:07Z",
+      "components": [
+        "graphql-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:24:11Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "graphql-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 5,
+        "deletions": 3,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4836": {
+      "pr_number": 4836,
+      "pr_title": "fix(common): resolve issues around shared workspace invite validation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4836",
+      "merged_at": "2025-03-06T07:23:49Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T05:24:20Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 6,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4840": {
+      "pr_number": 4840,
+      "pr_title": "fix(common): `proxy` interceptor `json` response decode",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4840",
+      "merged_at": "2025-03-06T10:28:03Z",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:24:31Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 2,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4843": {
+      "pr_number": 4843,
+      "pr_title": "feat(infra): make webapp server part of fe container",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4843",
+      "merged_at": "2025-03-06T10:32:42Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:24:44Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 11,
+        "deletions": 30,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4844": {
+      "pr_number": 4844,
+      "pr_title": "fix(desktop): increase bundle download timeout",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4844",
+      "merged_at": "2025-03-06T11:14:29Z",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:24:52Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 17,
+        "deletions": 7,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4849": {
+      "pr_number": 4849,
+      "pr_title": "fix(agent): version bumps",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4849",
+      "merged_at": "2025-03-06T12:46:09Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:25:02Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 4,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4855": {
+      "pr_number": 4855,
+      "pr_title": "fix: typos in packages/hoppscotch-common/src/platform",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4855",
+      "merged_at": "2025-03-10T07:23:43Z",
+      "components": [],
+      "source": "ai",
+      "author": "luzpaz",
+      "timestamp": "2026-10-14T05:25:09Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 5,
+        "deletions": 5,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4865": {
+      "pr_number": 4865,
+      "pr_title": "docs: more detailed bug report template",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4865",
+      "merged_at": "2025-03-10T14:59:19Z",
+      "components": [],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:25:18Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 80,
+        "deletions": 3,
+        "changed_files": 1
+      },
+      "auto_approved": true
     }
   }
 }
