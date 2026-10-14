@@ -3474,6 +3474,238 @@
         "changed_files": 8
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5116": {
+      "pr_number": 5116,
+      "pr_title": "feat(common): change REST method text color based on selected method",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5116",
+      "merged_at": "2025-06-11T06:26:46Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "0x5b62656e5d",
+      "timestamp": "2026-10-14T05:42:03Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 3,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5140": {
+      "pr_number": 5140,
+      "pr_title": "fix(common): OpenAPI import worker not working in production",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5140",
+      "merged_at": "2025-06-11T13:44:46Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:42:14Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 28,
+        "deletions": 24,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5142": {
+      "pr_number": 5142,
+      "pr_title": "chore: German `i18n` string entry additions",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5142",
+      "merged_at": "2025-06-12T15:12:37Z",
+      "components": [
+        "web-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "pavog",
+      "timestamp": "2026-10-14T05:42:24Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "web-platform-adapters"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 42,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5124": {
+      "pr_number": 5124,
+      "pr_title": "fix: schema error and test updation flow",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5124",
+      "merged_at": "2025-06-13T04:25:05Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:42:34Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 1010,
+        "deletions": 915,
+        "changed_files": 55
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5143": {
+      "pr_number": 5143,
+      "pr_title": "fix: admin dashboard team member count bug",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5143",
+      "merged_at": "2025-06-13T04:27:04Z",
+      "components": [
+        "admin-dashboard-ui",
+        "admin-gql-client"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:42:43Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "admin-dashboard-ui",
+        "admin-gql-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 2,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5126": {
+      "pr_number": 5126,
+      "pr_title": "fix(desktop): in-memory update progress polling",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5126",
+      "merged_at": "2025-06-13T05:41:37Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:42:56Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 66,
+        "deletions": 36,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5147": {
+      "pr_number": 5147,
+      "pr_title": "feat(agent): file-based logs with rotation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5147",
+      "merged_at": "2025-06-13T08:18:33Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:43:11Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 122,
+        "deletions": 64,
+        "changed_files": 8
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5149": {
+      "pr_number": 5149,
+      "pr_title": "fix: team environment user access bug",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5149",
+      "merged_at": "2025-06-13T08:59:27Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:43:20Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 12,
+        "deletions": 19,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5150": {
+      "pr_number": 5150,
+      "pr_title": "chore(agent): version bump",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5150",
+      "merged_at": "2025-06-13T09:48:43Z",
+      "components": [
+        "hoppscotch-agent"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:43:30Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "hoppscotch-agent"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 5,
+        "deletions": 5,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5157": {
+      "pr_number": 5157,
+      "pr_title": "fix: add fallback for `isSecret` key",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5157",
+      "merged_at": "2025-06-16T12:52:52Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:43:38Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 4,
+        "changed_files": 4
+      },
+      "auto_approved": true
     }
   }
 }
