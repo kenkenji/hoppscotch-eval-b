@@ -9262,6 +9262,259 @@
         "changed_files": 5
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5842": {
+      "pr_number": 5842,
+      "pr_title": "fix(common): resolve TypeError when opening request from search results",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5842",
+      "merged_at": "2026-02-24T09:48:14Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "Leon-Luu",
+      "timestamp": "2026-10-14T11:42:53Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 13,
+        "deletions": 13,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5884": {
+      "pr_number": 5884,
+      "pr_title": "fix(common): increase modal dialog width for more screen sizes",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5884",
+      "merged_at": "2026-02-24T15:33:16Z",
+      "components": [
+        "collections-environments",
+        "documentation-ui"
+      ],
+      "source": "ai",
+      "author": "iDschepe",
+      "timestamp": "2026-10-14T11:43:02Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments",
+        "documentation-ui"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 4,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5903": {
+      "pr_number": 5903,
+      "pr_title": "feat(desktop): cloud for orgs platform contract",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5903",
+      "merged_at": "2026-02-24T17:51:48Z",
+      "components": [
+        "platform-abstraction",
+        "desktop-platform-adapters",
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T11:43:13Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction",
+        "desktop-platform-adapters",
+        "desktop-tauri-shell"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 339,
+        "deletions": 64,
+        "changed_files": 13
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5902": {
+      "pr_number": 5902,
+      "pr_title": "fix(backend): prevent IDOR in user collection and request endpoints",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5902",
+      "merged_at": "2026-02-24T18:02:44Z",
+      "components": [
+        "user-team-management",
+        "graphql-api"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T11:43:22Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "user-team-management",
+        "graphql-api"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 329,
+        "deletions": 230,
+        "changed_files": 10
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5906": {
+      "pr_number": 5906,
+      "pr_title": "fix(common): hide horizontal scrollbar in Firefox for URL input",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5906",
+      "merged_at": "2026-03-02T11:28:40Z",
+      "components": [
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "Theproudcold",
+      "timestamp": "2026-10-14T11:43:32Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "inspection-services"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 5,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5913": {
+      "pr_number": 5913,
+      "pr_title": "fix(backend): prevent request payload from overriding id and name",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5913",
+      "merged_at": "2026-03-02T16:20:43Z",
+      "components": [
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T11:43:41Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "user-team-management"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 68,
+        "deletions": 2,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5916": {
+      "pr_number": 5916,
+      "pr_title": "fix(backend): enforce user ownership when deleting PAT",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5916",
+      "merged_at": "2026-03-02T18:05:20Z",
+      "components": [
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T11:43:49Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "user-team-management"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 55,
+        "deletions": 17,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5929": {
+      "pr_number": 5929,
+      "pr_title": "fix(common): update documentation link for mock server",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5929",
+      "merged_at": "2026-03-03T09:58:24Z",
+      "components": [
+        "mock-server-ui"
+      ],
+      "source": "ai",
+      "author": "sh3xu",
+      "timestamp": "2026-10-14T11:43:58Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "mock-server-ui"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 2,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5932": {
+      "pr_number": 5932,
+      "pr_title": "fix(backend): bump Prisma packages to `7.4.2`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5932",
+      "merged_at": "2026-03-04T06:12:59Z",
+      "components": [
+        "prisma-data-access"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T11:44:06Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "prisma-data-access"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 59,
+        "deletions": 59,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5921": {
+      "pr_number": 5921,
+      "pr_title": "fix(common): persist OAuth2 code challenge method selection",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5921",
+      "merged_at": "2026-03-13T17:41:13Z",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "umutkeltek",
+      "timestamp": "2026-10-14T11:44:15Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
     }
   }
 }
