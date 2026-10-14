@@ -2,6 +2,252 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#5610-20261014T074607Z",
+      "timestamp": "2026-10-14T07:46:07Z",
+      "pr_number": 5610,
+      "pr_title": "fix: filter undefined values in config and update build files",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5610",
+      "components": [
+        "prisma-data-access"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-24T13:55:08Z",
+      "ai_components": [
+        "prisma-data-access"
+      ],
+      "diff_stats": {
+        "additions": 10,
+        "deletions": 5,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5590-20261014T074558Z",
+      "timestamp": "2026-10-14T07:45:58Z",
+      "pr_number": 5590,
+      "pr_title": "chore: security patch for the dependency chain v2025.11.0",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5590",
+      "components": [
+        "auth-module",
+        "mailer-service",
+        "prisma-data-access",
+        "analytics-service",
+        "graphql-api",
+        "cli-script-sandbox",
+        "collection-runner",
+        "scripting-integration",
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-24T08:51:29Z",
+      "ai_components": [
+        "auth-module",
+        "mailer-service",
+        "prisma-data-access",
+        "analytics-service",
+        "graphql-api",
+        "cli-script-sandbox",
+        "collection-runner",
+        "scripting-integration",
+        "interceptors"
+      ],
+      "diff_stats": {
+        "additions": 6223,
+        "deletions": 10260,
+        "changed_files": 69
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5605-20261014T074548Z",
+      "timestamp": "2026-10-14T07:45:48Z",
+      "pr_number": 5605,
+      "pr_title": "fix(common): prevent duplicate requests from showing active indicator simultaneously",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5605",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "chhaviG22",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-24T08:48:22Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 7,
+        "deletions": 2,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5584-20261014T074539Z",
+      "timestamp": "2026-10-14T07:45:39Z",
+      "pr_number": 5584,
+      "pr_title": "fix: resolve collection variable referencing issues",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5584",
+      "components": [
+        "collections-environments",
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-24T08:32:07Z",
+      "ai_components": [
+        "collections-environments",
+        "scripting-integration"
+      ],
+      "diff_stats": {
+        "additions": 124,
+        "deletions": 62,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5578-20261014T074530Z",
+      "timestamp": "2026-10-14T07:45:30Z",
+      "pr_number": 5578,
+      "pr_title": "fix(common): preserve team environment name during collection runs",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5578",
+      "components": [
+        "collections-environments",
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-13T08:32:55Z",
+      "ai_components": [
+        "collections-environments",
+        "scripting-integration"
+      ],
+      "diff_stats": {
+        "additions": 19,
+        "deletions": 12,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5568-20261014T074521Z",
+      "timestamp": "2026-10-14T07:45:21Z",
+      "pr_number": 5568,
+      "pr_title": "feat(ci): desktop workflow with platform jobs",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5568",
+      "components": [],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-13T06:09:55Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 56,
+        "deletions": 31,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5533-20261014T074508Z",
+      "timestamp": "2026-10-14T07:45:08Z",
+      "pr_number": 5533,
+      "pr_title": "fix: team collection not loading on route change",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5533",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-12T09:13:35Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 312,
+        "deletions": 25,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5560-20261014T074459Z",
+      "timestamp": "2026-10-14T07:44:59Z",
+      "pr_number": 5560,
+      "pr_title": "fix: capture environment before request run",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5560",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-11T14:55:44Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 230,
+        "deletions": 62,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5569-20261014T074450Z",
+      "timestamp": "2026-10-14T07:44:50Z",
+      "pr_number": 5569,
+      "pr_title": "fix(desktop): token validation and cookie parsing",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5569",
+      "components": [
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-10T17:40:43Z",
+      "ai_components": [
+        "desktop-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 14,
+        "deletions": 20,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5555-20261014T074442Z",
+      "timestamp": "2026-10-14T07:44:42Z",
+      "pr_number": 5555,
+      "pr_title": "fix(common): resolve script errors when switching sandbox modes",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5555",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-04T09:43:21Z",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "diff_stats": {
+        "additions": 44,
+        "deletions": 13,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#5536-20261014T074431Z",
       "timestamp": "2026-10-14T07:44:31Z",
       "pr_number": 5536,
