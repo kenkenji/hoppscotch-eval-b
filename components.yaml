@@ -1,5 +1,5 @@
 schema_version: '1'
-version: '9'
+version: '10'
 model:
   type: c4
 components:
@@ -73,6 +73,12 @@ components:
   description: コレクション・リクエストのドキュメント作成/編集/プレビュー、Markdown編集、公開ドキュメントの閲覧・共有URL発行を行うUIコンポーネント・サービス・composable群
   parent: hoppscotch-common
   technology: Vue 3, TypeScript, urql, Web Worker
+- id: desktop-settings-ui
+  name: Desktop Settings UI
+  level: component
+  description: デスクトップアプリ向け設定（自動更新チェックの有効/無効、手動アップデートチェックボタンなど）を提供するUI・composable・共有スキーマ群。デスクトッププラットフォームでのみ表示される設定セクションとしてadditionalSettingsSections経由で登録される
+  parent: hoppscotch-common
+  technology: Vue 3, TypeScript, Zod
 - id: hoppscotch-selfhost-web
   name: Hoppscotch Web App
   level: container
@@ -561,3 +567,8 @@ relations:
   to: webapp-server
   description: 署名付きWebappバンドルのマニフェスト取得・ダウンロード・検証用公開鍵取得による自己更新
   technology: HTTPS (REST)
+- from: desktop-settings-ui
+  to: desktop-tauri-shell
+  description: 更新チェック・ダウンロード・インストール・設定（DesktopConfig）同期のためのTauriコマンド呼び出し（check_for_updates,
+    download_and_install_update, restart_application, cancel_update, set_desktop_config）
+  technology: Tauri IPC

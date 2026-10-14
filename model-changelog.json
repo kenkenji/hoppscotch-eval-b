@@ -2,6 +2,30 @@
   "version": "1.0",
   "entries": [
     {
+      "model_version": "10",
+      "timestamp": "2026-10-14T11:54:39Z",
+      "changes": [
+        {
+          "type": "add",
+          "target": "component",
+          "id": "desktop-settings-ui",
+          "summary": "Desktop Settings UI コンポーネントを追加"
+        },
+        {
+          "type": "add_relation",
+          "target": "relation",
+          "id": "desktop-settings-ui -> desktop-tauri-shell",
+          "summary": "add_relation: desktop-settings-ui -> desktop-tauri-shell"
+        }
+      ],
+      "trigger": {
+        "type": "pr",
+        "pr_number": 6172,
+        "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6172"
+      },
+      "author": "catch-up"
+    },
+    {
       "model_version": "9",
       "timestamp": "2026-10-14T07:53:07Z",
       "changes": [

@@ -2,6 +2,282 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#6185-20261014T115548Z",
+      "timestamp": "2026-10-14T11:55:48Z",
+      "pr_number": 6185,
+      "pr_title": "fix(common): set domain url  as mockserver environment",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6185",
+      "components": [
+        "mock-server-ui"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-29T06:44:03Z",
+      "ai_components": [
+        "mock-server-ui"
+      ],
+      "diff_stats": {
+        "additions": 161,
+        "deletions": 20,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6240-20261014T115539Z",
+      "timestamp": "2026-10-14T11:55:39Z",
+      "pr_number": 6240,
+      "pr_title": "fix(backend): harden onboarding config endpoint",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6240",
+      "components": [
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-28T18:40:03Z",
+      "ai_components": [
+        "user-team-management"
+      ],
+      "diff_stats": {
+        "additions": 180,
+        "deletions": 1,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6191-20261014T115530Z",
+      "timestamp": "2026-10-14T11:55:30Z",
+      "pr_number": 6191,
+      "pr_title": "chore: security patch for the dependency chain `v2026.4.0`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6191",
+      "components": [
+        "auth-module",
+        "mailer-service",
+        "prisma-data-access",
+        "analytics-service",
+        "webapp-server"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-28T12:21:43Z",
+      "ai_components": [
+        "auth-module",
+        "mailer-service",
+        "prisma-data-access",
+        "analytics-service",
+        "webapp-server"
+      ],
+      "diff_stats": {
+        "additions": 3393,
+        "deletions": 2498,
+        "changed_files": 15
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6238-20261014T115507Z",
+      "timestamp": "2026-10-14T11:55:07Z",
+      "pr_number": 6238,
+      "pr_title": "fix(desktop): unified store scope and migration reroute",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6238",
+      "components": [
+        "desktop-settings-ui",
+        "platform-abstraction",
+        "desktop-platform-adapters",
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-28T09:29:11Z",
+      "ai_components": [
+        "desktop-settings-ui",
+        "platform-abstraction",
+        "desktop-platform-adapters",
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 168,
+        "deletions": 45,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6237-20261014T115456Z",
+      "timestamp": "2026-10-14T11:54:56Z",
+      "pr_number": 6237,
+      "pr_title": "fix(common): restore magic-link sign-in flow on cloud for orgs",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6237",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-28T08:32:51Z",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 7,
+        "deletions": 6,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6147-20261014T115447Z",
+      "timestamp": "2026-10-14T11:54:47Z",
+      "pr_number": 6147,
+      "pr_title": "feat(selfhost-web): make webapp-server timeouts configurable",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6147",
+      "components": [
+        "webapp-server"
+      ],
+      "source": "ai",
+      "author": "rkferreira",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-27T19:15:42Z",
+      "ai_components": [
+        "webapp-server"
+      ],
+      "diff_stats": {
+        "additions": 48,
+        "deletions": 14,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6172-20261014T115439Z",
+      "timestamp": "2026-10-14T11:54:39Z",
+      "pr_number": 6172,
+      "pr_title": "feat(desktop): settings phase 0 - infra and update check",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6172",
+      "components": [
+        "platform-abstraction",
+        "desktop-tauri-shell",
+        "desktop-platform-adapters",
+        "web-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-27T19:06:07Z",
+      "ai_components": [
+        "platform-abstraction",
+        "desktop-tauri-shell",
+        "desktop-platform-adapters",
+        "web-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 1593,
+        "deletions": 245,
+        "changed_files": 20
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6144-20261014T115349Z",
+      "timestamp": "2026-10-14T11:53:49Z",
+      "pr_number": 6144,
+      "pr_title": "fix(common): support `id_token` in Authorization Code OAuth flow",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6144",
+      "components": [
+        "auth-module"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-27T19:04:02Z",
+      "ai_components": [
+        "auth-module"
+      ],
+      "diff_stats": {
+        "additions": 20,
+        "deletions": 8,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5745-20261014T115340Z",
+      "timestamp": "2026-10-14T11:53:40Z",
+      "pr_number": 5745,
+      "pr_title": "feat: add collection-level pre-request and test scripts",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5745",
+      "components": [
+        "collections-environments",
+        "scripting-integration",
+        "cli-script-sandbox",
+        "collection-runner",
+        "published-docs-module",
+        "user-team-management",
+        "prisma-data-access",
+        "graphql-api",
+        "web-platform-adapters",
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "johnan319",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-27T18:18:53Z",
+      "ai_components": [
+        "collections-environments",
+        "scripting-integration",
+        "cli-script-sandbox",
+        "collection-runner",
+        "published-docs-module",
+        "user-team-management",
+        "prisma-data-access",
+        "graphql-api",
+        "web-platform-adapters",
+        "desktop-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 2791,
+        "deletions": 305,
+        "changed_files": 75
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6142-20261014T115315Z",
+      "timestamp": "2026-10-14T11:53:15Z",
+      "pr_number": 6142,
+      "pr_title": "fix(common): apply platform default proxy URL on load and reset",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6142",
+      "components": [
+        "interceptors",
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-23T12:55:27Z",
+      "ai_components": [
+        "interceptors",
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 109,
+        "deletions": 52,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#6158-20261014T115306Z",
       "timestamp": "2026-10-14T11:53:06Z",
       "pr_number": 6158,
