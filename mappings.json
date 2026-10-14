@@ -11635,6 +11635,280 @@
         "i18n"
       ],
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6363": {
+      "pr_number": 6363,
+      "pr_title": "fix(common): add missing Chinese locale keys",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6363",
+      "merged_at": "2026-06-30T07:59:03Z",
+      "components": [
+        "scripting-integration",
+        "documentation-ui",
+        "desktop-settings-ui"
+      ],
+      "source": "ai",
+      "author": "nikhil-shukl",
+      "timestamp": "2026-10-14T12:02:10Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration",
+        "documentation-ui",
+        "desktop-settings-ui"
+      ],
+      "model_version": "10",
+      "diff_stats": {
+        "additions": 34,
+        "deletions": 3,
+        "changed_files": 1
+      },
+      "labels": [
+        "i18n"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6334": {
+      "pr_number": 6334,
+      "pr_title": "refactor(common): improve syncing systems and remove platform-wise duplications",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6334",
+      "merged_at": "2026-06-30T09:24:04Z",
+      "components": [
+        "collections-environments",
+        "platform-abstraction",
+        "graphql-api",
+        "auth-module"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T12:02:16Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments",
+        "platform-abstraction",
+        "graphql-api",
+        "auth-module"
+      ],
+      "model_version": "10",
+      "diff_stats": {
+        "additions": 1745,
+        "deletions": 4760,
+        "changed_files": 113
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6444": {
+      "pr_number": 6444,
+      "pr_title": "feat(common): add OAuth2 token type selector for `id_token` support",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6444",
+      "merged_at": "2026-06-30T09:24:33Z",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T12:02:26Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors"
+      ],
+      "model_version": "10",
+      "diff_stats": {
+        "additions": 204,
+        "deletions": 23,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6478": {
+      "pr_number": 6478,
+      "pr_title": "fix(common): defer CookieJarService binding",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6478",
+      "merged_at": "2026-06-30T13:10:32Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T12:02:35Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "10",
+      "diff_stats": {
+        "additions": 48,
+        "deletions": 5,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6481": {
+      "pr_number": 6481,
+      "pr_title": "feat: allow containers to run with arbitrary non-root UIDs",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6481",
+      "merged_at": "2026-07-14T10:04:57Z",
+      "components": [
+        "hoppscotch-selfhost-web",
+        "hoppscotch-backend",
+        "hoppscotch-sh-admin",
+        "webapp-server"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T12:02:57Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "hoppscotch-selfhost-web",
+        "hoppscotch-backend",
+        "hoppscotch-sh-admin",
+        "webapp-server"
+      ],
+      "model_version": "10",
+      "diff_stats": {
+        "additions": 312,
+        "deletions": 43,
+        "changed_files": 13
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6502": {
+      "pr_number": 6502,
+      "pr_title": "fix: desktop login loop caused by empty auth cookies",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6502",
+      "merged_at": "2026-07-14T11:51:16Z",
+      "components": [
+        "interceptors",
+        "web-platform-adapters",
+        "auth-module"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T12:03:06Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors",
+        "web-platform-adapters",
+        "auth-module"
+      ],
+      "model_version": "10",
+      "diff_stats": {
+        "additions": 122,
+        "deletions": 8,
+        "changed_files": 5
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6496": {
+      "pr_number": 6496,
+      "pr_title": "fix: bump `relay` for agent response-cookie capture and pin fork revisions",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6496",
+      "merged_at": "2026-07-14T14:03:26Z",
+      "components": [
+        "desktop-tauri-shell",
+        "desktop-native-interceptor",
+        "agent-relay-engine"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T12:03:15Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "desktop-native-interceptor",
+        "agent-relay-engine"
+      ],
+      "model_version": "10",
+      "diff_stats": {
+        "additions": 13,
+        "deletions": 11,
+        "changed_files": 8
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6463": {
+      "pr_number": 6463,
+      "pr_title": "fix(common): lazy-load `jq-wasm` in the JSON lens renderer",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6463",
+      "merged_at": "2026-07-14T15:06:05Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "hassams",
+      "timestamp": "2026-10-14T12:03:24Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "10",
+      "diff_stats": {
+        "additions": 19,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6508": {
+      "pr_number": 6508,
+      "pr_title": "chore(agent): bump portable config to `v0.1.18`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6508",
+      "merged_at": "2026-07-15T16:15:19Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T12:03:34Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "10",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6503": {
+      "pr_number": 6503,
+      "pr_title": "feat(common): implement current env value fallback to initial value",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6503",
+      "merged_at": "2026-07-27T10:14:41Z",
+      "components": [
+        "collections-environments",
+        "scripting-integration",
+        "inspection-services",
+        "interceptors",
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T12:03:45Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments",
+        "scripting-integration",
+        "inspection-services",
+        "interceptors",
+        "platform-abstraction"
+      ],
+      "model_version": "10",
+      "diff_stats": {
+        "additions": 660,
+        "deletions": 369,
+        "changed_files": 45
+      },
+      "auto_approved": true
     }
   }
 }
