@@ -2,6 +2,280 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#5972-20261014T114621Z",
+      "timestamp": "2026-10-14T11:46:21Z",
+      "pr_number": 5972,
+      "pr_title": "feat: add `MAILER_SMTP_IGNORE_TLS` and optional SMTP auth",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5972",
+      "components": [
+        "mailer-service",
+        "admin-dashboard-ui"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-25T18:00:47Z",
+      "ai_components": [
+        "mailer-service",
+        "admin-dashboard-ui"
+      ],
+      "diff_stats": {
+        "additions": 194,
+        "deletions": 41,
+        "changed_files": 12
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6006-20261014T114612Z",
+      "timestamp": "2026-10-14T11:46:12Z",
+      "pr_number": 6006,
+      "pr_title": "fix(backend): prevent stored XSS via mock server responses and cross-team request moves",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6006",
+      "components": [
+        "mock-server-module",
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-25T10:46:38Z",
+      "ai_components": [
+        "mock-server-module",
+        "user-team-management"
+      ],
+      "diff_stats": {
+        "additions": 171,
+        "deletions": 16,
+        "changed_files": 6
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6013-20261014T114603Z",
+      "timestamp": "2026-10-14T11:46:03Z",
+      "pr_number": 6013,
+      "pr_title": "chore: security patch for the dependency chain `v2026.3.0`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6013",
+      "components": [
+        "prisma-data-access",
+        "graphql-api",
+        "mailer-service",
+        "analytics-service",
+        "webapp-server"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-24T11:04:36Z",
+      "ai_components": [
+        "prisma-data-access",
+        "graphql-api",
+        "mailer-service",
+        "analytics-service",
+        "webapp-server"
+      ],
+      "diff_stats": {
+        "additions": 3625,
+        "deletions": 3068,
+        "changed_files": 16
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5982-20261014T114542Z",
+      "timestamp": "2026-10-14T11:45:42Z",
+      "pr_number": 5982,
+      "pr_title": "fix(common): prevent open redirect in enter page",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5982",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-20T07:11:31Z",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 139,
+        "deletions": 7,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5920-20261014T114533Z",
+      "timestamp": "2026-10-14T11:45:33Z",
+      "pr_number": 5920,
+      "pr_title": "fix(desktop): add native Edit menu to enable clipboard shortcuts on Linux",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5920",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "umutkeltek",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-19T18:00:23Z",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 38,
+        "deletions": 2,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5893-20261014T114525Z",
+      "timestamp": "2026-10-14T11:45:25Z",
+      "pr_number": 5893,
+      "pr_title": "fix(common): prevent infinite auth refresh retry loop on permanent token failure",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5893",
+      "components": [
+        "platform-abstraction",
+        "web-backend-gql-client",
+        "admin-gql-client",
+        "admin-auth",
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "danielalanbates",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-19T17:39:01Z",
+      "ai_components": [
+        "platform-abstraction",
+        "web-backend-gql-client",
+        "admin-gql-client",
+        "admin-auth",
+        "desktop-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 427,
+        "deletions": 25,
+        "changed_files": 8
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5935-20261014T114516Z",
+      "timestamp": "2026-10-14T11:45:16Z",
+      "pr_number": 5935,
+      "pr_title": "fix: restore tooltips on icon-only buttons inside popover triggers",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5935",
+      "components": [
+        "hoppscotch-common",
+        "graphql-client",
+        "interceptors",
+        "admin-dashboard-ui"
+      ],
+      "source": "ai",
+      "author": "nikhilmahato21",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-18T09:41:15Z",
+      "ai_components": [
+        "hoppscotch-common",
+        "graphql-client",
+        "interceptors",
+        "admin-dashboard-ui"
+      ],
+      "diff_stats": {
+        "additions": 192,
+        "deletions": 9,
+        "changed_files": 6
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5792-20261014T114443Z",
+      "timestamp": "2026-10-14T11:44:43Z",
+      "pr_number": 5792,
+      "pr_title": "fix(common): fetch full team collection tree on workspace import",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5792",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "chhaviG22",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-17T10:44:51Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 38,
+        "deletions": 121,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5984-20261014T114435Z",
+      "timestamp": "2026-10-14T11:44:35Z",
+      "pr_number": 5984,
+      "pr_title": "fix(common): prevent stored XSS in team member overflow tooltip",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5984",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-14T11:56:44Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 12,
+        "deletions": 3,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5979-20261014T114426Z",
+      "timestamp": "2026-10-14T11:44:26Z",
+      "pr_number": 5979,
+      "pr_title": "chore(common): update Chinese translations",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5979",
+      "components": [
+        "hoppscotch-common"
+      ],
+      "source": "ai",
+      "author": "jiangzm",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-13T18:29:14Z",
+      "ai_components": [
+        "hoppscotch-common"
+      ],
+      "diff_stats": {
+        "additions": 136,
+        "deletions": 63,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#5921-20261014T114415Z",
       "timestamp": "2026-10-14T11:44:15Z",
       "pr_number": 5921,

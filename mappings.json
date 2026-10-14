@@ -9515,6 +9515,280 @@
         "bug fix"
       ],
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5979": {
+      "pr_number": 5979,
+      "pr_title": "chore(common): update Chinese translations",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5979",
+      "merged_at": "2026-03-13T18:29:14Z",
+      "components": [
+        "hoppscotch-common"
+      ],
+      "source": "ai",
+      "author": "jiangzm",
+      "timestamp": "2026-10-14T11:44:26Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "hoppscotch-common"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 136,
+        "deletions": 63,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5984": {
+      "pr_number": 5984,
+      "pr_title": "fix(common): prevent stored XSS in team member overflow tooltip",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5984",
+      "merged_at": "2026-03-14T11:56:44Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T11:44:35Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 12,
+        "deletions": 3,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5792": {
+      "pr_number": 5792,
+      "pr_title": "fix(common): fetch full team collection tree on workspace import",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5792",
+      "merged_at": "2026-03-17T10:44:51Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "chhaviG22",
+      "timestamp": "2026-10-14T11:44:43Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 38,
+        "deletions": 121,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5935": {
+      "pr_number": 5935,
+      "pr_title": "fix: restore tooltips on icon-only buttons inside popover triggers",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5935",
+      "merged_at": "2026-03-18T09:41:15Z",
+      "components": [
+        "hoppscotch-common",
+        "graphql-client",
+        "interceptors",
+        "admin-dashboard-ui"
+      ],
+      "source": "ai",
+      "author": "nikhilmahato21",
+      "timestamp": "2026-10-14T11:45:16Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "hoppscotch-common",
+        "graphql-client",
+        "interceptors",
+        "admin-dashboard-ui"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 192,
+        "deletions": 9,
+        "changed_files": 6
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5893": {
+      "pr_number": 5893,
+      "pr_title": "fix(common): prevent infinite auth refresh retry loop on permanent token failure",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5893",
+      "merged_at": "2026-03-19T17:39:01Z",
+      "components": [
+        "platform-abstraction",
+        "web-backend-gql-client",
+        "admin-gql-client",
+        "admin-auth",
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "danielalanbates",
+      "timestamp": "2026-10-14T11:45:25Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction",
+        "web-backend-gql-client",
+        "admin-gql-client",
+        "admin-auth",
+        "desktop-platform-adapters"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 427,
+        "deletions": 25,
+        "changed_files": 8
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5920": {
+      "pr_number": 5920,
+      "pr_title": "fix(desktop): add native Edit menu to enable clipboard shortcuts on Linux",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5920",
+      "merged_at": "2026-03-19T18:00:23Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "umutkeltek",
+      "timestamp": "2026-10-14T11:45:33Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 38,
+        "deletions": 2,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5982": {
+      "pr_number": 5982,
+      "pr_title": "fix(common): prevent open redirect in enter page",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5982",
+      "merged_at": "2026-03-20T07:11:31Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T11:45:42Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 139,
+        "deletions": 7,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6013": {
+      "pr_number": 6013,
+      "pr_title": "chore: security patch for the dependency chain `v2026.3.0`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6013",
+      "merged_at": "2026-03-24T11:04:36Z",
+      "components": [
+        "prisma-data-access",
+        "graphql-api",
+        "mailer-service",
+        "analytics-service",
+        "webapp-server"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T11:46:03Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "prisma-data-access",
+        "graphql-api",
+        "mailer-service",
+        "analytics-service",
+        "webapp-server"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 3625,
+        "deletions": 3068,
+        "changed_files": 16
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6006": {
+      "pr_number": 6006,
+      "pr_title": "fix(backend): prevent stored XSS via mock server responses and cross-team request moves",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6006",
+      "merged_at": "2026-03-25T10:46:38Z",
+      "components": [
+        "mock-server-module",
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T11:46:12Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "mock-server-module",
+        "user-team-management"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 171,
+        "deletions": 16,
+        "changed_files": 6
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5972": {
+      "pr_number": 5972,
+      "pr_title": "feat: add `MAILER_SMTP_IGNORE_TLS` and optional SMTP auth",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5972",
+      "merged_at": "2026-03-25T18:00:47Z",
+      "components": [
+        "mailer-service",
+        "admin-dashboard-ui"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T11:46:21Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "mailer-service",
+        "admin-dashboard-ui"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 194,
+        "deletions": 41,
+        "changed_files": 12
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
     }
   }
 }
