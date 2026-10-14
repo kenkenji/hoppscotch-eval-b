@@ -10037,6 +10037,259 @@
         "changed_files": 12
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6057": {
+      "pr_number": 6057,
+      "pr_title": "fix: use team.findMany for fetching user teams",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6057",
+      "merged_at": "2026-03-28T02:37:10Z",
+      "components": [
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T11:48:30Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "user-team-management"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 79,
+        "deletions": 66,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6068": {
+      "pr_number": 6068,
+      "pr_title": "fix(common): resolve history schema mismatch on page reload",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6068",
+      "merged_at": "2026-03-30T09:57:54Z",
+      "components": [
+        "platform-abstraction",
+        "desktop-platform-adapters",
+        "web-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T11:48:38Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction",
+        "desktop-platform-adapters",
+        "web-platform-adapters"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 36,
+        "deletions": 70,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6069": {
+      "pr_number": 6069,
+      "pr_title": "chore: align Tauri plugin-shell versions",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6069",
+      "merged_at": "2026-03-30T10:23:20Z",
+      "components": [
+        "desktop-tauri-shell",
+        "hoppscotch-common",
+        "web-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T11:48:57Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "hoppscotch-common",
+        "web-platform-adapters"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 174,
+        "deletions": 190,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6059": {
+      "pr_number": 6059,
+      "pr_title": "fix(common): newly created folder not shown in save-as dialog",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6059",
+      "merged_at": "2026-03-30T14:57:52Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "majiayu000",
+      "timestamp": "2026-10-14T11:49:09Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 8,
+        "deletions": 8,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6131": {
+      "pr_number": 6131,
+      "pr_title": "chore: patch axios CVEs and bump related dependencies",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6131",
+      "merged_at": "2026-04-13T11:43:17Z",
+      "components": [
+        "collection-runner",
+        "interceptors",
+        "mailer-service"
+      ],
+      "source": "ai",
+      "author": "dependabot[bot]",
+      "timestamp": "2026-10-14T11:50:47Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collection-runner",
+        "interceptors",
+        "mailer-service"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 251,
+        "deletions": 240,
+        "changed_files": 11
+      },
+      "labels": [
+        "major",
+        "javascript",
+        "dependencies"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6122": {
+      "pr_number": 6122,
+      "pr_title": "refactor(cli): match test-result helper name to documented contract",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6122",
+      "merged_at": "2026-04-15T08:18:31Z",
+      "components": [
+        "collection-runner"
+      ],
+      "source": "ai",
+      "author": "Basavaraj8143",
+      "timestamp": "2026-10-14T11:50:56Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collection-runner"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 6,
+        "deletions": 7,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6098": {
+      "pr_number": 6098,
+      "pr_title": "feat(backend): use stateless OAuth2 state store",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6098",
+      "merged_at": "2026-04-15T13:02:43Z",
+      "components": [
+        "auth-module"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T11:51:06Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "auth-module"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 289,
+        "deletions": 60,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6137": {
+      "pr_number": 6137,
+      "pr_title": "fix(common): handle non-string values in Postman collection import",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6137",
+      "merged_at": "2026-04-15T14:44:43Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "okxint",
+      "timestamp": "2026-10-14T11:51:15Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 64,
+        "deletions": 4,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6117": {
+      "pr_number": 6117,
+      "pr_title": "fix(common): correct environment locale wording",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6117",
+      "merged_at": "2026-04-16T11:22:54Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "PallavSarkar2005",
+      "timestamp": "2026-10-14T11:51:23Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 4,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#6125": {
+      "pr_number": 6125,
+      "pr_title": "fix(data): make `$randomUUID` predefined variable RFC 4122 compliant",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6125",
+      "merged_at": "2026-04-17T08:38:02Z",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "Grizouforever",
+      "timestamp": "2026-10-14T11:51:32Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "model_version": "9",
+      "diff_stats": {
+        "additions": 21,
+        "deletions": 34,
+        "changed_files": 1
+      },
+      "auto_approved": true
     }
   }
 }

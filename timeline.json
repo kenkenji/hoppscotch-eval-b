@@ -2,6 +2,259 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#6125-20261014T115132Z",
+      "timestamp": "2026-10-14T11:51:32Z",
+      "pr_number": 6125,
+      "pr_title": "fix(data): make `$randomUUID` predefined variable RFC 4122 compliant",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6125",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "Grizouforever",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-17T08:38:02Z",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "diff_stats": {
+        "additions": 21,
+        "deletions": 34,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6117-20261014T115123Z",
+      "timestamp": "2026-10-14T11:51:23Z",
+      "pr_number": 6117,
+      "pr_title": "fix(common): correct environment locale wording",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6117",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "PallavSarkar2005",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-16T11:22:54Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 4,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6137-20261014T115115Z",
+      "timestamp": "2026-10-14T11:51:15Z",
+      "pr_number": 6137,
+      "pr_title": "fix(common): handle non-string values in Postman collection import",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6137",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "okxint",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-15T14:44:43Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 64,
+        "deletions": 4,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6098-20261014T115106Z",
+      "timestamp": "2026-10-14T11:51:06Z",
+      "pr_number": 6098,
+      "pr_title": "feat(backend): use stateless OAuth2 state store",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6098",
+      "components": [
+        "auth-module"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-15T13:02:43Z",
+      "ai_components": [
+        "auth-module"
+      ],
+      "diff_stats": {
+        "additions": 289,
+        "deletions": 60,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6122-20261014T115056Z",
+      "timestamp": "2026-10-14T11:50:56Z",
+      "pr_number": 6122,
+      "pr_title": "refactor(cli): match test-result helper name to documented contract",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6122",
+      "components": [
+        "collection-runner"
+      ],
+      "source": "ai",
+      "author": "Basavaraj8143",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-15T08:18:31Z",
+      "ai_components": [
+        "collection-runner"
+      ],
+      "diff_stats": {
+        "additions": 6,
+        "deletions": 7,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6131-20261014T115047Z",
+      "timestamp": "2026-10-14T11:50:47Z",
+      "pr_number": 6131,
+      "pr_title": "chore: patch axios CVEs and bump related dependencies",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6131",
+      "components": [
+        "collection-runner",
+        "interceptors",
+        "mailer-service"
+      ],
+      "source": "ai",
+      "author": "dependabot[bot]",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-13T11:43:17Z",
+      "ai_components": [
+        "collection-runner",
+        "interceptors",
+        "mailer-service"
+      ],
+      "diff_stats": {
+        "additions": 251,
+        "deletions": 240,
+        "changed_files": 11
+      },
+      "labels": [
+        "major",
+        "javascript",
+        "dependencies"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6059-20261014T114909Z",
+      "timestamp": "2026-10-14T11:49:09Z",
+      "pr_number": 6059,
+      "pr_title": "fix(common): newly created folder not shown in save-as dialog",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6059",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "majiayu000",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-30T14:57:52Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 8,
+        "deletions": 8,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6069-20261014T114857Z",
+      "timestamp": "2026-10-14T11:48:57Z",
+      "pr_number": 6069,
+      "pr_title": "chore: align Tauri plugin-shell versions",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6069",
+      "components": [
+        "desktop-tauri-shell",
+        "hoppscotch-common",
+        "web-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-30T10:23:20Z",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "hoppscotch-common",
+        "web-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 174,
+        "deletions": 190,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6068-20261014T114838Z",
+      "timestamp": "2026-10-14T11:48:38Z",
+      "pr_number": 6068,
+      "pr_title": "fix(common): resolve history schema mismatch on page reload",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6068",
+      "components": [
+        "platform-abstraction",
+        "desktop-platform-adapters",
+        "web-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-30T09:57:54Z",
+      "ai_components": [
+        "platform-abstraction",
+        "desktop-platform-adapters",
+        "web-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 36,
+        "deletions": 70,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6057-20261014T114830Z",
+      "timestamp": "2026-10-14T11:48:30Z",
+      "pr_number": 6057,
+      "pr_title": "fix: use team.findMany for fetching user teams",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6057",
+      "components": [
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-28T02:37:10Z",
+      "ai_components": [
+        "user-team-management"
+      ],
+      "diff_stats": {
+        "additions": 79,
+        "deletions": 66,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#6055-20261014T114820Z",
       "timestamp": "2026-10-14T11:48:20Z",
       "pr_number": 6055,
