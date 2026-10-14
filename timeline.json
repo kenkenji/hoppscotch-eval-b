@@ -2,6 +2,238 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#5232-20261014T072401Z",
+      "timestamp": "2026-10-14T07:24:01Z",
+      "pr_number": 5232,
+      "pr_title": "feat(common): enhance URL parsing to use environment variables on openapi import",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5232",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-14T08:42:28Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 5,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5226-20261014T072351Z",
+      "timestamp": "2026-10-14T07:23:51Z",
+      "pr_number": 5226,
+      "pr_title": "fix(desktop): disk space detection on overlay fs",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5226",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-11T08:02:15Z",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 37,
+        "deletions": 31,
+        "changed_files": 9
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5237-20261014T072341Z",
+      "timestamp": "2026-10-14T07:23:41Z",
+      "pr_number": 5237,
+      "pr_title": "chore(common): fixes lint errors and clean up code",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5237",
+      "components": [],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-11T07:26:04Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 20,
+        "deletions": 41,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5214-20261014T072332Z",
+      "timestamp": "2026-10-14T07:23:32Z",
+      "pr_number": 5214,
+      "pr_title": "fix: fallback env to initial and make valid url in codegen",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5214",
+      "components": [
+        "collections-environments",
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-10T11:12:50Z",
+      "ai_components": [
+        "collections-environments",
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 37,
+        "deletions": 28,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5224-20261014T072321Z",
+      "timestamp": "2026-10-14T07:23:21Z",
+      "pr_number": 5224,
+      "pr_title": "fix: avoid shortcut conflicts in CodeMirror editors",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5224",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "SharadSaha",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-10T10:53:41Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 97,
+        "deletions": 1,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5225-20261014T072311Z",
+      "timestamp": "2026-10-14T07:23:11Z",
+      "pr_number": 5225,
+      "pr_title": "feat(common): retry import openapi from url with proxy interceptor on network error",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5225",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-10T10:43:31Z",
+      "ai_components": [
+        "interceptors"
+      ],
+      "diff_stats": {
+        "additions": 150,
+        "deletions": 32,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5213-20261014T072301Z",
+      "timestamp": "2026-10-14T07:23:01Z",
+      "pr_number": 5213,
+      "pr_title": "fix: unicode error in postman import",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5213",
+      "components": [
+        "prisma-data-access"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-09T11:28:51Z",
+      "ai_components": [
+        "prisma-data-access"
+      ],
+      "diff_stats": {
+        "additions": 20,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5227-20261014T072252Z",
+      "timestamp": "2026-10-14T07:22:52Z",
+      "pr_number": 5227,
+      "pr_title": "fix(agent): `vue-tsc` and `typescript` compat (CI)",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5227",
+      "components": [
+        "desktop-tauri-shell",
+        "agent-relay-engine"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-09T11:12:10Z",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "agent-relay-engine"
+      ],
+      "diff_stats": {
+        "additions": 7,
+        "deletions": 2959,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5229-20261014T072243Z",
+      "timestamp": "2026-10-14T07:22:43Z",
+      "pr_number": 5229,
+      "pr_title": "feat(desktop): tab shortcuts discoverability",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5229",
+      "components": [
+        "scripting-integration",
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-09T11:03:12Z",
+      "ai_components": [
+        "scripting-integration",
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 53,
+        "deletions": 2,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5217-20261014T072232Z",
+      "timestamp": "2026-10-14T07:22:32Z",
+      "pr_number": 5217,
+      "pr_title": "fix: tooltip alignment update",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5217",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-07-07T07:48:28Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 7,
+        "deletions": 3,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#5200-20261014T072222Z",
       "timestamp": "2026-10-14T07:22:22Z",
       "pr_number": 5200,
