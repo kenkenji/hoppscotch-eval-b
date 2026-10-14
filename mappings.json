@@ -2083,6 +2083,236 @@
         "changed_files": 1
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4967": {
+      "pr_number": 4967,
+      "pr_title": "feat: add support to export http postman graphql request",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4967",
+      "merged_at": "2025-04-09T10:23:12Z",
+      "components": [
+        "rest-client",
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:31:43Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client",
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 29,
+        "deletions": 3,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4917": {
+      "pr_number": 4917,
+      "pr_title": "feat(common): lenient OpenAPI imports",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4917",
+      "merged_at": "2025-04-09T14:14:35Z",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:31:54Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 73,
+        "deletions": 29,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4975": {
+      "pr_number": 4975,
+      "pr_title": "feat: allow multiple params with same key to process get request queryparams",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4975",
+      "merged_at": "2025-04-10T07:24:26Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:32:03Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 31,
+        "deletions": 25,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4977": {
+      "pr_number": 4977,
+      "pr_title": "feat(common): enhanced cookie parsing from curl arguments",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4977",
+      "merged_at": "2025-04-10T07:26:05Z",
+      "components": [
+        "cli-script-sandbox",
+        "collection-runner"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:32:12Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "cli-script-sandbox",
+        "collection-runner"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 69,
+        "deletions": 17,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4980": {
+      "pr_number": 4980,
+      "pr_title": "fix(common): extention interceptor response meta",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4980",
+      "merged_at": "2025-04-10T07:58:20Z",
+      "components": [
+        "web-extension-interceptor"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:32:20Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "web-extension-interceptor"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 53,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4958": {
+      "pr_number": 4958,
+      "pr_title": "chore: truncate long secret environment variables",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4958",
+      "merged_at": "2025-04-11T11:55:12Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "atrimpe-ford",
+      "timestamp": "2026-10-14T05:32:29Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 2,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4995": {
+      "pr_number": 4995,
+      "pr_title": "fix(common): refine profile field validations",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4995",
+      "merged_at": "2025-04-15T07:39:37Z",
+      "components": [
+        "web-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "NayanUnni95",
+      "timestamp": "2026-10-14T05:32:37Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "web-platform-adapters"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 79,
+        "deletions": 5,
+        "changed_files": 32
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4992": {
+      "pr_number": 4992,
+      "pr_title": "fix: account for `templates` directory in ARM images",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4992",
+      "merged_at": "2025-04-15T07:43:53Z",
+      "components": [
+        "prisma-data-access"
+      ],
+      "source": "ai",
+      "author": "g3Bg2",
+      "timestamp": "2026-10-14T05:32:48Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "prisma-data-access"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 3,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5006": {
+      "pr_number": 5006,
+      "pr_title": "feat: add colour highlight for codesnippet",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5006",
+      "merged_at": "2025-04-24T11:24:18Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:32:56Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 62,
+        "deletions": 3,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4999": {
+      "pr_number": 4999,
+      "pr_title": "chore(i18n): update `es` translation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4999",
+      "merged_at": "2025-04-24T11:29:47Z",
+      "components": [],
+      "source": "ai",
+      "author": "moaqz",
+      "timestamp": "2026-10-14T05:33:04Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 7,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
     }
   }
 }
