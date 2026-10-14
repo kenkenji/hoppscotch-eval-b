@@ -2,6 +2,254 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#6055-20261014T114820Z",
+      "timestamp": "2026-10-14T11:48:20Z",
+      "pr_number": 6055,
+      "pr_title": "chore: patch dependency vulnerabilities and harden production image",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6055",
+      "components": [],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-27T13:56:27Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 461,
+        "deletions": 597,
+        "changed_files": 12
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5898-20261014T114812Z",
+      "timestamp": "2026-10-14T11:48:12Z",
+      "pr_number": 5898,
+      "pr_title": "feat(common): fall back to `ref_id` in remove functions when `id` is missing",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5898",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-27T12:52:31Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 39,
+        "deletions": 1,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6012-20261014T114803Z",
+      "timestamp": "2026-10-14T11:48:03Z",
+      "pr_number": 6012,
+      "pr_title": "fix: validate device-login redirect_uri to prevent token theft via DNS wildcard bypass",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6012",
+      "components": [
+        "auth-module",
+        "web-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "nahidhasan94",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-27T09:15:47Z",
+      "ai_components": [
+        "auth-module",
+        "web-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 134,
+        "deletions": 5,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6047-20261014T114751Z",
+      "timestamp": "2026-10-14T11:47:51Z",
+      "pr_number": 6047,
+      "pr_title": "fix(desktop): add missing backport changes",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6047",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-26T17:56:22Z",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 1218,
+        "deletions": 1747,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5917-20261014T114743Z",
+      "timestamp": "2026-10-14T11:47:43Z",
+      "pr_number": 5917,
+      "pr_title": "fix(common): handle File objects in HAR postData text resolution",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5917",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "sh3xu",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-26T15:26:36Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 23,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5950-20261014T114734Z",
+      "timestamp": "2026-10-14T11:47:34Z",
+      "pr_number": 5950,
+      "pr_title": "fix(common): use operation title as fallback in OpenAPI import",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5950",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "hypergadam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-26T15:21:30Z",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 27,
+        "deletions": 2,
+        "changed_files": 1
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6009-20261014T114725Z",
+      "timestamp": "2026-10-14T11:47:25Z",
+      "pr_number": 6009,
+      "pr_title": "fix: keyboard shortcuts on non-English layouts",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6009",
+      "components": [
+        "platform-abstraction",
+        "web-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-26T13:36:00Z",
+      "ai_components": [
+        "platform-abstraction",
+        "web-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 50,
+        "deletions": 27,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6043-20261014T114716Z",
+      "timestamp": "2026-10-14T11:47:16Z",
+      "pr_number": 6043,
+      "pr_title": "feat(desktop): cloud for orgs support - phase 3",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6043",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-26T12:30:51Z",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 1158,
+        "deletions": 128,
+        "changed_files": 36
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6036-20261014T114642Z",
+      "timestamp": "2026-10-14T11:46:42Z",
+      "pr_number": 6036,
+      "pr_title": "refactor(common): route mock server and published docs operations through platform backend",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6036",
+      "components": [
+        "mock-server-ui",
+        "documentation-ui",
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-25T19:11:36Z",
+      "ai_components": [
+        "mock-server-ui",
+        "documentation-ui",
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 221,
+        "deletions": 159,
+        "changed_files": 17
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5968-20261014T114632Z",
+      "timestamp": "2026-10-14T11:46:32Z",
+      "pr_number": 5968,
+      "pr_title": "feat: show user workspace memberships in admin dashboard",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5968",
+      "components": [
+        "user-team-management",
+        "graphql-api"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-03-25T18:58:36Z",
+      "ai_components": [
+        "user-team-management",
+        "graphql-api"
+      ],
+      "diff_stats": {
+        "additions": 203,
+        "deletions": 8,
+        "changed_files": 7
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#5972-20261014T114621Z",
       "timestamp": "2026-10-14T11:46:21Z",
       "pr_number": 5972,
