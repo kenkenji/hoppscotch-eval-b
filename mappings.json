@@ -3706,6 +3706,188 @@
         "changed_files": 4
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5154": {
+      "pr_number": 5154,
+      "pr_title": "fix: auth tokens not propagating to child requests",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5154",
+      "merged_at": "2025-06-17T07:09:42Z",
+      "components": [
+        "collections-environments",
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "mayank-jain-1010",
+      "timestamp": "2026-10-14T05:43:49Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments",
+        "platform-abstraction"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 8,
+        "deletions": 3,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5160": {
+      "pr_number": 5160,
+      "pr_title": "fix: team env not migrating in edge cases",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5160",
+      "merged_at": "2025-06-17T09:29:38Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:43:57Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 12,
+        "deletions": 6,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5162": {
+      "pr_number": 5162,
+      "pr_title": "chore: use initial value in runtime if current value is empty",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5162",
+      "merged_at": "2025-06-18T11:31:20Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:44:05Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 68,
+        "deletions": 45,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5141": {
+      "pr_number": 5141,
+      "pr_title": "fix(kernel): body size calculation in web relay",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5141",
+      "merged_at": "2025-06-19T07:02:07Z",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "soumyamakkar",
+      "timestamp": "2026-10-14T05:44:13Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 8,
+        "deletions": 5,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5171": {
+      "pr_number": 5171,
+      "pr_title": "chore: remove spotlight animation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5171",
+      "merged_at": "2025-06-19T09:36:04Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:44:22Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 14,
+        "deletions": 125,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5170": {
+      "pr_number": 5170,
+      "pr_title": "chore: rename test to post-request",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5170",
+      "merged_at": "2025-06-19T10:57:49Z",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:44:30Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 113,
+        "deletions": 113,
+        "changed_files": 37
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5174": {
+      "pr_number": 5174,
+      "pr_title": "docs: unified fields for bug report template",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5174",
+      "merged_at": "2025-06-20T07:32:31Z",
+      "components": [],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:44:39Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 101,
+        "deletions": 118,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5176": {
+      "pr_number": 5176,
+      "pr_title": "fix(desktop): prevent navigation on file drops",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5176",
+      "merged_at": "2025-06-24T08:58:12Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:44:49Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 80,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
     }
   }
 }
