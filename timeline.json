@@ -2,6 +2,236 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#5249-20261014T073509Z",
+      "timestamp": "2026-10-14T07:35:09Z",
+      "pr_number": 5249,
+      "pr_title": "fix: handle actions for logged-in users in case of token expiration",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5249",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "chhaviG22",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-09-22T13:36:40Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 340,
+        "deletions": 58,
+        "changed_files": 19
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5381-20261014T073500Z",
+      "timestamp": "2026-10-14T07:35:00Z",
+      "pr_number": 5381,
+      "pr_title": "fix(desktop): window lifecycle for instance switch",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5381",
+      "components": [
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-09-22T09:25:53Z",
+      "ai_components": [
+        "desktop-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 56,
+        "deletions": 19,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5384-20261014T073450Z",
+      "timestamp": "2026-10-14T07:34:50Z",
+      "pr_number": 5384,
+      "pr_title": "fix: prevent empty entries when dragging items past last row",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5384",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "aakashsbhatia2",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-09-18T08:43:33Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 316,
+        "deletions": 0,
+        "changed_files": 9
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5370-20261014T073440Z",
+      "timestamp": "2026-10-14T07:34:40Z",
+      "pr_number": 5370,
+      "pr_title": "fix(common): correct indentation for nested endpoints in sidebar",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5370",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "jarvis2754",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-09-08T10:56:55Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 7,
+        "deletions": 7,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5368-20261014T073431Z",
+      "timestamp": "2026-10-14T07:34:31Z",
+      "pr_number": 5368,
+      "pr_title": "fix: add support for data-schema changes after version bump",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5368",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-09-02T09:50:03Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 58,
+        "deletions": 35,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5363-20261014T073419Z",
+      "timestamp": "2026-10-14T07:34:19Z",
+      "pr_number": 5363,
+      "pr_title": "feat: remove minimum length restriction on shared workspace names",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5363",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-09-02T08:18:29Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 7,
+        "deletions": 7,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5365-20261014T073411Z",
+      "timestamp": "2026-10-14T07:34:11Z",
+      "pr_number": 5365,
+      "pr_title": "fix: `orderIndex` update to scope by collection ID",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5365",
+      "components": [
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-09-02T07:49:53Z",
+      "ai_components": [
+        "user-team-management"
+      ],
+      "diff_stats": {
+        "additions": 4,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5353-20261014T073403Z",
+      "timestamp": "2026-10-14T07:34:03Z",
+      "pr_number": 5353,
+      "pr_title": "chore: update `ws` dependency for `subscriptions-transport-ws`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5353",
+      "components": [],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-08-27T11:43:42Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5338-20261014T073354Z",
+      "timestamp": "2026-10-14T07:33:54Z",
+      "pr_number": 5338,
+      "pr_title": "fix: maintain incremental `orderIndex` for collections and requests across workspaces",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5338",
+      "components": [
+        "user-team-management",
+        "prisma-data-access",
+        "graphql-api"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-08-27T08:03:28Z",
+      "ai_components": [
+        "user-team-management",
+        "prisma-data-access",
+        "graphql-api"
+      ],
+      "diff_stats": {
+        "additions": 1763,
+        "deletions": 1438,
+        "changed_files": 36
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5287-20261014T073343Z",
+      "timestamp": "2026-10-14T07:33:43Z",
+      "pr_number": 5287,
+      "pr_title": "feat(common): support advanced parameters in `implicit`, `password`, and `client_credentials` grant types",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5287",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-08-27T07:35:37Z",
+      "ai_components": [
+        "interceptors"
+      ],
+      "diff_stats": {
+        "additions": 1676,
+        "deletions": 1396,
+        "changed_files": 9
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#5340-20261014T073330Z",
       "timestamp": "2026-10-14T07:33:30Z",
       "pr_number": 5340,
