@@ -2,6 +2,36 @@
   "version": "1.0",
   "entries": [
     {
+      "model_version": "11",
+      "timestamp": "2026-10-14T12:06:54Z",
+      "changes": [
+        {
+          "type": "add",
+          "target": "component",
+          "id": "collection-runner-ui",
+          "summary": "Collection Runner UI コンポーネントを追加"
+        },
+        {
+          "type": "add_relation",
+          "target": "relation",
+          "id": "collection-runner-ui -> interceptors",
+          "summary": "add_relation: collection-runner-ui -> interceptors"
+        },
+        {
+          "type": "add_relation",
+          "target": "relation",
+          "id": "collection-runner-ui -> collections-environments",
+          "summary": "add_relation: collection-runner-ui -> collections-environments"
+        }
+      ],
+      "trigger": {
+        "type": "pr",
+        "pr_number": 6513,
+        "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6513"
+      },
+      "author": "catch-up"
+    },
+    {
       "model_version": "10",
       "timestamp": "2026-10-14T11:54:39Z",
       "changes": [

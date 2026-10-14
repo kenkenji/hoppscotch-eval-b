@@ -1,5 +1,5 @@
 schema_version: '1'
-version: '10'
+version: '11'
 model:
   type: c4
 components:
@@ -79,6 +79,13 @@ components:
   description: デスクトップアプリ向け設定（自動更新チェックの有効/無効、手動アップデートチェックボタンなど）を提供するUI・composable・共有スキーマ群。デスクトッププラットフォームでのみ表示される設定セクションとしてadditionalSettingsSections経由で登録される
   parent: hoppscotch-common
   technology: Vue 3, TypeScript, Zod
+- id: collection-runner-ui
+  name: Collection Runner UI
+  level: component
+  description: コレクションをデータファイル(CSV/JSON)に基づき繰り返し実行するランナー機能。リクエスト選択・イテレーション変数の注入・結果のJSONエクスポートを提供するUI・サービス・ヘルパー群（RunnerModal,
+    Runner, RunnerResult, test-runner.service, dataset/selection/iteration-vars helpers）
+  parent: hoppscotch-common
+  technology: Vue 3, TypeScript, papaparse
 - id: hoppscotch-selfhost-web
   name: Hoppscotch Web App
   level: container
@@ -572,3 +579,11 @@ relations:
   description: 更新チェック・ダウンロード・インストール・設定（DesktopConfig）同期のためのTauriコマンド呼び出し（check_for_updates,
     download_and_install_update, restart_application, cancel_update, set_desktop_config）
   technology: Tauri IPC
+- from: collection-runner-ui
+  to: interceptors
+  description: 選択されたインターセプターを介した各イテレーションのリクエスト送出
+  technology: TypeScript関数呼び出し
+- from: collection-runner-ui
+  to: collections-environments
+  description: 実行対象コレクション・環境変数の参照とイテレーション変数の一時適用
+  technology: TypeScript関数呼び出し

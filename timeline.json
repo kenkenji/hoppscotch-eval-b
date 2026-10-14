@@ -2,6 +2,187 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#6545-20261014T120709Z",
+      "timestamp": "2026-10-14T12:07:09Z",
+      "pr_number": 6545,
+      "pr_title": "feat: REST-GQL Unified workspace",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6545",
+      "components": [
+        "rest-client",
+        "graphql-client",
+        "realtime-protocols",
+        "collections-environments",
+        "scripting-integration",
+        "documentation-ui",
+        "collection-runner-ui",
+        "user-team-management",
+        "prisma-data-access",
+        "mock-server-module",
+        "collection-runner",
+        "cli-script-sandbox"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-08-28T07:35:10Z",
+      "ai_components": [
+        "rest-client",
+        "graphql-client",
+        "realtime-protocols",
+        "collections-environments",
+        "scripting-integration",
+        "documentation-ui",
+        "collection-runner-ui",
+        "user-team-management",
+        "prisma-data-access",
+        "mock-server-module",
+        "collection-runner",
+        "cli-script-sandbox"
+      ],
+      "diff_stats": {
+        "additions": 17891,
+        "deletions": 3393,
+        "changed_files": 287
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6513-20261014T120654Z",
+      "timestamp": "2026-10-14T12:06:54Z",
+      "pr_number": 6513,
+      "pr_title": "feat(common): data-driven collection runs with datasets",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6513",
+      "components": [
+        "rest-client",
+        "collections-environments",
+        "interceptors",
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "pmondal-int",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-08-27T13:05:53Z",
+      "ai_components": [
+        "rest-client",
+        "collections-environments",
+        "interceptors",
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 4333,
+        "deletions": 460,
+        "changed_files": 36
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6592-20261014T120614Z",
+      "timestamp": "2026-10-14T12:06:14Z",
+      "pr_number": 6592,
+      "pr_title": "fix(common): preserve request tab description on documentation save",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6592",
+      "components": [
+        "documentation-ui",
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-08-27T11:29:06Z",
+      "ai_components": [
+        "documentation-ui",
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 555,
+        "deletions": 45,
+        "changed_files": 8
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6604-20261014T120604Z",
+      "timestamp": "2026-10-14T12:06:04Z",
+      "pr_number": 6604,
+      "pr_title": "chore: security patch for the dependency chain `v2026.8.0`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6604",
+      "components": [
+        "prisma-data-access",
+        "mailer-service",
+        "analytics-service",
+        "auth-module",
+        "graphql-api",
+        "rest-api"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-08-26T12:21:34Z",
+      "ai_components": [
+        "prisma-data-access",
+        "mailer-service",
+        "analytics-service",
+        "auth-module",
+        "graphql-api",
+        "rest-api"
+      ],
+      "diff_stats": {
+        "additions": 2356,
+        "deletions": 2025,
+        "changed_files": 14
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6585-20261014T120552Z",
+      "timestamp": "2026-10-14T12:05:52Z",
+      "pr_number": 6585,
+      "pr_title": "fix(common): distinguish host-only cookies",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6585",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-08-25T12:25:06Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 163,
+        "deletions": 10,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6586-20261014T120543Z",
+      "timestamp": "2026-10-14T12:05:43Z",
+      "pr_number": 6586,
+      "pr_title": "fix(common): agent Set-Cookie header fallback",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6586",
+      "components": [
+        "desktop-native-interceptor"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-08-24T15:42:28Z",
+      "ai_components": [
+        "desktop-native-interceptor"
+      ],
+      "diff_stats": {
+        "additions": 286,
+        "deletions": 2,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#6587-20261014T120533Z",
       "timestamp": "2026-10-14T12:05:33Z",
       "pr_number": 6587,
