@@ -2,6 +2,226 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#4773-20261014T051930Z",
+      "timestamp": "2026-10-14T05:19:30Z",
+      "pr_number": 4773,
+      "pr_title": "feat: updated the hard coded proxy url with the server fetched ",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4773",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-20T15:46:49Z",
+      "ai_components": [
+        "interceptors"
+      ],
+      "diff_stats": {
+        "additions": 58,
+        "deletions": 7,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4759-20261014T051921Z",
+      "timestamp": "2026-10-14T05:19:21Z",
+      "pr_number": 4759,
+      "pr_title": "fix: request validation issue on load persistence tab",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4759",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-20T10:59:43Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 16,
+        "deletions": 2,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4770-20261014T051912Z",
+      "timestamp": "2026-10-14T05:19:12Z",
+      "pr_number": 4770,
+      "pr_title": "test(cli): temporarily skip digest auth test",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4770",
+      "components": [],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-20T10:29:09Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 5,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4766-20261014T051907Z",
+      "timestamp": "2026-10-14T05:19:07Z",
+      "pr_number": 4766,
+      "pr_title": "fix: typos in packages/hoppscotch-selfhost-desktop",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4766",
+      "components": [],
+      "source": "ai",
+      "author": "luzpaz",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-20T08:15:29Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 7,
+        "deletions": 7,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4642-20261014T051859Z",
+      "timestamp": "2026-10-14T05:18:59Z",
+      "pr_number": 4642,
+      "pr_title": "feat(sh-admin): introducing input validations to server configurations in admin dashboard",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4642",
+      "components": [
+        "admin-dashboard-ui",
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "joeljstephen",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-19T14:41:21Z",
+      "ai_components": [
+        "admin-dashboard-ui",
+        "user-team-management"
+      ],
+      "diff_stats": {
+        "additions": 68,
+        "deletions": 5,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4763-20261014T051850Z",
+      "timestamp": "2026-10-14T05:18:50Z",
+      "pr_number": 4763,
+      "pr_title": "fix: close context menu while scrolling",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4763",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-19T10:24:33Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 2,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4724-20261014T051837Z",
+      "timestamp": "2026-10-14T05:18:37Z",
+      "pr_number": 4724,
+      "pr_title": "fix: cURL header imports without trailing space",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4724",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "stelardn",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-19T07:48:02Z",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "diff_stats": {
+        "additions": 43,
+        "deletions": 0,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4760-20261014T051828Z",
+      "timestamp": "2026-10-14T05:18:28Z",
+      "pr_number": 4760,
+      "pr_title": "feat: visual enhancement for inactive fields",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4760",
+      "components": [
+        "rest-client",
+        "collections-environments",
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-19T07:06:16Z",
+      "ai_components": [
+        "rest-client",
+        "collections-environments",
+        "inspection-services"
+      ],
+      "diff_stats": {
+        "additions": 10,
+        "deletions": 0,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4749-20261014T051816Z",
+      "timestamp": "2026-10-14T05:18:16Z",
+      "pr_number": 4749,
+      "pr_title": "chore: fix typos in `.vue` component files",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4749",
+      "components": [],
+      "source": "ai",
+      "author": "luzpaz",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-18T18:17:14Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 2,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4373-20261014T051808Z",
+      "timestamp": "2026-10-14T05:18:08Z",
+      "pr_number": 4373,
+      "pr_title": "fix: import openapi file servers url detection",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4373",
+      "components": [],
+      "source": "ai",
+      "author": "Lupennat",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-02-07T09:51:18Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#4725-20261014T051757Z",
       "timestamp": "2026-10-14T05:17:57Z",
       "pr_number": 4725,
