@@ -2548,6 +2548,234 @@
         "self-host"
       ],
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4388": {
+      "pr_number": 4388,
+      "pr_title": "refactor(backend): minor updates in `TeamEnvironmentsService`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4388",
+      "merged_at": "2025-04-29T09:07:05Z",
+      "components": [
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "mir-ishfaq-hussain",
+      "timestamp": "2026-10-14T05:34:55Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "user-team-management"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 8,
+        "deletions": 7,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4694": {
+      "pr_number": 4694,
+      "pr_title": "feat: add support for `HAWK` authentication",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4694",
+      "merged_at": "2025-04-29T09:21:19Z",
+      "components": [
+        "rest-client",
+        "interceptors",
+        "collection-runner",
+        "agent-relay-engine"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:35:13Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client",
+        "interceptors",
+        "collection-runner",
+        "agent-relay-engine"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 709,
+        "deletions": 50,
+        "changed_files": 24
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5036": {
+      "pr_number": 5036,
+      "pr_title": "feat: update xmldom version to xmldom/xmldom0.9.8",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5036",
+      "merged_at": "2025-05-02T11:11:49Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "chhaviG22",
+      "timestamp": "2026-10-14T05:35:23Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 218,
+        "deletions": 78,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5037": {
+      "pr_number": 5037,
+      "pr_title": "feat(common): platform ui definition for team edit and invite",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5037",
+      "merged_at": "2025-05-02T15:22:14Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:35:32Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 117,
+        "deletions": 26,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5040": {
+      "pr_number": 5040,
+      "pr_title": "fix: default Content-Type to x-www-form-urlencoded when importing curl POST with body",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5040",
+      "merged_at": "2025-05-07T08:55:46Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "shuaixr",
+      "timestamp": "2026-10-14T05:35:40Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 10,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5053": {
+      "pr_number": 5053,
+      "pr_title": "refactor: rename enum `TeamMemberRole` to `TeamAccessRole`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5053",
+      "merged_at": "2025-05-07T12:26:10Z",
+      "components": [
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "g3Bg2",
+      "timestamp": "2026-10-14T05:35:48Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "user-team-management"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 329,
+        "deletions": 327,
+        "changed_files": 43
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4963": {
+      "pr_number": 4963,
+      "pr_title": "feat: import authorization header with curl",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4963",
+      "merged_at": "2025-05-08T09:38:51Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "chhaviG22",
+      "timestamp": "2026-10-14T05:35:57Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 32,
+        "deletions": 7,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5041": {
+      "pr_number": 5041,
+      "pr_title": "fix(common): url and param encoding",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5041",
+      "merged_at": "2025-05-08T09:59:08Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:36:05Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 29,
+        "deletions": 6,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5059": {
+      "pr_number": 5059,
+      "pr_title": "hotfix: pin `xmldom` to `v0.8.10` addressing breaking change",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5059",
+      "merged_at": "2025-05-08T10:07:49Z",
+      "components": [],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T05:36:14Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 7,
+        "deletions": 7,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5061": {
+      "pr_number": 5061,
+      "pr_title": "chore: `hoppscotch-backend` code formatting, minor lint fixes, and refactoring",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5061",
+      "merged_at": "2025-05-09T09:37:20Z",
+      "components": [],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T05:36:24Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 276,
+        "deletions": 422,
+        "changed_files": 66
+      },
+      "auto_approved": true
     }
   }
 }
