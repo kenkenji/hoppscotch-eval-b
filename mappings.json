@@ -3008,6 +3008,248 @@
         "changed_files": 2
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5091": {
+      "pr_number": 5091,
+      "pr_title": "chore: display platform links in app header",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5091",
+      "merged_at": "2025-05-21T15:33:58Z",
+      "components": [
+        "platform-abstraction",
+        "web-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:38:16Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction",
+        "web-platform-adapters"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 240,
+        "deletions": 17,
+        "changed_files": 10
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5085": {
+      "pr_number": 5085,
+      "pr_title": "chore(backend): update dependencies",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5085",
+      "merged_at": "2025-05-22T11:03:00Z",
+      "components": [
+        "hoppscotch-backend"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T05:38:24Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "hoppscotch-backend"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 5593,
+        "deletions": 2137,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5055": {
+      "pr_number": 5055,
+      "pr_title": "feat: initial and current value for environment variables",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5055",
+      "merged_at": "2025-05-23T17:08:36Z",
+      "components": [
+        "collections-environments",
+        "scripting-integration",
+        "inspection-services",
+        "cli-commands",
+        "collection-runner"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:38:38Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments",
+        "scripting-integration",
+        "inspection-services",
+        "cli-commands",
+        "collection-runner"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 1684,
+        "deletions": 431,
+        "changed_files": 60
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5090": {
+      "pr_number": 5090,
+      "pr_title": "feat: migrate to a unified scripting system based on `faraday-cage`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5090",
+      "merged_at": "2025-05-23T17:24:27Z",
+      "components": [
+        "scripting-integration",
+        "rest-client",
+        "cli-script-sandbox",
+        "cli-commands",
+        "report-generator"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T05:39:07Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration",
+        "rest-client",
+        "cli-script-sandbox",
+        "cli-commands",
+        "report-generator"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 2122,
+        "deletions": 659,
+        "changed_files": 51
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5096": {
+      "pr_number": 5096,
+      "pr_title": "docs(desktop): add minimum system requirements",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5096",
+      "merged_at": "2025-05-26T06:52:21Z",
+      "components": [],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:39:12Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 96,
+        "deletions": 53,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5097": {
+      "pr_number": 5097,
+      "pr_title": "feat: extend platform API support for experimental scripting sandbox",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5097",
+      "merged_at": "2025-05-26T15:09:51Z",
+      "components": [
+        "scripting-integration",
+        "cli-script-sandbox"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T05:39:24Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration",
+        "cli-script-sandbox"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 559,
+        "deletions": 540,
+        "changed_files": 18
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5099": {
+      "pr_number": 5099,
+      "pr_title": "chore(common): improved i18n strings",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5099",
+      "merged_at": "2025-05-27T07:01:26Z",
+      "components": [],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:39:38Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5098": {
+      "pr_number": 5098,
+      "pr_title": "feat(common): support importing OpenAPI YAML definitions from URL",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5098",
+      "merged_at": "2025-05-27T08:03:33Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:39:48Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 20,
+        "deletions": 3,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5100": {
+      "pr_number": 5100,
+      "pr_title": "fix: update id while syncing and gist import bug",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5100",
+      "merged_at": "2025-05-27T10:42:55Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:39:57Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 44,
+        "deletions": 12,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5101": {
+      "pr_number": 5101,
+      "pr_title": "fix: correct import order for HoppRESTAuth",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5101",
+      "merged_at": "2025-05-28T06:48:08Z",
+      "components": [
+        "rest-api"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:40:05Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-api"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 2,
+        "changed_files": 1
+      },
+      "auto_approved": true
     }
   }
 }
