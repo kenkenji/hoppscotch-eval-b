@@ -1,5 +1,5 @@
 schema_version: '1'
-version: '4'
+version: '5'
 model:
   type: c4
 components:
@@ -95,6 +95,12 @@ components:
   description: 認証・ユーザー/チーム管理・コレクション同期などを提供するバックエンドAPIサーバー
   tags:
   - backend
+- id: sort-module
+  name: Sort Module
+  level: component
+  description: ユーザー・チームのコレクションおよびリクエストの並び替え（タイトル昇順/降順）を行い、ソートイベントをPub/Sub経由で通知するモジュール
+  parent: hoppscotch-backend
+  technology: NestJS, GraphQL
 - id: hoppscotch-cli
   name: Hoppscotch CLI
   level: container
@@ -484,3 +490,11 @@ relations:
   to: webview2-cdn
   description: WebView2 Runtime未検出時にブートストラップインストーラーをダウンロードしてサイレントインストール
   technology: HTTPS
+- from: sort-module
+  to: prisma-data-access
+  description: ソート後のorderIndexの読み書き
+  technology: Prisma Client
+- from: sort-module
+  to: subscriptions-pubsub
+  description: コレクション/リクエストのソートイベントをRedis経由でPublish
+  technology: graphql-redis-subscriptions

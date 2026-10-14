@@ -2,6 +2,36 @@
   "version": "1.0",
   "entries": [
     {
+      "model_version": "5",
+      "timestamp": "2026-10-14T07:35:50Z",
+      "changes": [
+        {
+          "type": "add",
+          "target": "component",
+          "id": "sort-module",
+          "summary": "Sort Module コンポーネントを追加"
+        },
+        {
+          "type": "add_relation",
+          "target": "relation",
+          "id": "sort-module -> prisma-data-access",
+          "summary": "add_relation: sort-module -> prisma-data-access"
+        },
+        {
+          "type": "add_relation",
+          "target": "relation",
+          "id": "sort-module -> subscriptions-pubsub",
+          "summary": "add_relation: sort-module -> subscriptions-pubsub"
+        }
+      ],
+      "trigger": {
+        "type": "pr",
+        "pr_number": 5383,
+        "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5383"
+      },
+      "author": "catch-up"
+    },
+    {
       "model_version": "4",
       "timestamp": "2026-10-14T07:32:55Z",
       "changes": [

@@ -5768,6 +5768,277 @@
         "changed_files": 19
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5383": {
+      "pr_number": 5383,
+      "pr_title": "feature: add alphabetical sort for user and team collections",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5383",
+      "merged_at": "2025-09-23T09:16:23Z",
+      "components": [
+        "user-team-management",
+        "graphql-api",
+        "prisma-data-access",
+        "subscriptions-pubsub",
+        "collections-environments",
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T07:35:50Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "user-team-management",
+        "graphql-api",
+        "prisma-data-access",
+        "subscriptions-pubsub",
+        "collections-environments",
+        "platform-abstraction"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 3476,
+        "deletions": 339,
+        "changed_files": 63
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5394": {
+      "pr_number": 5394,
+      "pr_title": "fix(relay): multiple Set-Cookie headers in resp",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5394",
+      "merged_at": "2025-09-23T11:44:29Z",
+      "components": [
+        "desktop-native-interceptor",
+        "desktop-tauri-shell",
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:35:59Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-native-interceptor",
+        "desktop-tauri-shell",
+        "rest-client"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 76,
+        "deletions": 15,
+        "changed_files": 8
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5397": {
+      "pr_number": 5397,
+      "pr_title": "fix: ensure npm is installed for Node.js base image",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5397",
+      "merged_at": "2025-09-24T03:43:51Z",
+      "components": [
+        "hoppscotch-backend"
+      ],
+      "source": "ai",
+      "author": "Leon-Luu",
+      "timestamp": "2026-10-14T07:36:09Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "hoppscotch-backend"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 3,
+        "deletions": 3,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5400": {
+      "pr_number": 5400,
+      "pr_title": "chore: security patch for the dependency chain",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5400",
+      "merged_at": "2025-09-24T10:52:31Z",
+      "components": [
+        "collection-runner",
+        "interceptors",
+        "agent-ui",
+        "hoppscotch-selfhost-web",
+        "admin-dashboard-ui",
+        "prisma-data-access",
+        "analytics-service",
+        "mailer-service"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T07:37:40Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collection-runner",
+        "interceptors",
+        "agent-ui",
+        "hoppscotch-selfhost-web",
+        "admin-dashboard-ui",
+        "prisma-data-access",
+        "analytics-service",
+        "mailer-service"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 2358,
+        "deletions": 1568,
+        "changed_files": 12
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5388": {
+      "pr_number": 5388,
+      "pr_title": "feat(scripting-revamp): introduce `hopp` namespace",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5388",
+      "merged_at": "2025-09-24T11:39:55Z",
+      "components": [
+        "scripting-integration",
+        "cli-script-sandbox",
+        "collection-runner",
+        "report-generator"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T07:37:57Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration",
+        "cli-script-sandbox",
+        "collection-runner",
+        "report-generator"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 10494,
+        "deletions": 822,
+        "changed_files": 76
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5402": {
+      "pr_number": 5402,
+      "pr_title": "fix(native): bump `tauri-plugin-shell` to `v2.2.1`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5402",
+      "merged_at": "2025-09-24T16:18:06Z",
+      "components": [
+        "desktop-tauri-shell",
+        "agent-relay-engine"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:38:06Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "agent-relay-engine"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 917,
+        "deletions": 500,
+        "changed_files": 9
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5401": {
+      "pr_number": 5401,
+      "pr_title": "refactor: streamline duplicated advanced param type definitions for oauth grant types",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5401",
+      "merged_at": "2025-09-25T15:33:14Z",
+      "components": [
+        "auth-module"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T07:38:16Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "auth-module"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 52,
+        "deletions": 49,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5403": {
+      "pr_number": 5403,
+      "pr_title": "fix: close modal on clicking overlay for non input modals",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5403",
+      "merged_at": "2025-09-26T06:52:11Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "anandude",
+      "timestamp": "2026-10-14T07:38:26Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 6,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5405": {
+      "pr_number": 5405,
+      "pr_title": "chore(agent): bump version to `0.1.14`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5405",
+      "merged_at": "2025-09-26T08:50:48Z",
+      "components": [
+        "agent-relay-engine",
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:38:36Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "agent-relay-engine",
+        "desktop-tauri-shell"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 5,
+        "deletions": 5,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5184": {
+      "pr_number": 5184,
+      "pr_title": "fix: race condition in active team collection tab inheritance",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5184",
+      "merged_at": "2025-09-26T12:23:19Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "mayank-jain-1010",
+      "timestamp": "2026-10-14T07:38:49Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "5",
+      "diff_stats": {
+        "additions": 35,
+        "deletions": 6,
+        "changed_files": 2
+      },
+      "auto_approved": true
     }
   }
 }
