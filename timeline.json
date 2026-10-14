@@ -2,6 +2,253 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#5878-20261014T114244Z",
+      "timestamp": "2026-10-14T11:42:44Z",
+      "pr_number": 5878,
+      "pr_title": "fix(common): constrain variable tooltip to viewport for long values",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5878",
+      "components": [
+        "rest-client",
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "aviu16",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-02-23T18:03:14Z",
+      "ai_components": [
+        "rest-client",
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 661,
+        "deletions": 32,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5676-20261014T114234Z",
+      "timestamp": "2026-10-14T11:42:34Z",
+      "pr_number": 5676,
+      "pr_title": "feat: api documentation versioning",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5676",
+      "components": [
+        "published-docs-module",
+        "graphql-api",
+        "prisma-data-access",
+        "documentation-ui"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-02-23T14:41:55Z",
+      "ai_components": [
+        "published-docs-module",
+        "graphql-api",
+        "prisma-data-access",
+        "documentation-ui"
+      ],
+      "diff_stats": {
+        "additions": 3438,
+        "deletions": 477,
+        "changed_files": 37
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5890-20261014T114222Z",
+      "timestamp": "2026-10-14T11:42:22Z",
+      "pr_number": 5890,
+      "pr_title": "feat(common): add foundational support for dropdown-based organization switcher",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5890",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-02-23T14:36:10Z",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 52,
+        "deletions": 44,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5897-20261014T114214Z",
+      "timestamp": "2026-10-14T11:42:14Z",
+      "pr_number": 5897,
+      "pr_title": "fix(backend): resolve security advisories for IDOR and onboarding bypass",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5897",
+      "components": [
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-02-23T12:41:46Z",
+      "ai_components": [
+        "user-team-management"
+      ],
+      "diff_stats": {
+        "additions": 77,
+        "deletions": 10,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5895-20261014T114205Z",
+      "timestamp": "2026-10-14T11:42:05Z",
+      "pr_number": 5895,
+      "pr_title": "chore(common): update `Czech` locale with improved translations",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5895",
+      "components": [],
+      "source": "ai",
+      "author": "lubomirblazekcz",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-02-21T09:04:10Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 1803,
+        "deletions": 614,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5830-20261014T114157Z",
+      "timestamp": "2026-10-14T11:41:57Z",
+      "pr_number": 5830,
+      "pr_title": "chore(common): deprecate legacy interceptor system",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5830",
+      "components": [
+        "interceptors",
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-02-21T08:52:47Z",
+      "ai_components": [
+        "interceptors",
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 23,
+        "deletions": 3186,
+        "changed_files": 30
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5803-20261014T114142Z",
+      "timestamp": "2026-10-14T11:41:42Z",
+      "pr_number": 5803,
+      "pr_title": "feat(sh-admin): add search and pagination to teams list",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5803",
+      "components": [
+        "rest-api",
+        "graphql-api",
+        "admin-dashboard-ui",
+        "admin-gql-client"
+      ],
+      "source": "ai",
+      "author": "Leon-Luu",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-02-20T08:43:15Z",
+      "ai_components": [
+        "rest-api",
+        "graphql-api",
+        "admin-dashboard-ui",
+        "admin-gql-client"
+      ],
+      "diff_stats": {
+        "additions": 308,
+        "deletions": 56,
+        "changed_files": 9
+      },
+      "labels": [
+        "feature"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5887-20261014T114133Z",
+      "timestamp": "2026-10-14T11:41:33Z",
+      "pr_number": 5887,
+      "pr_title": "chore: security patch for the dependency chain `v2026.2.0`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5887",
+      "components": [],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-02-19T07:18:51Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 2848,
+        "deletions": 5375,
+        "changed_files": 13
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5843-20261014T114109Z",
+      "timestamp": "2026-10-14T11:41:09Z",
+      "pr_number": 5843,
+      "pr_title": "fix(common): improve responsive layout and overflow in realtime pages",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5843",
+      "components": [
+        "realtime-protocols"
+      ],
+      "source": "ai",
+      "author": "chandraprakash-pandey",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-02-18T08:58:43Z",
+      "ai_components": [
+        "realtime-protocols"
+      ],
+      "diff_stats": {
+        "additions": 182,
+        "deletions": 171,
+        "changed_files": 4
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5874-20261014T114101Z",
+      "timestamp": "2026-10-14T11:41:01Z",
+      "pr_number": 5874,
+      "pr_title": "fix: auto-recover from corrupted sandbox state",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5874",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-02-18T04:55:47Z",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "diff_stats": {
+        "additions": 878,
+        "deletions": 302,
+        "changed_files": 13
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#5879-20261014T114051Z",
       "timestamp": "2026-10-14T11:40:51Z",
       "pr_number": 5879,
