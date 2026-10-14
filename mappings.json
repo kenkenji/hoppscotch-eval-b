@@ -5292,6 +5292,252 @@
         "changed_files": 23
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5343": {
+      "pr_number": 5343,
+      "pr_title": "chore: align `tailwindcss` to `3.4.16`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5343",
+      "merged_at": "2025-08-21T13:56:23Z",
+      "components": [
+        "web-platform-adapters",
+        "web-backend-gql-client",
+        "web-extension-interceptor",
+        "web-pwa-shell",
+        "admin-dashboard-ui",
+        "admin-gql-client",
+        "admin-auth"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:31:34Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "web-platform-adapters",
+        "web-backend-gql-client",
+        "web-extension-interceptor",
+        "web-pwa-shell",
+        "admin-dashboard-ui",
+        "admin-gql-client",
+        "admin-auth"
+      ],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 6,
+        "deletions": 81,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5325": {
+      "pr_number": 5325,
+      "pr_title": "feat: collection variables",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5325",
+      "merged_at": "2025-08-22T09:09:43Z",
+      "components": [
+        "collections-environments",
+        "cli-commands",
+        "collection-runner"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:31:46Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments",
+        "cli-commands",
+        "collection-runner"
+      ],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 2688,
+        "deletions": 765,
+        "changed_files": 77
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5347": {
+      "pr_number": 5347,
+      "pr_title": "feat: add structured JSON fold indicators in response viewer",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5347",
+      "merged_at": "2025-08-26T09:04:25Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "jarvis2754",
+      "timestamp": "2026-10-14T07:31:56Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 139,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5349": {
+      "pr_number": 5349,
+      "pr_title": "chore: security patch for the dependency chain",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5349",
+      "merged_at": "2025-08-26T09:26:48Z",
+      "components": [],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T07:32:06Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 1080,
+        "deletions": 1381,
+        "changed_files": 13
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5348": {
+      "pr_number": 5348,
+      "pr_title": "fix: handle edge cases and bugs in collection variables",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5348",
+      "merged_at": "2025-08-26T11:54:24Z",
+      "components": [
+        "collections-environments",
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:32:16Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments",
+        "inspection-services"
+      ],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 610,
+        "deletions": 539,
+        "changed_files": 18
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5341": {
+      "pr_number": 5341,
+      "pr_title": "feat(desktop): portable phase-2 app loader infra",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5341",
+      "merged_at": "2025-08-26T15:18:31Z",
+      "components": [
+        "desktop-tauri-shell",
+        "desktop-native-interceptor"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:32:55Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "desktop-native-interceptor"
+      ],
+      "model_version": "4",
+      "diff_stats": {
+        "additions": 2909,
+        "deletions": 1022,
+        "changed_files": 44
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5351": {
+      "pr_number": 5351,
+      "pr_title": "fix(desktop): rebase with appload mirror and hash",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5351",
+      "merged_at": "2025-08-27T04:22:49Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:33:04Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "4",
+      "diff_stats": {
+        "additions": 32,
+        "deletions": 63,
+        "changed_files": 10
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5350": {
+      "pr_number": 5350,
+      "pr_title": "fix: prevent GQL request failure caused by collection property computation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5350",
+      "merged_at": "2025-08-27T04:38:12Z",
+      "components": [
+        "graphql-client"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:33:12Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "graphql-client"
+      ],
+      "model_version": "4",
+      "diff_stats": {
+        "additions": 17,
+        "deletions": 13,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5211": {
+      "pr_number": 5211,
+      "pr_title": "test(common): add comprehensive unit tests for auth helpers",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5211",
+      "merged_at": "2025-08-27T04:54:21Z",
+      "components": [],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T07:33:21Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "4",
+      "diff_stats": {
+        "additions": 1559,
+        "deletions": 51,
+        "changed_files": 15
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5340": {
+      "pr_number": 5340,
+      "pr_title": "chore: improve french translations",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5340",
+      "merged_at": "2025-08-27T05:27:41Z",
+      "components": [
+        "hoppscotch-common",
+        "web-platform-adapters",
+        "admin-dashboard-ui"
+      ],
+      "source": "ai",
+      "author": "BasilicApps",
+      "timestamp": "2026-10-14T07:33:30Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "hoppscotch-common",
+        "web-platform-adapters",
+        "admin-dashboard-ui"
+      ],
+      "model_version": "4",
+      "diff_stats": {
+        "additions": 1452,
+        "deletions": 618,
+        "changed_files": 1
+      },
+      "auto_approved": true
     }
   }
 }

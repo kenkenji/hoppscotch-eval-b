@@ -2,6 +2,30 @@
   "version": "1.0",
   "entries": [
     {
+      "model_version": "4",
+      "timestamp": "2026-10-14T07:32:55Z",
+      "changes": [
+        {
+          "type": "add",
+          "target": "component",
+          "id": "webview2-cdn",
+          "summary": "Microsoft WebView2 Runtime CDN コンポーネントを追加"
+        },
+        {
+          "type": "add_relation",
+          "target": "relation",
+          "id": "desktop-tauri-shell -> webview2-cdn",
+          "summary": "add_relation: desktop-tauri-shell -> webview2-cdn"
+        }
+      ],
+      "trigger": {
+        "type": "pr",
+        "pr_number": 5341,
+        "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5341"
+      },
+      "author": "catch-up"
+    },
+    {
       "model_version": "3",
       "timestamp": "2026-10-14T07:25:47Z",
       "changes": [

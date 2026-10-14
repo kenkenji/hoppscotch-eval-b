@@ -1,5 +1,5 @@
 schema_version: '1'
-version: '3'
+version: '4'
 model:
   type: c4
 components:
@@ -334,6 +334,11 @@ components:
   level: system
   description: ES moduleのTypeScript型定義(.d.ts)を提供する外部CDN。Monacoエディタのスクリプト編集時のIntelliSense/型取得に利用される
   technology: CDN (HTTPS)
+- id: webview2-cdn
+  name: Microsoft WebView2 Runtime CDN
+  level: system
+  description: Windows向けWebView2 Runtimeのブートストラップインストーラーを配布する外部CDN。ポータブルモードでWebView2未インストール時に利用される
+  technology: CDN (HTTPS)
 relations:
 - from: hoppscotch-selfhost-web
   to: hoppscotch-common
@@ -475,3 +480,7 @@ relations:
   to: esm-sh-cdn
   description: Monacoエディタ用にESモジュールインポートのTypeScript型定義(.d.ts)を取得
   technology: HTTPS (fetch)
+- from: desktop-tauri-shell
+  to: webview2-cdn
+  description: WebView2 Runtime未検出時にブートストラップインストーラーをダウンロードしてサイレントインストール
+  technology: HTTPS
