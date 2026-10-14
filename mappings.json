@@ -3250,6 +3250,230 @@
         "changed_files": 1
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5081": {
+      "pr_number": 5081,
+      "pr_title": "feat(lenses): enhance content type detection and lens selection logic",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5081",
+      "merged_at": "2025-05-28T08:00:27Z",
+      "components": [
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "Phaired",
+      "timestamp": "2026-10-14T05:40:15Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "inspection-services"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 44,
+        "deletions": 8,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5079": {
+      "pr_number": 5079,
+      "pr_title": "feat: add JWT authentication support",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5079",
+      "merged_at": "2025-05-28T10:11:47Z",
+      "components": [
+        "auth-module"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:40:27Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "auth-module"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 1212,
+        "deletions": 729,
+        "changed_files": 27
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5105": {
+      "pr_number": 5105,
+      "pr_title": "fix: environment and rest tab state schema migration",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5105",
+      "merged_at": "2025-05-29T09:43:14Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:40:35Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 190,
+        "deletions": 51,
+        "changed_files": 15
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5109": {
+      "pr_number": 5109,
+      "pr_title": "fix: fill current value to existing value",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5109",
+      "merged_at": "2025-05-29T13:06:58Z",
+      "components": [],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:40:45Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 41,
+        "deletions": 35,
+        "changed_files": 12
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5110": {
+      "pr_number": 5110,
+      "pr_title": "fix: desktop platform level env migration and codegen bug",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5110",
+      "merged_at": "2025-05-29T13:56:21Z",
+      "components": [
+        "platform-abstraction",
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:40:53Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction",
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 58,
+        "deletions": 10,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5127": {
+      "pr_number": 5127,
+      "pr_title": "feat: add support for version bounded parsing and migration",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5127",
+      "merged_at": "2025-06-05T09:21:20Z",
+      "components": [
+        "collection-runner"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T05:41:05Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collection-runner"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 446,
+        "deletions": 102,
+        "changed_files": 20
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5108": {
+      "pr_number": 5108,
+      "pr_title": "fix(desktop): arrow inserting escape sequences",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5108",
+      "merged_at": "2025-06-06T08:47:30Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:41:14Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 20,
+        "deletions": 22,
+        "changed_files": 8
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5120": {
+      "pr_number": 5120,
+      "pr_title": "feat(common): in app console UI enhancements",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5120",
+      "merged_at": "2025-06-06T18:08:11Z",
+      "components": [
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T05:41:25Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "inspection-services"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 51,
+        "deletions": 38,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5136": {
+      "pr_number": 5136,
+      "pr_title": "fix: use `HOPP_AIO_ALTERNATE_PORT` in healthcheck",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5136",
+      "merged_at": "2025-06-10T07:26:21Z",
+      "components": [],
+      "source": "ai",
+      "author": "Radrogyl",
+      "timestamp": "2026-10-14T05:41:36Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5132": {
+      "pr_number": 5132,
+      "pr_title": "fix(desktop): align connected instance with launch",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5132",
+      "merged_at": "2025-06-10T07:51:54Z",
+      "components": [
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:41:53Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-platform-adapters"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 126,
+        "deletions": 34,
+        "changed_files": 8
+      },
+      "auto_approved": true
     }
   }
 }
