@@ -1,0 +1,726 @@
+{
+  "format_version": "1",
+  "commit": "07ef2d718c9730fb81a995ffc128bd6e36c10c9a",
+  "level": "component",
+  "generated_at": "2026-10-14T04:38:16Z",
+  "provider": "claude-code",
+  "llm_model": "claude-sonnet-5",
+  "components": [
+    {
+      "id": "hoppscotch",
+      "name": "Hoppscotch",
+      "level": "system",
+      "description": "REST/GraphQL/WebSocket等のAPI開発・テストを行うクライアントとそれを支えるバックエンド・管理機能からなるオープンソースAPI開発エコシステム",
+      "tags": [
+        "internal"
+      ]
+    },
+    {
+      "id": "github-oauth",
+      "name": "GitHub OAuth",
+      "level": "system",
+      "description": "GitHubアカウントによるユーザー認証を提供する外部OAuthプロバイダー",
+      "tags": [
+        "external"
+      ]
+    },
+    {
+      "id": "google-oauth",
+      "name": "Google OAuth",
+      "level": "system",
+      "description": "Googleアカウントによるユーザー認証を提供する外部OAuthプロバイダー",
+      "tags": [
+        "external"
+      ]
+    },
+    {
+      "id": "microsoft-oauth",
+      "name": "Microsoft OAuth",
+      "level": "system",
+      "description": "Microsoftアカウントによるユーザー認証を提供する外部OAuthプロバイダー",
+      "tags": [
+        "external"
+      ]
+    },
+    {
+      "id": "smtp-server",
+      "name": "SMTP Mail Server",
+      "level": "system",
+      "description": "確認メールやパスワードレスログイン用のメールを送信する外部メールサーバー",
+      "tags": [
+        "external"
+      ]
+    },
+    {
+      "id": "posthog",
+      "name": "PostHog Analytics",
+      "level": "system",
+      "description": "アプリケーションの利用状況イベントを収集する外部プロダクト分析SaaS",
+      "tags": [
+        "external"
+      ]
+    },
+    {
+      "id": "hoppscotch-proxy",
+      "name": "Hoppscotch Proxy Server",
+      "level": "system",
+      "description": "CORS制約を回避するためクライアントのAPIリクエストを中継する公式プロキシサーバー（別リポジトリで提供）",
+      "tags": [
+        "external"
+      ]
+    },
+    {
+      "id": "hoppscotch-common",
+      "name": "Hoppscotch Common Core",
+      "level": "container",
+      "parent": "hoppscotch",
+      "technology": "Vue 3 + TypeScript, dioc, RxJS",
+      "description": "REST/GraphQL/リアルタイム通信・コレクション管理・スクリプト実行など各クライアントアプリに共通するコアロジックを提供する共有パッケージ",
+      "tags": [
+        "frontend",
+        "library"
+      ]
+    },
+    {
+      "id": "hoppscotch-selfhost-web",
+      "name": "Hoppscotch Web App",
+      "level": "container",
+      "parent": "hoppscotch",
+      "technology": "Vue 3 + Vite, Caddy配信",
+      "description": "ブラウザ上で動作するセルフホスト版Hoppscotch Webアプリケーション",
+      "tags": [
+        "frontend"
+      ]
+    },
+    {
+      "id": "hoppscotch-selfhost-desktop",
+      "name": "Hoppscotch Desktop App",
+      "level": "container",
+      "parent": "hoppscotch",
+      "technology": "Tauri (Vue 3 + Rust)",
+      "description": "デスクトップ向けに配布されるHoppscotchクライアントアプリケーション",
+      "tags": [
+        "frontend",
+        "desktop"
+      ]
+    },
+    {
+      "id": "hoppscotch-agent",
+      "name": "Hoppscotch Agent",
+      "level": "container",
+      "parent": "hoppscotch",
+      "technology": "Tauri (Vue 3 + Rust, axum)",
+      "description": "証明書・プロキシ設定など高度なリクエスト処理をローカルで代行するデスクトップ常駐エージェントアプリ",
+      "tags": [
+        "desktop"
+      ]
+    },
+    {
+      "id": "hoppscotch-sh-admin",
+      "name": "Hoppscotch SH Admin Dashboard",
+      "level": "container",
+      "parent": "hoppscotch",
+      "technology": "Vue 3 + Vite",
+      "description": "ユーザー・チーム・インフラ設定を管理するセルフホスト向け管理者ダッシュボード",
+      "tags": [
+        "frontend"
+      ]
+    },
+    {
+      "id": "hoppscotch-backend",
+      "name": "Hoppscotch Backend API",
+      "level": "container",
+      "parent": "hoppscotch",
+      "technology": "NestJS, Apollo GraphQL + REST",
+      "description": "認証・ユーザー/チーム管理・コレクション同期などを提供するバックエンドAPIサーバー",
+      "tags": [
+        "backend"
+      ]
+    },
+    {
+      "id": "hoppscotch-cli",
+      "name": "Hoppscotch CLI",
+      "level": "container",
+      "parent": "hoppscotch",
+      "technology": "Node.js, Commander",
+      "description": "CI環境でHoppscotchのコレクション・テストスクリプトを実行するコマンドラインツール",
+      "tags": [
+        "cli"
+      ]
+    },
+    {
+      "id": "hoppscotch-db",
+      "name": "Hoppscotch Database",
+      "level": "container",
+      "parent": "hoppscotch",
+      "technology": "PostgreSQL 15",
+      "description": "ユーザー・チーム・コレクション等のアプリケーションデータを永続化するリレーショナルデータベース",
+      "tags": [
+        "datastore"
+      ]
+    },
+    {
+      "id": "hoppscotch-redis",
+      "name": "Hoppscotch Redis",
+      "level": "container",
+      "parent": "hoppscotch",
+      "technology": "Redis",
+      "description": "GraphQL Subscriptionsのメッセージ配信に用いるPub/Subストア",
+      "tags": [
+        "datastore"
+      ]
+    },
+    {
+      "id": "rest-client",
+      "name": "REST Client",
+      "level": "component",
+      "parent": "hoppscotch-common",
+      "technology": "TypeScript",
+      "description": "HTTPメソッド・ヘッダー・ボディを組み立ててREST APIリクエストを送受信するコア機能"
+    },
+    {
+      "id": "graphql-client",
+      "name": "GraphQL Client",
+      "level": "component",
+      "parent": "hoppscotch-common",
+      "technology": "urql, graphql-language-service",
+      "description": "GraphQLスキーマ取得・クエリ実行・ドキュメント表示を行うクライアント機能"
+    },
+    {
+      "id": "realtime-protocols",
+      "name": "Realtime Protocol Clients",
+      "level": "component",
+      "parent": "hoppscotch-common",
+      "technology": "Socket.IO/MQTT/SSE/WebSocket",
+      "description": "WebSocket・SSE・Socket.IO・MQTTによるリアルタイム通信クライアント機能"
+    },
+    {
+      "id": "collections-environments",
+      "name": "Collections & Environments",
+      "level": "component",
+      "parent": "hoppscotch-common",
+      "technology": "TypeScript",
+      "description": "リクエストコレクションおよび環境変数の管理・永続化を行う機能"
+    },
+    {
+      "id": "interceptors",
+      "name": "Request Interceptors",
+      "level": "component",
+      "parent": "hoppscotch-common",
+      "technology": "TypeScript",
+      "description": "ブラウザ標準・プロキシ・拡張機能・ローカルエージェント経由などリクエスト送出方式を切り替えるインターセプター群"
+    },
+    {
+      "id": "inspection-services",
+      "name": "Inspection Services",
+      "level": "component",
+      "parent": "hoppscotch-common",
+      "technology": "TypeScript",
+      "description": "リクエスト送信前後のヘッダー・環境変数・レスポンスを検査するサービス"
+    },
+    {
+      "id": "scripting-integration",
+      "name": "Scripting Integration",
+      "level": "component",
+      "parent": "hoppscotch-common",
+      "technology": "TypeScript",
+      "description": "Pre-requestおよびTestスクリプトをJSサンドボックスで実行する統合機能"
+    },
+    {
+      "id": "platform-abstraction",
+      "name": "Platform Abstraction Layer",
+      "level": "component",
+      "parent": "hoppscotch-common",
+      "technology": "TypeScript",
+      "description": "認証・保存先・設定等をプラットフォームごとに差し替え可能にする抽象化レイヤー"
+    },
+    {
+      "id": "web-platform-adapters",
+      "name": "Web Platform Adapters",
+      "level": "component",
+      "parent": "hoppscotch-selfhost-web",
+      "technology": "TypeScript",
+      "description": "ブラウザ環境向けに認証・環境・コレクション・履歴・設定のプラットフォーム実装を提供するアダプター"
+    },
+    {
+      "id": "web-backend-gql-client",
+      "name": "Web Backend GraphQL Client",
+      "level": "component",
+      "parent": "hoppscotch-selfhost-web",
+      "technology": "urql",
+      "description": "バックエンドのGraphQL APIと通信するクライアント設定"
+    },
+    {
+      "id": "web-extension-interceptor",
+      "name": "Extension Interceptor Integration",
+      "level": "component",
+      "parent": "hoppscotch-selfhost-web",
+      "technology": "TypeScript",
+      "description": "ブラウザ拡張機能経由でリクエストを送信するインターセプター連携"
+    },
+    {
+      "id": "web-pwa-shell",
+      "name": "PWA Shell",
+      "level": "component",
+      "parent": "hoppscotch-selfhost-web",
+      "technology": "Workbox",
+      "description": "Service WorkerによるPWA化・オフライン対応を行うアプリシェル"
+    },
+    {
+      "id": "desktop-platform-adapters",
+      "name": "Desktop Platform Adapters",
+      "level": "component",
+      "parent": "hoppscotch-selfhost-desktop",
+      "technology": "TypeScript",
+      "description": "Tauri環境向けに認証・環境・コレクション・履歴・設定のプラットフォーム実装を提供するアダプター"
+    },
+    {
+      "id": "desktop-native-interceptor",
+      "name": "Native Interceptor",
+      "level": "component",
+      "parent": "hoppscotch-selfhost-desktop",
+      "technology": "TypeScript + Tauri IPC",
+      "description": "Tauri/Rustバックエンドを介してネイティブにHTTPリクエストを実行するインターセプター"
+    },
+    {
+      "id": "desktop-tauri-shell",
+      "name": "Desktop Tauri Shell",
+      "level": "component",
+      "parent": "hoppscotch-selfhost-desktop",
+      "technology": "Rust (Tauri)",
+      "description": "ウィンドウ管理・OS統合・hoppscotch-relayクレートによるリクエスト実行を担うネイティブバックエンド"
+    },
+    {
+      "id": "desktop-backend-gql-client",
+      "name": "Desktop Backend GraphQL Client",
+      "level": "component",
+      "parent": "hoppscotch-selfhost-desktop",
+      "technology": "urql",
+      "description": "バックエンドのGraphQL APIと通信するクライアント設定"
+    },
+    {
+      "id": "agent-ui",
+      "name": "Agent UI",
+      "level": "component",
+      "parent": "hoppscotch-agent",
+      "technology": "Vue 3",
+      "description": "ペアリングやステータス表示を行うエージェントのウィンドウUI"
+    },
+    {
+      "id": "agent-controller",
+      "name": "Agent HTTP Controller",
+      "level": "component",
+      "parent": "hoppscotch-agent",
+      "technology": "Rust (axum)",
+      "description": "リクエスト実行・ペアリング登録・認証処理を公開するHTTPコントローラー"
+    },
+    {
+      "id": "agent-relay-engine",
+      "name": "Agent Relay Engine",
+      "level": "component",
+      "parent": "hoppscotch-agent",
+      "technology": "Rust (hoppscotch-relay, curl)",
+      "description": "証明書・プロキシ設定を含む実際のHTTPリクエストをhoppscotch-relayクレートで実行するエンジン"
+    },
+    {
+      "id": "agent-state",
+      "name": "Agent Registration State",
+      "level": "component",
+      "parent": "hoppscotch-agent",
+      "technology": "Rust",
+      "description": "ペアリング済みクライアントの登録情報・セッションを管理するステート"
+    },
+    {
+      "id": "admin-dashboard-ui",
+      "name": "Admin Dashboard UI",
+      "level": "component",
+      "parent": "hoppscotch-sh-admin",
+      "technology": "Vue 3",
+      "description": "ユーザー・チーム・インフラ設定を操作する管理画面UI"
+    },
+    {
+      "id": "admin-gql-client",
+      "name": "Admin GraphQL Client",
+      "level": "component",
+      "parent": "hoppscotch-sh-admin",
+      "technology": "urql + exchange-auth",
+      "description": "認証付きでバックエンドGraphQL APIへアクセスするクライアント"
+    },
+    {
+      "id": "admin-auth",
+      "name": "Admin Auth Helper",
+      "level": "component",
+      "parent": "hoppscotch-sh-admin",
+      "technology": "TypeScript",
+      "description": "管理者ログイン・認可処理を行う認証ヘルパー"
+    },
+    {
+      "id": "graphql-api",
+      "name": "GraphQL API Layer",
+      "level": "component",
+      "parent": "hoppscotch-backend",
+      "technology": "NestJS + Apollo Server",
+      "description": "クエリ・ミューテーション・サブスクリプションを提供するGraphQL API層"
+    },
+    {
+      "id": "rest-api",
+      "name": "REST API Controllers",
+      "level": "component",
+      "parent": "hoppscotch-backend",
+      "technology": "NestJS + Swagger",
+      "description": "インフラトークン管理等をREST/Swaggerで公開するコントローラー群"
+    },
+    {
+      "id": "auth-module",
+      "name": "Auth Module",
+      "level": "component",
+      "parent": "hoppscotch-backend",
+      "technology": "Passport, JWT",
+      "description": "ローカル・JWTおよびGitHub/Google/MicrosoftのOAuthによる認証戦略を実装するモジュール"
+    },
+    {
+      "id": "user-team-management",
+      "name": "User & Team Management",
+      "level": "component",
+      "parent": "hoppscotch-backend",
+      "technology": "NestJS",
+      "description": "ユーザー・チーム・ワークスペースのドメインロジックを扱うモジュール"
+    },
+    {
+      "id": "mailer-service",
+      "name": "Mailer Service",
+      "level": "component",
+      "parent": "hoppscotch-backend",
+      "technology": "nodemailer, Handlebars",
+      "description": "確認メールやログイン用メールを送信するメーラーサービス"
+    },
+    {
+      "id": "prisma-data-access",
+      "name": "Prisma Data Access",
+      "level": "component",
+      "parent": "hoppscotch-backend",
+      "technology": "Prisma ORM",
+      "description": "PrismaによるPostgreSQLへのデータアクセス層"
+    },
+    {
+      "id": "analytics-service",
+      "name": "Analytics Service",
+      "level": "component",
+      "parent": "hoppscotch-backend",
+      "technology": "posthog-node",
+      "description": "PostHogへ利用状況イベントを送信する分析サービス"
+    },
+    {
+      "id": "subscriptions-pubsub",
+      "name": "Subscriptions Pub/Sub",
+      "level": "component",
+      "parent": "hoppscotch-backend",
+      "technology": "graphql-redis-subscriptions",
+      "description": "GraphQL SubscriptionsのメッセージをRedis経由で配信するモジュール"
+    },
+    {
+      "id": "cli-commands",
+      "name": "CLI Command Parser",
+      "level": "component",
+      "parent": "hoppscotch-cli",
+      "technology": "Commander",
+      "description": "testコマンド等のCLI引数を解釈するエントリポイント"
+    },
+    {
+      "id": "collection-runner",
+      "name": "Collection Runner",
+      "level": "component",
+      "parent": "hoppscotch-cli",
+      "technology": "axios, fp-ts",
+      "description": "コレクションJSONを読み込み、各リクエストを順次実行するランナー"
+    },
+    {
+      "id": "cli-script-sandbox",
+      "name": "CLI Script Sandbox",
+      "level": "component",
+      "parent": "hoppscotch-cli",
+      "technology": "isolated-vm",
+      "description": "Pre-request/Testスクリプトをサンドボックス内で実行する機能"
+    },
+    {
+      "id": "report-generator",
+      "name": "Report Generator",
+      "level": "component",
+      "parent": "hoppscotch-cli",
+      "technology": "chalk",
+      "description": "テスト結果を集計しCLI出力・終了コードを生成するレポーター"
+    }
+  ],
+  "relations": [
+    {
+      "from": "hoppscotch-selfhost-web",
+      "to": "hoppscotch-common",
+      "description": "共通コアロジックを組み込んで利用",
+      "technology": "ビルド時パッケージ組み込み"
+    },
+    {
+      "from": "hoppscotch-selfhost-desktop",
+      "to": "hoppscotch-common",
+      "description": "共通コアロジックを組み込んで利用",
+      "technology": "ビルド時パッケージ組み込み"
+    },
+    {
+      "from": "hoppscotch-common",
+      "to": "hoppscotch-backend",
+      "description": "ユーザー認証・コレクション同期などのAPI通信",
+      "technology": "GraphQL/HTTPS"
+    },
+    {
+      "from": "hoppscotch-sh-admin",
+      "to": "hoppscotch-backend",
+      "description": "管理機能のためのAPI通信",
+      "technology": "GraphQL/HTTPS"
+    },
+    {
+      "from": "hoppscotch-backend",
+      "to": "hoppscotch-db",
+      "description": "アプリケーションデータの永続化",
+      "technology": "Prisma/SQL"
+    },
+    {
+      "from": "hoppscotch-backend",
+      "to": "hoppscotch-redis",
+      "description": "GraphQL Subscriptionsのメッセージ配信",
+      "technology": "Redis Pub/Sub"
+    },
+    {
+      "from": "hoppscotch-backend",
+      "to": "github-oauth",
+      "description": "GitHubアカウントでのOAuth認証",
+      "technology": "OAuth2/HTTPS"
+    },
+    {
+      "from": "hoppscotch-backend",
+      "to": "google-oauth",
+      "description": "GoogleアカウントでのOAuth認証",
+      "technology": "OAuth2/HTTPS"
+    },
+    {
+      "from": "hoppscotch-backend",
+      "to": "microsoft-oauth",
+      "description": "MicrosoftアカウントでのOAuth認証",
+      "technology": "OAuth2/HTTPS"
+    },
+    {
+      "from": "hoppscotch-backend",
+      "to": "smtp-server",
+      "description": "確認メール・マジックリンクメールの送信",
+      "technology": "SMTP"
+    },
+    {
+      "from": "hoppscotch-backend",
+      "to": "posthog",
+      "description": "利用状況イベントの送信",
+      "technology": "HTTPS"
+    },
+    {
+      "from": "hoppscotch-common",
+      "to": "hoppscotch-proxy",
+      "description": "CORS制約回避のためのリクエスト中継",
+      "technology": "HTTPS"
+    },
+    {
+      "from": "hoppscotch-common",
+      "to": "hoppscotch-agent",
+      "description": "ローカルエージェント経由でのネイティブなリクエスト実行",
+      "technology": "HTTP (localhost)"
+    },
+    {
+      "from": "rest-client",
+      "to": "interceptors",
+      "description": "選択されたインターセプターを介したリクエスト送出",
+      "technology": "TypeScript関数呼び出し"
+    },
+    {
+      "from": "scripting-integration",
+      "to": "rest-client",
+      "description": "スクリプト実行結果（環境変数・テスト結果）をリクエスト/レスポンス処理に反映",
+      "technology": "TypeScript関数呼び出し"
+    },
+    {
+      "from": "auth-module",
+      "to": "github-oauth",
+      "description": "GitHub OAuthフローの実行",
+      "technology": "OAuth2/HTTPS"
+    },
+    {
+      "from": "auth-module",
+      "to": "google-oauth",
+      "description": "Google OAuthフローの実行",
+      "technology": "OAuth2/HTTPS"
+    },
+    {
+      "from": "auth-module",
+      "to": "microsoft-oauth",
+      "description": "Microsoft OAuthフローの実行",
+      "technology": "OAuth2/HTTPS"
+    },
+    {
+      "from": "mailer-service",
+      "to": "smtp-server",
+      "description": "メール送信",
+      "technology": "SMTP"
+    },
+    {
+      "from": "analytics-service",
+      "to": "posthog",
+      "description": "イベント送信",
+      "technology": "HTTPS"
+    },
+    {
+      "from": "subscriptions-pubsub",
+      "to": "hoppscotch-redis",
+      "description": "Subscriptionメッセージの発行/購読",
+      "technology": "Redis Pub/Sub"
+    },
+    {
+      "from": "graphql-api",
+      "to": "prisma-data-access",
+      "description": "GraphQLリゾルバからのデータ読み書き",
+      "technology": "Prisma Client"
+    },
+    {
+      "from": "rest-api",
+      "to": "prisma-data-access",
+      "description": "RESTコントローラーからのデータ読み書き",
+      "technology": "Prisma Client"
+    },
+    {
+      "from": "auth-module",
+      "to": "prisma-data-access",
+      "description": "ユーザー/セッション情報の読み書き",
+      "technology": "Prisma Client"
+    },
+    {
+      "from": "user-team-management",
+      "to": "prisma-data-access",
+      "description": "ユーザー/チーム/ワークスペース情報の読み書き",
+      "technology": "Prisma Client"
+    },
+    {
+      "from": "web-backend-gql-client",
+      "to": "hoppscotch-backend",
+      "description": "認証・同期のためのGraphQL通信",
+      "technology": "GraphQL/HTTPS"
+    },
+    {
+      "from": "desktop-backend-gql-client",
+      "to": "hoppscotch-backend",
+      "description": "認証・同期のためのGraphQL通信",
+      "technology": "GraphQL/HTTPS"
+    },
+    {
+      "from": "admin-gql-client",
+      "to": "hoppscotch-backend",
+      "description": "管理操作のためのGraphQL通信",
+      "technology": "GraphQL/HTTPS"
+    },
+    {
+      "from": "desktop-native-interceptor",
+      "to": "desktop-tauri-shell",
+      "description": "Tauri IPC経由でのネイティブHTTPリクエスト実行依頼",
+      "technology": "Tauri IPC"
+    },
+    {
+      "from": "agent-controller",
+      "to": "agent-relay-engine",
+      "description": "受信したリクエストの実行を委譲",
+      "technology": "Rust関数呼び出し"
+    },
+    {
+      "from": "agent-controller",
+      "to": "agent-state",
+      "description": "ペアリング状態・セッション情報の参照/更新",
+      "technology": "Rust関数呼び出し"
+    },
+    {
+      "from": "cli-commands",
+      "to": "collection-runner",
+      "description": "testコマンド実行の委譲",
+      "technology": "TypeScript関数呼び出し"
+    },
+    {
+      "from": "collection-runner",
+      "to": "cli-script-sandbox",
+      "description": "Pre-request/Testスクリプトの実行",
+      "technology": "TypeScript関数呼び出し"
+    },
+    {
+      "from": "collection-runner",
+      "to": "report-generator",
+      "description": "実行結果のレポート生成依頼",
+      "technology": "TypeScript関数呼び出し"
+    }
+  ],
+  "warnings": [],
+  "input_files": [
+    "docker-compose.yml",
+    "firebase.json",
+    "netlify.toml",
+    "package.json",
+    "pnpm-workspace.yaml",
+    "prod.Dockerfile",
+    "packages/codemirror-lang-graphql/package.json",
+    "packages/hoppscotch-agent/package.json",
+    "packages/hoppscotch-backend/Dockerfile",
+    "packages/hoppscotch-backend/package.json",
+    "packages/hoppscotch-cli/package.json",
+    "packages/hoppscotch-common/package.json",
+    "packages/hoppscotch-data/package.json",
+    "packages/hoppscotch-js-sandbox/package.json",
+    "packages/hoppscotch-relay/Cargo.toml",
+    "packages/hoppscotch-selfhost-desktop/package.json",
+    "packages/hoppscotch-selfhost-web/Dockerfile",
+    "README.md",
+    "packages/codemirror-lang-graphql/README.md",
+    "packages/hoppscotch-agent/README.md",
+    "packages/hoppscotch-cli/README.md",
+    "packages/hoppscotch-js-sandbox/README.md",
+    "packages/hoppscotch-relay/README.md",
+    "packages/hoppscotch-selfhost-desktop/README.md",
+    "packages/codemirror-lang-graphql/src/index.js",
+    "packages/hoppscotch-agent/src/App.vue",
+    "packages/hoppscotch-agent/src/main.ts",
+    "packages/hoppscotch-backend/src/main.ts",
+    "packages/hoppscotch-cli/src/index.ts",
+    "packages/hoppscotch-common/src/App.vue",
+    "packages/hoppscotch-common/src/index.ts",
+    "packages/hoppscotch-selfhost-desktop/src/main.ts",
+    "packages/hoppscotch-selfhost-web/src/main.ts",
+    "packages/hoppscotch-sh-admin/src/App.vue",
+    "packages/hoppscotch-sh-admin/src/main.ts",
+    "packages/hoppscotch-agent/src-tauri/src/main.rs",
+    "packages/hoppscotch-agent/src-tauri/src/server.rs",
+    "packages/hoppscotch-common/src/modules/index.ts",
+    "packages/hoppscotch-common/src/modules/router.ts",
+    "packages/hoppscotch-common/src/pages/index.vue",
+    "packages/hoppscotch-common/src/platform/index.ts",
+    "packages/hoppscotch-data/src/collection/index.ts",
+    "packages/hoppscotch-data/src/environment/index.ts",
+    "aio_run.mjs",
+    "packages/codemirror-lang-graphql/rollup.config.js",
+    "packages/hoppscotch-agent/vite.config.ts",
+    "packages/hoppscotch-backend/prod_run.mjs",
+    "packages/hoppscotch-cli/setupFiles.ts",
+    "packages/hoppscotch-common/meta.ts",
+    "packages/hoppscotch-data/vite.config.ts",
+    "packages/hoppscotch-selfhost-desktop/vite.config.ts",
+    "packages/hoppscotch-selfhost-web/vite.config.ts",
+    "packages/hoppscotch-sh-admin/vite.config.ts",
+    "packages/hoppscotch-agent/src-tauri/build.rs",
+    "packages/hoppscotch-cli/bin/hopp.js",
+    "packages/hoppscotch-data/src/predefinedVariables.ts",
+    "packages/hoppscotch-js-sandbox/src/shared-utils.ts",
+    "packages/hoppscotch-relay/src/relay.rs",
+    "packages/hoppscotch-selfhost-desktop/src/interop.ts",
+    "packages/hoppscotch-selfhost-desktop/src-tauri/build.rs",
+    "packages/hoppscotch-agent/src-tauri/src/controller.rs"
+  ],
+  "apply_blocked": null,
+  "applied": null
+}
