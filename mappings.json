@@ -2776,6 +2776,238 @@
         "changed_files": 66
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4430": {
+      "pr_number": 4430,
+      "pr_title": "chore(backend): configure CORS for development and production environments",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4430",
+      "merged_at": "2025-05-14T06:59:24Z",
+      "components": [
+        "graphql-api",
+        "rest-api"
+      ],
+      "source": "ai",
+      "author": "ZenMachina16",
+      "timestamp": "2026-10-14T05:36:33Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "graphql-api",
+        "rest-api"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 6,
+        "deletions": 7,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4595": {
+      "pr_number": 4595,
+      "pr_title": "chore: improve healthcheck configuration for AIO container",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4595",
+      "merged_at": "2025-05-14T11:45:41Z",
+      "components": [],
+      "source": "ai",
+      "author": "progprnv",
+      "timestamp": "2026-10-14T05:36:43Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 29,
+        "deletions": 9,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5074": {
+      "pr_number": 5074,
+      "pr_title": "HSB-514 refactor: remove unused `CollType` GQL enum",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5074",
+      "merged_at": "2025-05-16T10:55:56Z",
+      "components": [
+        "graphql-api"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T05:36:51Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "graphql-api"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 9,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5072": {
+      "pr_number": 5072,
+      "pr_title": "feat(common): add support for registering and merging additional locale messages",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5072",
+      "merged_at": "2025-05-16T11:28:39Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:37:00Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 57,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5067": {
+      "pr_number": 5067,
+      "pr_title": "feat(common): enhance HAWK authentication with payload hash calculation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5067",
+      "merged_at": "2025-05-20T11:31:04Z",
+      "components": [
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:37:09Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "inspection-services"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 112,
+        "deletions": 23,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5044": {
+      "pr_number": 5044,
+      "pr_title": "feat(desktop): complete lifecycle logs",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5044",
+      "merged_at": "2025-05-21T09:56:16Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:37:18Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 91,
+        "deletions": 18,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5049": {
+      "pr_number": 5049,
+      "pr_title": "fix(desktop): verbatim path handling in disk resolution",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5049",
+      "merged_at": "2025-05-21T12:46:48Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:37:28Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 114,
+        "deletions": 28,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5070": {
+      "pr_number": 5070,
+      "pr_title": "fix(desktop): extend file-write permissions",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5070",
+      "merged_at": "2025-05-21T12:57:21Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:37:36Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5083": {
+      "pr_number": 5083,
+      "pr_title": "feat(kernel): multi-instance support for `store`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5083",
+      "merged_at": "2025-05-21T13:38:55Z",
+      "components": [
+        "platform-abstraction",
+        "desktop-platform-adapters",
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:37:51Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction",
+        "desktop-platform-adapters",
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 129,
+        "deletions": 79,
+        "changed_files": 12
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5084": {
+      "pr_number": 5084,
+      "pr_title": "fix: include request body to AWS V4 signer in effective request functions",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5084",
+      "merged_at": "2025-05-21T15:32:08Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:38:00Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 7,
+        "deletions": 0,
+        "changed_files": 2
+      },
+      "auto_approved": true
     }
   }
 }
