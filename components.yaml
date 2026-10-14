@@ -1,5 +1,5 @@
 schema_version: '1'
-version: '6'
+version: '8'
 model:
   type: c4
 components:
@@ -60,6 +60,12 @@ components:
   description: コレクションに基づきモックサーバーを作成・編集・管理し、リクエストログを表示するUIコンポーネント・ストア・composable群
   parent: hoppscotch-common
   technology: Vue 3, TypeScript, urql
+- id: documentation-ui
+  name: Documentation UI
+  level: component
+  description: コレクション・リクエストのドキュメント作成/編集/プレビュー、Markdown編集、公開ドキュメントの閲覧・共有URL発行を行うUIコンポーネント・サービス・composable群
+  parent: hoppscotch-common
+  technology: Vue 3, TypeScript, urql, Web Worker
 - id: hoppscotch-selfhost-web
   name: Hoppscotch Web App
   level: container
@@ -111,6 +117,12 @@ components:
   name: Mock Server Module
   level: component
   description: コレクションの例データを基にモックサーバーを作成・更新・削除し、リクエストのハンドリング・ログ記録・利用状況分析を行うモジュール（Personal/Teamワークスペース対応、公開/PAT認証の非公開サーバーをサポート）
+  parent: hoppscotch-backend
+  technology: NestJS, GraphQL, REST
+- id: published-docs-module
+  name: Published Docs Module
+  level: component
+  description: コレクション/リクエストのドキュメントを公開URLとして発行・更新・削除・閲覧する機能を提供するモジュール（Personal/Teamワークスペース対応）
   parent: hoppscotch-backend
   technology: NestJS, GraphQL, REST
 - id: hoppscotch-cli
@@ -522,3 +534,19 @@ relations:
   to: collections-environments
   description: コレクションの例データ(example response)を参照してモックサーバーを構成
   technology: TypeScript関数呼び出し
+- from: published-docs-module
+  to: prisma-data-access
+  description: 公開ドキュメントの作成・更新・削除・閲覧データの読み書き
+  technology: Prisma Client
+- from: documentation-ui
+  to: hoppscotch-backend
+  description: ドキュメントの公開・更新・削除・取得のためのGraphQL通信
+  technology: GraphQL/HTTPS
+- from: documentation-ui
+  to: collections-environments
+  description: コレクション・リクエストのデータを参照してドキュメントを生成
+  technology: TypeScript関数呼び出し
+- from: scripting-integration
+  to: interceptors
+  description: pre/postスクリプト内の hopp.fetch()・グローバル fetch()・pm.sendRequest() から、選択中のインターセプター（Agent/Extension/Browser）経由で任意のHTTPリクエストを送出
+  technology: TypeScript関数呼び出し / KernelInterceptorService

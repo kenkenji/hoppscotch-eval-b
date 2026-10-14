@@ -2,6 +2,280 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#5596-20261014T074854Z",
+      "timestamp": "2026-10-14T07:48:54Z",
+      "pr_number": 5596,
+      "pr_title": "feat(scripting-revamp): add support for sending requests in scripting context",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5596",
+      "components": [
+        "scripting-integration",
+        "inspection-services",
+        "rest-client",
+        "cli-script-sandbox"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-26T04:22:01Z",
+      "ai_components": [
+        "scripting-integration",
+        "inspection-services",
+        "rest-client",
+        "cli-script-sandbox"
+      ],
+      "diff_stats": {
+        "additions": 12934,
+        "deletions": 1067,
+        "changed_files": 70
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5544-20261014T074812Z",
+      "timestamp": "2026-10-14T07:48:12Z",
+      "pr_number": 5544,
+      "pr_title": "feat(common): add better ux to profile page by enabling routing for each tab",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5544",
+      "components": [
+        "platform-abstraction",
+        "mock-server-ui"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-25T17:36:56Z",
+      "ai_components": [
+        "platform-abstraction",
+        "mock-server-ui"
+      ],
+      "diff_stats": {
+        "additions": 408,
+        "deletions": 199,
+        "changed_files": 13
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5618-20261014T074801Z",
+      "timestamp": "2026-10-14T07:48:01Z",
+      "pr_number": 5618,
+      "pr_title": "fix: API documentation UI flow improvements",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5618",
+      "components": [
+        "documentation-ui",
+        "published-docs-module"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-25T17:36:02Z",
+      "ai_components": [
+        "documentation-ui",
+        "published-docs-module"
+      ],
+      "diff_stats": {
+        "additions": 91,
+        "deletions": 44,
+        "changed_files": 18
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5570-20261014T074750Z",
+      "timestamp": "2026-10-14T07:47:50Z",
+      "pr_number": 5570,
+      "pr_title": "feat: add platform-specific import support for personal collections",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5570",
+      "components": [
+        "collections-environments",
+        "platform-abstraction",
+        "web-platform-adapters",
+        "desktop-platform-adapters",
+        "graphql-api",
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-25T16:33:21Z",
+      "ai_components": [
+        "collections-environments",
+        "platform-abstraction",
+        "web-platform-adapters",
+        "desktop-platform-adapters",
+        "graphql-api",
+        "user-team-management"
+      ],
+      "diff_stats": {
+        "additions": 214,
+        "deletions": 419,
+        "changed_files": 17
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5609-20261014T074738Z",
+      "timestamp": "2026-10-14T07:47:38Z",
+      "pr_number": 5609,
+      "pr_title": "feat: mock server feature enhancements",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5609",
+      "components": [
+        "mock-server-ui"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-25T14:04:54Z",
+      "ai_components": [
+        "mock-server-ui"
+      ],
+      "diff_stats": {
+        "additions": 2005,
+        "deletions": 623,
+        "changed_files": 16
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5421-20261014T074726Z",
+      "timestamp": "2026-10-14T07:47:26Z",
+      "pr_number": 5421,
+      "pr_title": "feat(desktop): portable phase-3: instance manager",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5421",
+      "components": [
+        "desktop-platform-adapters",
+        "desktop-tauri-shell",
+        "platform-abstraction",
+        "web-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-25T12:39:18Z",
+      "ai_components": [
+        "desktop-platform-adapters",
+        "desktop-tauri-shell",
+        "platform-abstraction",
+        "web-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 5112,
+        "deletions": 16795,
+        "changed_files": 218
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5613-20261014T074717Z",
+      "timestamp": "2026-10-14T07:47:17Z",
+      "pr_number": 5613,
+      "pr_title": "fix(common): agent interceptor dependency compat",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5613",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-25T09:14:41Z",
+      "ai_components": [
+        "interceptors"
+      ],
+      "diff_stats": {
+        "additions": 11,
+        "deletions": 10,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5499-20261014T074708Z",
+      "timestamp": "2026-10-14T07:47:08Z",
+      "pr_number": 5499,
+      "pr_title": "feat: API Documentation ",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5499",
+      "components": [
+        "graphql-api",
+        "rest-api",
+        "user-team-management",
+        "prisma-data-access",
+        "collections-environments",
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-25T05:56:57Z",
+      "ai_components": [
+        "graphql-api",
+        "rest-api",
+        "user-team-management",
+        "prisma-data-access",
+        "collections-environments",
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 9889,
+        "deletions": 128,
+        "changed_files": 85
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5612-20261014T074629Z",
+      "timestamp": "2026-10-14T07:46:29Z",
+      "pr_number": 5612,
+      "pr_title": "chore(desktop): bump desktop shell dependencies",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5612",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-24T15:39:50Z",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 1295,
+        "deletions": 1559,
+        "changed_files": 13
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5607-20261014T074618Z",
+      "timestamp": "2026-10-14T07:46:18Z",
+      "pr_number": 5607,
+      "pr_title": "chore(agent): bump agent and dependency chain",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5607",
+      "components": [
+        "desktop-tauri-shell",
+        "agent-controller",
+        "agent-relay-engine",
+        "agent-state",
+        "agent-ui"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-11-24T14:29:57Z",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "agent-controller",
+        "agent-relay-engine",
+        "agent-state",
+        "agent-ui"
+      ],
+      "diff_stats": {
+        "additions": 199,
+        "deletions": 199,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#5610-20261014T074607Z",
       "timestamp": "2026-10-14T07:46:07Z",
       "pr_number": 5610,

@@ -2,6 +2,66 @@
   "version": "1.0",
   "entries": [
     {
+      "model_version": "8",
+      "timestamp": "2026-10-14T07:48:54Z",
+      "changes": [
+        {
+          "type": "add_relation",
+          "target": "relation",
+          "id": "scripting-integration -> interceptors",
+          "summary": "add_relation: scripting-integration -> interceptors"
+        }
+      ],
+      "trigger": {
+        "type": "pr",
+        "pr_number": 5596,
+        "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5596"
+      },
+      "author": "catch-up"
+    },
+    {
+      "model_version": "7",
+      "timestamp": "2026-10-14T07:47:08Z",
+      "changes": [
+        {
+          "type": "add",
+          "target": "component",
+          "id": "published-docs-module",
+          "summary": "Published Docs Module コンポーネントを追加"
+        },
+        {
+          "type": "add",
+          "target": "component",
+          "id": "documentation-ui",
+          "summary": "Documentation UI コンポーネントを追加"
+        },
+        {
+          "type": "add_relation",
+          "target": "relation",
+          "id": "published-docs-module -> prisma-data-access",
+          "summary": "add_relation: published-docs-module -> prisma-data-access"
+        },
+        {
+          "type": "add_relation",
+          "target": "relation",
+          "id": "documentation-ui -> hoppscotch-backend",
+          "summary": "add_relation: documentation-ui -> hoppscotch-backend"
+        },
+        {
+          "type": "add_relation",
+          "target": "relation",
+          "id": "documentation-ui -> collections-environments",
+          "summary": "add_relation: documentation-ui -> collections-environments"
+        }
+      ],
+      "trigger": {
+        "type": "pr",
+        "pr_number": 5499,
+        "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5499"
+      },
+      "author": "catch-up"
+    },
+    {
       "model_version": "6",
       "timestamp": "2026-10-14T07:43:12Z",
       "changes": [
