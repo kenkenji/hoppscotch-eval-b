@@ -3888,6 +3888,234 @@
         "changed_files": 1
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5190": {
+      "pr_number": 5190,
+      "pr_title": "feat(desktop): native tab keyboard shortcuts",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5190",
+      "merged_at": "2025-06-24T17:46:31Z",
+      "components": [
+        "desktop-tauri-shell",
+        "desktop-platform-adapters",
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:20:59Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "desktop-platform-adapters",
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 426,
+        "deletions": 15,
+        "changed_files": 13
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5152": {
+      "pr_number": 5152,
+      "pr_title": "fix: output raw numbers in JSON filter",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5152",
+      "merged_at": "2025-06-24T17:53:30Z",
+      "components": [
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "g3Bg2",
+      "timestamp": "2026-10-14T07:21:07Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "inspection-services"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 36,
+        "deletions": 7,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5187": {
+      "pr_number": 5187,
+      "pr_title": "chore: resolve global env in team env and tooltip UI update",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5187",
+      "merged_at": "2025-06-25T08:02:37Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:21:15Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 303,
+        "deletions": 135,
+        "changed_files": 11
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5185": {
+      "pr_number": 5185,
+      "pr_title": "fix(common): auto unescape utf-8 issue in the request body",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5185",
+      "merged_at": "2025-06-25T08:25:44Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T07:21:24Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5066": {
+      "pr_number": 5066,
+      "pr_title": "refactor(backend): enhance auth strategies with type safety and better error handling",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5066",
+      "merged_at": "2025-06-25T08:32:02Z",
+      "components": [
+        "auth-module"
+      ],
+      "source": "ai",
+      "author": "Krishprajapati15",
+      "timestamp": "2026-10-14T07:21:32Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "auth-module"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 74,
+        "deletions": 41,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5195": {
+      "pr_number": 5195,
+      "pr_title": "feat: ability to copy initial and current env value to eachother",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5195",
+      "merged_at": "2025-06-25T08:42:51Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:21:40Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 249,
+        "deletions": 53,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5196": {
+      "pr_number": 5196,
+      "pr_title": "chore: security patches for the dependency chain",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5196",
+      "merged_at": "2025-06-25T14:03:10Z",
+      "components": [],
+      "source": "ai",
+      "author": "AndrewBastin",
+      "timestamp": "2026-10-14T07:21:53Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 40,
+        "deletions": 34,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5130": {
+      "pr_number": 5130,
+      "pr_title": "feat(common): authentication strategy improvements",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5130",
+      "merged_at": "2025-06-25T16:42:09Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T07:22:03Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 569,
+        "deletions": 373,
+        "changed_files": 12
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5199": {
+      "pr_number": 5199,
+      "pr_title": "chore(desktop): update `typescript` bump hash",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5199",
+      "merged_at": "2025-06-26T06:08:18Z",
+      "components": [],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:22:13Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 36,
+        "deletions": 36,
+        "changed_files": 8
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5200": {
+      "pr_number": 5200,
+      "pr_title": "fix(desktop): redirect menu bar events to window",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5200",
+      "merged_at": "2025-06-26T08:03:15Z",
+      "components": [
+        "desktop-tauri-shell",
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:22:22Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell",
+        "desktop-platform-adapters"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 110,
+        "deletions": 142,
+        "changed_files": 2
+      },
+      "auto_approved": true
     }
   }
 }
