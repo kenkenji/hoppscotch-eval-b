@@ -2,6 +2,279 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#6402-20261014T120200Z",
+      "timestamp": "2026-10-14T12:02:00Z",
+      "pr_number": 6402,
+      "pr_title": "fix(common): rewrite Finnish language pack",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6402",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "roopepaajanen",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-06-30T06:56:29Z",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 2013,
+        "deletions": 741,
+        "changed_files": 1
+      },
+      "labels": [
+        "i18n"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6387-20261014T120151Z",
+      "timestamp": "2026-10-14T12:01:51Z",
+      "pr_number": 6387,
+      "pr_title": "docs(js-sandbox): update development instructions",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6387",
+      "components": [],
+      "source": "ai",
+      "author": "abhaybansal0322",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-06-29T16:38:51Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 10,
+        "deletions": 4,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6449-20261014T120146Z",
+      "timestamp": "2026-10-14T12:01:46Z",
+      "pr_number": 6449,
+      "pr_title": "feat: add Thai translation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6449",
+      "components": [
+        "hoppscotch-common",
+        "hoppscotch-sh-admin"
+      ],
+      "source": "ai",
+      "author": "anusoft",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-06-29T12:55:34Z",
+      "ai_components": [
+        "hoppscotch-common",
+        "hoppscotch-sh-admin"
+      ],
+      "diff_stats": {
+        "additions": 2904,
+        "deletions": 0,
+        "changed_files": 4
+      },
+      "labels": [
+        "i18n"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6423-20261014T120134Z",
+      "timestamp": "2026-10-14T12:01:34Z",
+      "pr_number": 6423,
+      "pr_title": "fix(desktop): sync self-hosted instance version from manifest",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6423",
+      "components": [
+        "desktop-platform-adapters",
+        "web-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "cassiocauee",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-06-29T07:27:16Z",
+      "ai_components": [
+        "desktop-platform-adapters",
+        "web-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 52,
+        "deletions": 12,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6416-20261014T120125Z",
+      "timestamp": "2026-10-14T12:01:25Z",
+      "pr_number": 6416,
+      "pr_title": "feat(desktop): desktop cookie persistence and reapplication",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6416",
+      "components": [
+        "interceptors",
+        "platform-abstraction",
+        "rest-client",
+        "desktop-tauri-shell",
+        "desktop-native-interceptor"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-06-29T06:19:19Z",
+      "ai_components": [
+        "interceptors",
+        "platform-abstraction",
+        "rest-client",
+        "desktop-tauri-shell",
+        "desktop-native-interceptor"
+      ],
+      "diff_stats": {
+        "additions": 3244,
+        "deletions": 1619,
+        "changed_files": 25
+      },
+      "labels": [
+        "feature",
+        "desktop"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5768-20261014T120039Z",
+      "timestamp": "2026-10-14T12:00:39Z",
+      "pr_number": 5768,
+      "pr_title": "fix(common): preserve JSON bodies in curl parser",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5768",
+      "components": [
+        "cli-commands"
+      ],
+      "source": "ai",
+      "author": "gengjiawen",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-06-26T13:03:46Z",
+      "ai_components": [
+        "cli-commands"
+      ],
+      "diff_stats": {
+        "additions": 368,
+        "deletions": 9,
+        "changed_files": 3
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6447-20261014T120027Z",
+      "timestamp": "2026-10-14T12:00:27Z",
+      "pr_number": 6447,
+      "pr_title": "fix(common): resolve environment variables in inherited collection headers",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6447",
+      "components": [
+        "rest-client",
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "sahil29roy",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-06-24T17:22:35Z",
+      "ai_components": [
+        "rest-client",
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 478,
+        "deletions": 224,
+        "changed_files": 14
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6448-20261014T120018Z",
+      "timestamp": "2026-10-14T12:00:18Z",
+      "pr_number": 6448,
+      "pr_title": "feat(mock-server): append /backend to domain-based URL when subpath access is enabled",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6448",
+      "components": [
+        "mock-server-module"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-06-24T12:42:45Z",
+      "ai_components": [
+        "mock-server-module"
+      ],
+      "diff_stats": {
+        "additions": 131,
+        "deletions": 2,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6450-20261014T120009Z",
+      "timestamp": "2026-10-14T12:00:09Z",
+      "pr_number": 6450,
+      "pr_title": "chore: security patch for the dependency chain `v2026.6.0`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6450",
+      "components": [
+        "auth-module",
+        "user-team-management",
+        "graphql-api",
+        "rest-api",
+        "mailer-service",
+        "prisma-data-access",
+        "analytics-service",
+        "subscriptions-pubsub"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-06-24T07:22:02Z",
+      "ai_components": [
+        "auth-module",
+        "user-team-management",
+        "graphql-api",
+        "rest-api",
+        "mailer-service",
+        "prisma-data-access",
+        "analytics-service",
+        "subscriptions-pubsub"
+      ],
+      "diff_stats": {
+        "additions": 3401,
+        "deletions": 2703,
+        "changed_files": 13
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6385-20261014T115958Z",
+      "timestamp": "2026-10-14T11:59:58Z",
+      "pr_number": 6385,
+      "pr_title": "feat(sh-admin): surface which config fields block saving",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6385",
+      "components": [
+        "admin-dashboard-ui"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-06-23T09:05:24Z",
+      "ai_components": [
+        "admin-dashboard-ui"
+      ],
+      "diff_stats": {
+        "additions": 632,
+        "deletions": 230,
+        "changed_files": 9
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#6413-20261014T115948Z",
       "timestamp": "2026-10-14T11:59:48Z",
       "pr_number": 6413,
