@@ -2,4 +2,4 @@ spa:
   url: https://kenkenji.github.io/hoppscotch-eval-b
 llm:
   model: claude-sonnet-5
-auto_approve: false
+auto_approve: true
