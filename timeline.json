@@ -2,6 +2,232 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#4909-20261014T052950Z",
+      "timestamp": "2026-10-14T05:29:50Z",
+      "pr_number": 4909,
+      "pr_title": "feat(common): create new requests without siphoning data from the previous one",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4909",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-03-27T07:19:42Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 9,
+        "deletions": 224,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4818-20261014T052942Z",
+      "timestamp": "2026-10-14T05:29:42Z",
+      "pr_number": 4818,
+      "pr_title": "fix(common): improve authorization header handling",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4818",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-03-26T11:42:41Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 30,
+        "deletions": 3,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4940-20261014T052931Z",
+      "timestamp": "2026-10-14T05:29:31Z",
+      "pr_number": 4940,
+      "pr_title": "fix(common): oauth2 password flow not respecting scopes",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4940",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "qhris",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-03-26T11:20:37Z",
+      "ai_components": [
+        "rest-client"
+      ],
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4779-20261014T052922Z",
+      "timestamp": "2026-10-14T05:29:22Z",
+      "pr_number": 4779,
+      "pr_title": "feat: search requests by endpoint in personal workspace",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4779",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "Pranay-Pandey",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-03-26T09:52:14Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 6,
+        "deletions": 2,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4939-20261014T052914Z",
+      "timestamp": "2026-10-14T05:29:14Z",
+      "pr_number": 4939,
+      "pr_title": "fix(desktop): enable cookie support for sh-desktop",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4939",
+      "components": [
+        "desktop-platform-adapters",
+        "desktop-native-interceptor"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-03-26T09:31:36Z",
+      "ai_components": [
+        "desktop-platform-adapters",
+        "desktop-native-interceptor"
+      ],
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4925-20261014T052905Z",
+      "timestamp": "2026-10-14T05:29:05Z",
+      "pr_number": 4925,
+      "pr_title": "docs: link to the Desktop App",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4925",
+      "components": [],
+      "source": "ai",
+      "author": "ThePredators",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-03-25T11:10:42Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4931-20261014T052900Z",
+      "timestamp": "2026-10-14T05:29:00Z",
+      "pr_number": 4931,
+      "pr_title": "fix(relay): avoid override with header passthrough",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4931",
+      "components": [
+        "desktop-native-interceptor",
+        "agent-relay-engine"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-03-25T11:04:27Z",
+      "ai_components": [
+        "desktop-native-interceptor",
+        "agent-relay-engine"
+      ],
+      "diff_stats": {
+        "additions": 30,
+        "deletions": 36,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4920-20261014T052848Z",
+      "timestamp": "2026-10-14T05:28:48Z",
+      "pr_number": 4920,
+      "pr_title": "chore(i18n): update tw translation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4920",
+      "components": [],
+      "source": "ai",
+      "author": "SimonAllen0901",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-03-25T11:02:25Z",
+      "ai_components": [],
+      "diff_stats": {
+        "additions": 26,
+        "deletions": 26,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4872-20261014T052838Z",
+      "timestamp": "2026-10-14T05:28:38Z",
+      "pr_number": 4872,
+      "pr_title": "feat: add search in environment selector and sidebar",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4872",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-03-24T16:48:19Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 288,
+        "deletions": 71,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#4873-20261014T052829Z",
+      "timestamp": "2026-10-14T05:28:29Z",
+      "pr_number": 4873,
+      "pr_title": "feat(common): click to activate environment from sidebar as primary",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4873",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-03-21T07:52:46Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 160,
+        "deletions": 19,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#4893-20261014T052818Z",
       "timestamp": "2026-10-14T05:28:18Z",
       "pr_number": 4893,
