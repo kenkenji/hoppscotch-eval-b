@@ -2,6 +2,246 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#5601-20261014T075212Z",
+      "timestamp": "2026-10-14T07:52:12Z",
+      "pr_number": 5601,
+      "pr_title": "fix: improve keyboard shortcuts",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5601",
+      "components": [
+        "rest-client",
+        "graphql-client",
+        "scripting-integration",
+        "web-pwa-shell",
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "chhaviG22",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-12T08:53:59Z",
+      "ai_components": [
+        "rest-client",
+        "graphql-client",
+        "scripting-integration",
+        "web-pwa-shell",
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 260,
+        "deletions": 17,
+        "changed_files": 8
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5687-20261014T075203Z",
+      "timestamp": "2026-10-14T07:52:03Z",
+      "pr_number": 5687,
+      "pr_title": "fix(desktop): align vendored instance version",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5687",
+      "components": [
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-11T08:53:09Z",
+      "ai_components": [
+        "desktop-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5671-20261014T075152Z",
+      "timestamp": "2026-10-14T07:51:52Z",
+      "pr_number": 5671,
+      "pr_title": "chore: add sslmode support to PrismaService database URL parser",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5671",
+      "components": [
+        "prisma-data-access"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-10T06:19:17Z",
+      "ai_components": [
+        "prisma-data-access"
+      ],
+      "diff_stats": {
+        "additions": 88,
+        "deletions": 28,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5665-20261014T075143Z",
+      "timestamp": "2026-10-14T07:51:43Z",
+      "pr_number": 5665,
+      "pr_title": "fix(common): remove double scrollbar in response pane",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5665",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "preeyaX",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-09T13:58:29Z",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "diff_stats": {
+        "additions": 5,
+        "deletions": 5,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5616-20261014T075134Z",
+      "timestamp": "2026-10-14T07:51:34Z",
+      "pr_number": 5616,
+      "pr_title": "fix(common): environment variables not detected in request body editors",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5616",
+      "components": [
+        "scripting-integration"
+      ],
+      "source": "ai",
+      "author": "chhaviG22",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-09T13:23:14Z",
+      "ai_components": [
+        "scripting-integration"
+      ],
+      "diff_stats": {
+        "additions": 62,
+        "deletions": 24,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5631-20261014T075125Z",
+      "timestamp": "2026-10-14T07:51:25Z",
+      "pr_number": 5631,
+      "pr_title": "fix(common): increase modal dialog width for bigger screen",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5631",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "Nilanshu-Ankit",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-08T12:20:08Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 3,
+        "deletions": 3,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5658-20261014T075117Z",
+      "timestamp": "2026-10-14T07:51:17Z",
+      "pr_number": 5658,
+      "pr_title": "feat(desktop): atomic write for registry persistence",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5658",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-04T09:04:22Z",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "diff_stats": {
+        "additions": 27,
+        "deletions": 23,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5655-20261014T075103Z",
+      "timestamp": "2026-10-14T07:51:03Z",
+      "pr_number": 5655,
+      "pr_title": "feat(common): adjust layout for created server info display in mock server",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5655",
+      "components": [
+        "mock-server-ui"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-04T06:20:06Z",
+      "ai_components": [
+        "mock-server-ui"
+      ],
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 2,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5656-20261014T075054Z",
+      "timestamp": "2026-10-14T07:50:54Z",
+      "pr_number": 5656,
+      "pr_title": "fix: add database URL parsing to PrismaService",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5656",
+      "components": [
+        "prisma-data-access"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-04T05:55:23Z",
+      "ai_components": [
+        "prisma-data-access"
+      ],
+      "diff_stats": {
+        "additions": 71,
+        "deletions": 4,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#5637-20261014T075046Z",
+      "timestamp": "2026-10-14T07:50:46Z",
+      "pr_number": 5637,
+      "pr_title": "feat: add auto-create collection option to mock server creation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5637",
+      "components": [
+        "mock-server-module",
+        "graphql-api"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2025-12-03T17:31:06Z",
+      "ai_components": [
+        "mock-server-module",
+        "graphql-api"
+      ],
+      "diff_stats": {
+        "additions": 1346,
+        "deletions": 145,
+        "changed_files": 20
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#5626-20261014T075024Z",
       "timestamp": "2026-10-14T07:50:24Z",
       "pr_number": 5626,
