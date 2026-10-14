@@ -7328,6 +7328,248 @@
         "changed_files": 70
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5619": {
+      "pr_number": 5619,
+      "pr_title": "fix: guard tauri calls with kernel check",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5619",
+      "merged_at": "2025-11-26T06:04:48Z",
+      "components": [
+        "platform-abstraction",
+        "web-platform-adapters",
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:49:06Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction",
+        "web-platform-adapters",
+        "desktop-platform-adapters"
+      ],
+      "model_version": "8",
+      "diff_stats": {
+        "additions": 124,
+        "deletions": 38,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5435": {
+      "pr_number": 5435,
+      "pr_title": "feat(common): add erase response functionality with keybindings",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5435",
+      "merged_at": "2025-11-26T08:54:16Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "12fahed",
+      "timestamp": "2026-10-14T07:49:15Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "8",
+      "diff_stats": {
+        "additions": 326,
+        "deletions": 28,
+        "changed_files": 11
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5448": {
+      "pr_number": 5448,
+      "pr_title": "fix(common): GraphQL argument addition and click event propagation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5448",
+      "merged_at": "2025-11-26T09:04:04Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "notKvS",
+      "timestamp": "2026-10-14T07:49:23Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "8",
+      "diff_stats": {
+        "additions": 12,
+        "deletions": 7,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5440": {
+      "pr_number": 5440,
+      "pr_title": "docs(cli): add workspace dependency build requirements to README",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5440",
+      "merged_at": "2025-11-26T14:52:41Z",
+      "components": [],
+      "source": "ai",
+      "author": "iw4p",
+      "timestamp": "2026-10-14T07:49:28Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "8",
+      "diff_stats": {
+        "additions": 18,
+        "deletions": 5,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5620": {
+      "pr_number": 5620,
+      "pr_title": "feat: improve documentation UI and add published docs indicators",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5620",
+      "merged_at": "2025-11-27T06:59:29Z",
+      "components": [
+        "documentation-ui",
+        "published-docs-module"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:49:36Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "documentation-ui",
+        "published-docs-module"
+      ],
+      "model_version": "8",
+      "diff_stats": {
+        "additions": 613,
+        "deletions": 195,
+        "changed_files": 19
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5641": {
+      "pr_number": 5641,
+      "pr_title": "fix: prevent clear response action in response examples and test runner",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5641",
+      "merged_at": "2025-12-02T07:58:54Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:49:46Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "8",
+      "diff_stats": {
+        "additions": 65,
+        "deletions": 8,
+        "changed_files": 9
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5624": {
+      "pr_number": 5624,
+      "pr_title": "hotfix: clean up published docs with deleted collections",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5624",
+      "merged_at": "2025-12-02T08:07:08Z",
+      "components": [
+        "published-docs-module"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T07:49:54Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "published-docs-module"
+      ],
+      "model_version": "8",
+      "diff_stats": {
+        "additions": 279,
+        "deletions": 15,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5597": {
+      "pr_number": 5597,
+      "pr_title": "fix: ensure correct parser for xml and plaintext",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5597",
+      "merged_at": "2025-12-02T11:53:51Z",
+      "components": [
+        "rest-client",
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "jaeyonglee-int",
+      "timestamp": "2026-10-14T07:50:04Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client",
+        "inspection-services"
+      ],
+      "model_version": "8",
+      "diff_stats": {
+        "additions": 20,
+        "deletions": 11,
+        "changed_files": 4
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5630": {
+      "pr_number": 5630,
+      "pr_title": "fix: support dots/dashes in environment variable autocomplete",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5630",
+      "merged_at": "2025-12-02T17:42:15Z",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "myeonbi",
+      "timestamp": "2026-10-14T07:50:12Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "model_version": "8",
+      "diff_stats": {
+        "additions": 32,
+        "deletions": 11,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5626": {
+      "pr_number": 5626,
+      "pr_title": "fix: remove `ref_id` field before collection exports and address race conditions",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5626",
+      "merged_at": "2025-12-03T17:30:25Z",
+      "components": [
+        "documentation-ui",
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:50:24Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "documentation-ui",
+        "collections-environments"
+      ],
+      "model_version": "8",
+      "diff_stats": {
+        "additions": 167,
+        "deletions": 35,
+        "changed_files": 12
+      },
+      "auto_approved": true
     }
   }
 }
