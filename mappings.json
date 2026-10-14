@@ -4824,6 +4824,226 @@
         "changed_files": 2
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5289": {
+      "pr_number": 5289,
+      "pr_title": "chore: change session config",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5289",
+      "merged_at": "2025-07-29T09:02:57Z",
+      "components": [],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "timestamp": "2026-10-14T07:28:02Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 8,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5291": {
+      "pr_number": 5291,
+      "pr_title": "test(common): coverage for desktop tab navigation",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5291",
+      "merged_at": "2025-07-29T15:18:06Z",
+      "components": [],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:28:07Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 209,
+        "deletions": 0,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5290": {
+      "pr_number": 5290,
+      "pr_title": "fix: SH admin dashboard setting and onboarding page cleanups",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5290",
+      "merged_at": "2025-07-29T15:29:39Z",
+      "components": [
+        "admin-dashboard-ui",
+        "admin-auth"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:28:18Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "admin-dashboard-ui",
+        "admin-auth"
+      ],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 360,
+        "deletions": 274,
+        "changed_files": 10
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5293": {
+      "pr_number": 5293,
+      "pr_title": "chore: hide advanced configuration for non-authCode grant types",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5293",
+      "merged_at": "2025-07-30T05:14:45Z",
+      "components": [
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T07:28:27Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "rest-client"
+      ],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5297": {
+      "pr_number": 5297,
+      "pr_title": "fix: onboarding flow smtp bug",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5297",
+      "merged_at": "2025-07-30T09:43:49Z",
+      "components": [
+        "admin-dashboard-ui"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:28:37Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "admin-dashboard-ui"
+      ],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 10,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5300": {
+      "pr_number": 5300,
+      "pr_title": "fix: resolve typo in `i18n` string",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5300",
+      "merged_at": "2025-07-31T11:01:02Z",
+      "components": [],
+      "source": "ai",
+      "author": "xbonell-sage",
+      "timestamp": "2026-10-14T07:28:45Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 1,
+        "deletions": 1,
+        "changed_files": 1
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5305": {
+      "pr_number": 5305,
+      "pr_title": "fix: `SmartEnvInput` environment context bug",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5305",
+      "merged_at": "2025-08-05T08:09:43Z",
+      "components": [
+        "inspection-services",
+        "rest-client"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T07:28:54Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "inspection-services",
+        "rest-client"
+      ],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 2,
+        "deletions": 2,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5311": {
+      "pr_number": 5311,
+      "pr_title": "feat(desktop): explore random port for IPv6 compat",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5311",
+      "merged_at": "2025-08-08T08:10:02Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:29:06Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 34,
+        "deletions": 15,
+        "changed_files": 4
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5306": {
+      "pr_number": 5306,
+      "pr_title": "fix(relay): expand MIME type support",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5306",
+      "merged_at": "2025-08-08T08:21:46Z",
+      "components": [
+        "desktop-native-interceptor",
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T07:29:18Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-native-interceptor",
+        "desktop-tauri-shell"
+      ],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 95,
+        "deletions": 16,
+        "changed_files": 8
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#5315": {
+      "pr_number": 5315,
+      "pr_title": "chore(i18n): update action block translations in `tw.json`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/5315",
+      "merged_at": "2025-08-08T08:26:39Z",
+      "components": [],
+      "source": "ai",
+      "author": "ruyut",
+      "timestamp": "2026-10-14T07:29:30Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "3",
+      "diff_stats": {
+        "additions": 30,
+        "deletions": 14,
+        "changed_files": 1
+      },
+      "auto_approved": true
     }
   }
 }
