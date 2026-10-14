@@ -434,6 +434,260 @@
         "changed_files": 7
       },
       "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4778": {
+      "pr_number": 4778,
+      "pr_title": "chore: remove top level awaits",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4778",
+      "merged_at": "2025-02-21T17:32:03Z",
+      "components": [],
+      "source": "ai",
+      "author": "nivedin",
+      "timestamp": "2026-10-14T05:19:40Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 68,
+        "deletions": 240,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4704": {
+      "pr_number": 4704,
+      "pr_title": "feat: foundational changes to support subdomain based cloud instances",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4704",
+      "merged_at": "2025-02-24T06:54:28Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "timestamp": "2026-10-14T05:19:53Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 1222,
+        "deletions": 351,
+        "changed_files": 25
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4746": {
+      "pr_number": 4746,
+      "pr_title": "fix: ensure GraphQL connection sends authentication headers",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4746",
+      "merged_at": "2025-02-24T11:58:46Z",
+      "components": [
+        "graphql-client"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "timestamp": "2026-10-14T05:20:02Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "graphql-client"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 196,
+        "deletions": 99,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4775": {
+      "pr_number": 4775,
+      "pr_title": "chore: openapi importer bug fixs",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4775",
+      "merged_at": "2025-02-24T15:17:43Z",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "amk-dev",
+      "timestamp": "2026-10-14T05:20:17Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 81,
+        "deletions": 18,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4789": {
+      "pr_number": 4789,
+      "pr_title": "chore: move openapi validation and dereferencing to a worker",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4789",
+      "merged_at": "2025-02-26T13:34:15Z",
+      "components": [
+        "collections-environments",
+        "inspection-services"
+      ],
+      "source": "ai",
+      "author": "amk-dev",
+      "timestamp": "2026-10-14T05:20:29Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "collections-environments",
+        "inspection-services"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 102,
+        "deletions": 6,
+        "changed_files": 3
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4684": {
+      "pr_number": 4684,
+      "pr_title": "feat: platform independent core and the new desktop app",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4684",
+      "merged_at": "2025-02-27T18:31:26Z",
+      "components": [
+        "interceptors",
+        "platform-abstraction",
+        "inspection-services",
+        "rest-client",
+        "graphql-client",
+        "desktop-tauri-shell",
+        "desktop-native-interceptor",
+        "web-platform-adapters",
+        "agent-ui",
+        "agent-controller",
+        "agent-state",
+        "auth-module",
+        "graphql-api"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:21:06Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "interceptors",
+        "platform-abstraction",
+        "inspection-services",
+        "rest-client",
+        "graphql-client",
+        "desktop-tauri-shell",
+        "desktop-native-interceptor",
+        "web-platform-adapters",
+        "agent-ui",
+        "agent-controller",
+        "agent-state",
+        "auth-module",
+        "graphql-api"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 53981,
+        "deletions": 4017,
+        "changed_files": 465
+      },
+      "labels": [
+        "feature",
+        "desktop"
+      ],
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4794": {
+      "pr_number": 4794,
+      "pr_title": "fix(desktop): change updater endpoint and some UX improvements",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4794",
+      "merged_at": "2025-02-28T09:29:01Z",
+      "components": [
+        "desktop-tauri-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:21:18Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "desktop-tauri-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 93,
+        "deletions": 51,
+        "changed_files": 6
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4795": {
+      "pr_number": 4795,
+      "pr_title": "chore: bump version in webapp server",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4795",
+      "merged_at": "2025-02-28T11:19:44Z",
+      "components": [],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:21:26Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 3,
+        "deletions": 3,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4796": {
+      "pr_number": 4796,
+      "pr_title": "fix(desktop): cache size for larger bundles, dev server, lints",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4796",
+      "merged_at": "2025-02-28T16:48:51Z",
+      "components": [
+        "scripting-integration",
+        "web-pwa-shell"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:21:50Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "scripting-integration",
+        "web-pwa-shell"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 9,
+        "deletions": 9,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    "hoppscotch/hoppscotch#4799": {
+      "pr_number": 4799,
+      "pr_title": "fix(common): `PersistenceService` call site compat",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/4799",
+      "merged_at": "2025-03-03T07:09:49Z",
+      "components": [
+        "platform-abstraction"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "timestamp": "2026-10-14T05:22:02Z",
+      "source_repo": "hoppscotch/hoppscotch",
+      "ai_components": [
+        "platform-abstraction"
+      ],
+      "model_version": "2",
+      "diff_stats": {
+        "additions": 137,
+        "deletions": 27,
+        "changed_files": 4
+      },
+      "auto_approved": true
     }
   }
 }
