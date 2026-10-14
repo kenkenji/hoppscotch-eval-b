@@ -2,6 +2,292 @@
   "version": "1.0",
   "entries": [
     {
+      "id": "pr-hoppscotch/hoppscotch#6333-20261014T115759Z",
+      "timestamp": "2026-10-14T11:57:59Z",
+      "pr_number": 6333,
+      "pr_title": "fix(common): wait for proxy settings before issuing requests",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6333",
+      "components": [
+        "interceptors"
+      ],
+      "source": "ai",
+      "author": "anwarulislam",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-25T18:14:51Z",
+      "ai_components": [
+        "interceptors"
+      ],
+      "diff_stats": {
+        "additions": 291,
+        "deletions": 219,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6279-20261014T115751Z",
+      "timestamp": "2026-10-14T11:57:51Z",
+      "pr_number": 6279,
+      "pr_title": "fix: stop secret variable values from leaking to backend ",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6279",
+      "components": [
+        "collections-environments",
+        "platform-abstraction",
+        "web-platform-adapters",
+        "desktop-platform-adapters",
+        "scripting-integration",
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-22T12:56:47Z",
+      "ai_components": [
+        "collections-environments",
+        "platform-abstraction",
+        "web-platform-adapters",
+        "desktop-platform-adapters",
+        "scripting-integration",
+        "user-team-management"
+      ],
+      "diff_stats": {
+        "additions": 2382,
+        "deletions": 427,
+        "changed_files": 52
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6338-20261014T115737Z",
+      "timestamp": "2026-10-14T11:57:37Z",
+      "pr_number": 6338,
+      "pr_title": "chore: security patch for the dependency chain `v2026.5.0`",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6338",
+      "components": [
+        "webapp-server",
+        "graphql-api",
+        "mailer-service",
+        "prisma-data-access",
+        "analytics-service",
+        "web-pwa-shell"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-22T11:46:11Z",
+      "ai_components": [
+        "webapp-server",
+        "graphql-api",
+        "mailer-service",
+        "prisma-data-access",
+        "analytics-service",
+        "web-pwa-shell"
+      ],
+      "diff_stats": {
+        "additions": 2525,
+        "deletions": 1396,
+        "changed_files": 12
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6289-20261014T115715Z",
+      "timestamp": "2026-10-14T11:57:15Z",
+      "pr_number": 6289,
+      "pr_title": "feat(desktop): settings phase 3a - keyboard layout strategy",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6289",
+      "components": [
+        "desktop-settings-ui",
+        "platform-abstraction",
+        "web-platform-adapters",
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "CuriousCorrelation",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-12T08:03:34Z",
+      "ai_components": [
+        "desktop-settings-ui",
+        "platform-abstraction",
+        "web-platform-adapters",
+        "desktop-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 480,
+        "deletions": 128,
+        "changed_files": 9
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6306-20261014T115705Z",
+      "timestamp": "2026-10-14T11:57:05Z",
+      "pr_number": 6306,
+      "pr_title": "fix: preserve script imports and avoid WebKit lookbehind",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6306",
+      "components": [
+        "scripting-integration",
+        "cli-script-sandbox"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-12T05:47:32Z",
+      "ai_components": [
+        "scripting-integration",
+        "cli-script-sandbox"
+      ],
+      "diff_stats": {
+        "additions": 1068,
+        "deletions": 219,
+        "changed_files": 36
+      },
+      "labels": [
+        "bug fix"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6293-20261014T115641Z",
+      "timestamp": "2026-10-14T11:56:41Z",
+      "pr_number": 6293,
+      "pr_title": "fix: class validator decorator usages",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6293",
+      "components": [
+        "auth-module",
+        "rest-api",
+        "published-docs-module",
+        "user-team-management"
+      ],
+      "source": "ai",
+      "author": "mirarifhasan",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-11T16:16:13Z",
+      "ai_components": [
+        "auth-module",
+        "rest-api",
+        "published-docs-module",
+        "user-team-management"
+      ],
+      "diff_stats": {
+        "additions": 5,
+        "deletions": 7,
+        "changed_files": 7
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6171-20261014T115630Z",
+      "timestamp": "2026-10-14T11:56:30Z",
+      "pr_number": 6171,
+      "pr_title": "fix(security): prevent mass assignment in onboarding",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6171",
+      "components": [
+        "auth-module",
+        "user-team-management",
+        "prisma-data-access",
+        "graphql-api",
+        "rest-api"
+      ],
+      "source": "ai",
+      "author": "nahidhasan94",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-07T11:46:20Z",
+      "ai_components": [
+        "auth-module",
+        "user-team-management",
+        "prisma-data-access",
+        "graphql-api",
+        "rest-api"
+      ],
+      "diff_stats": {
+        "additions": 403,
+        "deletions": 79,
+        "changed_files": 23
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6257-20261014T115619Z",
+      "timestamp": "2026-10-14T11:56:19Z",
+      "pr_number": 6257,
+      "pr_title": "fix(cli): ship `semver` as a runtime dependency",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6257",
+      "components": [
+        "cli-commands"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-05-01T09:47:14Z",
+      "ai_components": [
+        "cli-commands"
+      ],
+      "diff_stats": {
+        "additions": 5,
+        "deletions": 5,
+        "changed_files": 2
+      },
+      "labels": [
+        "bug fix",
+        "cli"
+      ],
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6244-20261014T115610Z",
+      "timestamp": "2026-10-14T11:56:10Z",
+      "pr_number": 6244,
+      "pr_title": "fix(common): preserve string contract for GQL history responses",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6244",
+      "components": [
+        "collections-environments",
+        "web-platform-adapters",
+        "desktop-platform-adapters"
+      ],
+      "source": "ai",
+      "author": "jamesgeorge007",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-29T11:41:33Z",
+      "ai_components": [
+        "collections-environments",
+        "web-platform-adapters",
+        "desktop-platform-adapters"
+      ],
+      "diff_stats": {
+        "additions": 172,
+        "deletions": 8,
+        "changed_files": 5
+      },
+      "auto_approved": true
+    },
+    {
+      "id": "pr-hoppscotch/hoppscotch#6243-20261014T115601Z",
+      "timestamp": "2026-10-14T11:56:01Z",
+      "pr_number": 6243,
+      "pr_title": "fix(common): subfolder add-new in team collections respects write access",
+      "pr_url": "https://github.com/hoppscotch/hoppscotch/pull/6243",
+      "components": [
+        "collections-environments"
+      ],
+      "source": "ai",
+      "author": "nivedin",
+      "source_repo": "hoppscotch/hoppscotch",
+      "merged_at": "2026-04-29T08:45:49Z",
+      "ai_components": [
+        "collections-environments"
+      ],
+      "diff_stats": {
+        "additions": 16,
+        "deletions": 5,
+        "changed_files": 2
+      },
+      "auto_approved": true
+    },
+    {
       "id": "pr-hoppscotch/hoppscotch#6185-20261014T115548Z",
       "timestamp": "2026-10-14T11:55:48Z",
       "pr_number": 6185,
